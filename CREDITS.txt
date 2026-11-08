@@ -1,0 +1,27 @@
+Tabletop Tarot
+Runtime and packaging: woflo
+
+Original plates and card metadata are imported from the owner’s Cartomancy source.
+The following source manifest credits travel with this selected build:
+
+rider
+name: Smith 1909
+author: Lore
+licenseId: public-domain-smith-1909
+version: 1
+
+numbers
+name: The Numbers
+author: Lore
+licenseId: lore-original-v1
+version: 1
+
+Original code: Copyright (c) 2026 woflo (worflor), MIT.
+Original Numbers art, backs, textures and icon composition: woflo (worflor), CC BY 4.0.
+Rider–Waite–Smith 1909 illustrations: Pamela Colman Smith with Arthur Edward Waite; public domain.
+The icon includes a public-domain Rider illustration; no new rights are asserted over it.
+Source artwork is preserved without repainting or resampling.
+Imported Lore/source license identifiers above are preserved provenance.
+See LICENSE.md for the explicit Tabletop Tarot grant and attribution requirements.
+https://github.com/worflor/tabletop-tarot
+https://creativecommons.org/licenses/by/4.0/
