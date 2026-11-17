@@ -1,8 +1,32 @@
 # Tabletop Tarot 1.1.0
 
-Tablecraft, tactile polish, and cozy tabletop improvements.
+A little more room at the table, and two guides to read beside it.
 
-- **Two personal guides for your table:** craft a plain book with an amethyst shard for Steve's guide, or add a feather for Alex's (better) guide. Steve's has 109 native linked pages including a P.S.; Alex's has 108. Both offer the same controls and their own Minecraft readings for all 78 tarot cards and 12 Numbers. Distinct ink palettes, chapter colours, italic scenes and signed notes frame their imagined journals. Read either by hand or share it on a lectern; contents and per-card index links work without custom UI or join grants. Existing signed guides keep their pages.
+### Two guides, two perspectives
+
+Craft a book with an amethyst shard for **Steve’s Tarot Guide**, or add a feather for **Alex’s (better) Tarot Guide**. Both cover all 78 tarot cards and the 12 Numbers, with their own readings, linked pages and custom 3D covers. They don’t always see things quite the same way.
+
+Read them in your hand or share one on a lectern. The guides offer ideas for reflection or roleplay. What the cards mean is still yours to decide.
+
+### Around the table
+
+- **Play in Survival with normal clicks.** Craft decks and guides, then draw, shuffle, place, flip, rotate and collect cards without typing commands.
+- **Deal blind.** Hold a deck, aim at a clear tabletop, and use `/trigger tarot.action set 5` to deal the top card face-down without seeing it first. Survival players can use it without operator permissions. Either guide can copy the command for you.
+- Hit a placed card while holding a deck to return it, or sneak-hit to gather a nearby spread.
+- Make tighter spreads on more surfaces, including carpets, bookshelves, closed trapdoors and upside-down stairs.
+- Cards now lift, turn and settle with small animations and quiet interaction sounds.
+- Improved multiplayer handling, card preservation and compatibility across supported versions.
+
+### Installing and updating
+
+Use **Tabletop-Tarot-1.1.0.zip** in both your world’s `datapacks/` folder and Minecraft’s `resourcepacks/` folder. Enable the resource pack, then reload or reopen the world. Keep the ZIP intact.
+
+If you’re updating, back up your world and replace the old ZIP in both folders. Existing signed guides keep their pages. Craft fresh copies for the new covers and wording.
+
+Supports Minecraft Java **1.20.6, 1.21.1, 1.21.3, 1.21.4, 1.21.5, 1.21.6, 1.21.8, 1.21.10, 1.21.11, 26.1.2 and 26.3**.
+
+### Technical changes
+
 - Add matching matte 3D guidebooks: lapis/ochre with a star and threshold for Steve, spruce/copper with a crescent and trail for Alex. Compile independent front/back art into compact atlases, with stitched binding, paper edges and ribbon bookmarks. Preserve normal written-book appearances outside the reserved legacy model IDs.
 - Refine 22 passages after a read-only semantic review of both complete books: give Alex more private observations, separate paired interpretations, preserve room for help and unresolved feelings, and ground the Tower in a wooden-spire fire. Clarify repeated digit sums, modern numerology, and the held-deck/table requirements for blind dealing.
 - **Simpler transaction and shuffle work:** reuse the transaction-local comparison buffer instead of cloning another complete native array. Replace the forward shuffle's repeated bound arithmetic with a bounded descending Fisher-Yates chain of literal random ranges; preserve exact item instances and uniform permutations.
