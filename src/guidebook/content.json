@@ -1,0 +1,617 @@
+{
+  "title": "Tabletop Tarot",
+  "author": "Tabletop Tarot",
+  "opening": {
+    "title": "A Seat at the Table",
+    "body": "A quiet corner, a few cards, a story to share. Use these Minecraft scenes for readings and roleplay. Tap a name to jump; the links below each page will bring you back."
+  },
+  "how_to": [
+    {
+      "title": "A Deck in Hand",
+      "body": "Use a deck to draw its top card. Sneak-use to shuffle. To return a card, hold it in your offhand and sneak-use the deck. Otherwise, keep your offhand clear while handling cards."
+    },
+    {
+      "title": "Around the Table",
+      "body": "Use a loose card on a clear, flat surface to lay it face-down. Use it to flip; sneak-use to rotate. Empty-hand hit picks it up. Hit with a deck to return it; sneak-hit gathers nearby cards."
+    }
+  ],
+  "reading": {
+    "title": "Make a Little Reading",
+    "body": "Try a card for a character, place or choice, or three for a story. Meanings are invitations, never predictions or powers. Deal blind: /trigger tarot.action set 5. This guide is optional."
+  },
+  "sections": [
+    {
+      "id": "major",
+      "title": "Major Arcana",
+      "intro": "Large turning points, seen through the places and choices of a Minecraft life.",
+      "entries": [
+        {
+          "key": "rider/major-0",
+          "name": "The Fool",
+          "minecraft_title": "First Steps",
+          "body": "The path ends at an unexplored valley. The Fool carries curiosity before certainty: give your character a beginning, and consider what they bring along."
+        },
+        {
+          "key": "rider/major-1",
+          "name": "The Magician",
+          "minecraft_title": "The Crafting Table",
+          "body": "Tools lie ready around a crafting table. The Magician turns an idea into deliberate action: which skill could your character put to use with what is here?"
+        },
+        {
+          "key": "rider/major-2",
+          "name": "The High Priestess",
+          "minecraft_title": "The Hidden Library",
+          "body": "Behind the bookshelf, a quiet room keeps its secrets. The High Priestess invites listening and patient attention before your character names what they know."
+        },
+        {
+          "key": "rider/major-3",
+          "name": "The Empress",
+          "minecraft_title": "The Garden Gate",
+          "body": "Wheat, flowers and bees crowd a well-tended garden. The Empress suggests care that makes room for growth, including the pleasure of enjoying what flourishes."
+        },
+        {
+          "key": "rider/major-4",
+          "name": "The Emperor",
+          "minecraft_title": "The Stone Keep",
+          "body": "A keep stands because its foundations and boundaries hold. The Emperor asks how your character creates order, and whether that order shelters other people."
+        },
+        {
+          "key": "rider/major-5",
+          "name": "The Hierophant",
+          "minecraft_title": "The Village Lesson",
+          "body": "At the village lectern, an old method passes to a new pair of hands. The Hierophant explores shared customs: what is worth learning, keeping or questioning?"
+        },
+        {
+          "key": "rider/major-6",
+          "name": "The Lovers",
+          "minecraft_title": "Two Paths Home",
+          "body": "Two paths meet beside a home built together. The Lovers invites a choice shaped by values and affection: what would your character willingly commit to?"
+        },
+        {
+          "key": "rider/major-7",
+          "name": "The Chariot",
+          "minecraft_title": "The Minecart Junction",
+          "body": "Two rails pull toward different destinations. The Chariot is the effort of choosing a course and guiding competing impulses toward one purposeful journey."
+        },
+        {
+          "key": "rider/major-8",
+          "name": "Strength",
+          "minecraft_title": "The Patient Stable",
+          "body": "A startled horse needs a steady hand, not a louder voice. Strength imagines courage expressed through patience, restraint and kindness toward the difficult."
+        },
+        {
+          "key": "rider/major-9",
+          "name": "The Hermit",
+          "minecraft_title": "The Hilltop Lantern",
+          "body": "One lantern lights a hilltop far from the village noise. The Hermit makes space for a private question, and for returning with something carefully understood."
+        },
+        {
+          "key": "rider/major-10",
+          "name": "Wheel of Fortune",
+          "minecraft_title": "The Turning Farm",
+          "body": "Planting, harvest and bare soil take their turns. The Wheel holds changing circumstances: how does your character respond when the season will not stay still?"
+        },
+        {
+          "key": "rider/major-11",
+          "name": "Justice",
+          "minecraft_title": "The Shared Chest",
+          "body": "A shared chest needs an honest account of what went in and out. Justice asks your character to weigh evidence, accept consequences and make a fair repair."
+        },
+        {
+          "key": "rider/major-12",
+          "name": "The Hanged Man",
+          "minecraft_title": "Under the Bridge",
+          "body": "From beneath a bridge, the familiar river looks different. The Hanged Man offers a willing pause: what becomes visible when your character stops pushing?"
+        },
+        {
+          "key": "rider/major-13",
+          "name": "Death",
+          "minecraft_title": "The Old Base",
+          "body": "An old base stands empty as its builders move on. Death gives an ending its proper weight, making room for another chapter without pretending nothing was lost."
+        },
+        {
+          "key": "rider/major-14",
+          "name": "Temperance",
+          "minecraft_title": "The Meeting Stream",
+          "body": "Two streams join without losing all their differences. Temperance explores adjustment and proportion: which parts of your character's life could work together?"
+        },
+        {
+          "key": "rider/major-15",
+          "name": "The Devil",
+          "minecraft_title": "The Locked Treasure",
+          "body": "A treasure room becomes a prison when leaving feels impossible. The Devil asks what bargain, appetite or habit your character keeps choosing at a hidden cost."
+        },
+        {
+          "key": "rider/major-16",
+          "name": "The Tower",
+          "minecraft_title": "The Broken Spire",
+          "body": "A spire built on weak stone breaks open. The Tower brings a story's false certainty down: once the dust settles, what truth can the builders no longer ignore?"
+        },
+        {
+          "key": "rider/major-17",
+          "name": "The Star",
+          "minecraft_title": "The Quiet Well",
+          "body": "After the wreckage, someone repairs the village well. The Star offers modest hope through renewal: a small act can make the future feel worth tending again."
+        },
+        {
+          "key": "rider/major-18",
+          "name": "The Moon",
+          "minecraft_title": "The Foggy Marsh",
+          "body": "Reeds and moonlight blur the marsh path. The Moon lets uncertainty enter the story; give your character time to distinguish a fear, a guess and a real clue."
+        },
+        {
+          "key": "rider/major-19",
+          "name": "The Sun",
+          "minecraft_title": "The Sunny Courtyard",
+          "body": "Sunlight fills a courtyard where nobody needs to hide their delight. The Sun celebrates openness, simple pleasures and the warmth of being welcomed as you are."
+        },
+        {
+          "key": "rider/major-20",
+          "name": "Judgement",
+          "minecraft_title": "The Village Bell",
+          "body": "The village bell calls people out to answer for an unfinished story. Judgement invites an honest reckoning, and a decision about who your character means to become."
+        },
+        {
+          "key": "rider/major-21",
+          "name": "The World",
+          "minecraft_title": "The Finished Map",
+          "body": "The last map joins the wall and the whole landscape comes into view. The World marks completion: let your character recognize the journey before setting out again."
+        }
+      ]
+    },
+    {
+      "id": "wands",
+      "title": "Wands",
+      "intro": "Sparks, ventures and the effort of bringing an idea into the world.",
+      "entries": [
+        {
+          "key": "rider/wands-ace",
+          "name": "Ace of Wands",
+          "minecraft_title": "The First Torch",
+          "body": "A torch catches beside an empty building plot. The Ace of Wands is the spark of an undertaking, still small enough to need a willing hand and a little shelter."
+        },
+        {
+          "key": "rider/wands-two",
+          "name": "Two of Wands",
+          "minecraft_title": "The Watchtower Map",
+          "body": "From a watchtower, your character studies two routes on a map. The Two of Wands holds ambition at the planning stage: choose how far this venture should reach."
+        },
+        {
+          "key": "rider/wands-three",
+          "name": "Three of Wands",
+          "minecraft_title": "The Outbound Dock",
+          "body": "Boats leave the dock carrying work already begun. The Three of Wands looks outward, asking how your character waits, prepares and welcomes a wider horizon."
+        },
+        {
+          "key": "rider/wands-four",
+          "name": "Four of Wands",
+          "minecraft_title": "The Festival Arch",
+          "body": "Lanterns hang above a finished village arch. The Four of Wands celebrates a shared milestone and the welcome that turns a structure into somewhere to belong."
+        },
+        {
+          "key": "rider/wands-five",
+          "name": "Five of Wands",
+          "minecraft_title": "The Crowded Build",
+          "body": "Five builders reach for the same patch of wall. The Five of Wands explores clashing ideas, playful rivalry and the work of finding room for everyone to contribute."
+        },
+        {
+          "key": "rider/wands-six",
+          "name": "Six of Wands",
+          "minecraft_title": "The Homecoming Banner",
+          "body": "A banner rises for the explorer coming home. The Six of Wands enjoys recognition, while asking whose quiet help belongs in the story of this public success."
+        },
+        {
+          "key": "rider/wands-seven",
+          "name": "Seven of Wands",
+          "minecraft_title": "The Narrow Rampart",
+          "body": "On a narrow rampart, your character defends a hard-won position. The Seven of Wands asks which conviction deserves that effort when agreement is no longer easy."
+        },
+        {
+          "key": "rider/wands-eight",
+          "name": "Eight of Wands",
+          "minecraft_title": "The Arrow Volley",
+          "body": "Arrows cross the sky before anyone can call them back. The Eight of Wands gives a scene speed: messages arrive, plans move and a timely response suddenly matters."
+        },
+        {
+          "key": "rider/wands-nine",
+          "name": "Nine of Wands",
+          "minecraft_title": "The Patched Fence",
+          "body": "A repaired fence bears the marks of earlier raids. The Nine of Wands holds tired resolve, asking what protection is useful and what support a watchkeeper needs."
+        },
+        {
+          "key": "rider/wands-ten",
+          "name": "Ten of Wands",
+          "minecraft_title": "The Full Inventory",
+          "body": "Every slot is full and the walk home feels longer. The Ten of Wands explores responsibility carried too far: which task could your character share or set down?"
+        },
+        {
+          "key": "rider/wands-page",
+          "name": "Page of Wands",
+          "minecraft_title": "The New Explorer",
+          "body": "A new explorer stops to sketch an unfamiliar biome. The Page of Wands brings eager curiosity, trying an interest before knowing whether it will become a calling."
+        },
+        {
+          "key": "rider/wands-knight",
+          "name": "Knight of Wands",
+          "minecraft_title": "The Galloping Trail",
+          "body": "A rider races toward the next unfamiliar hill. The Knight of Wands brings daring and restless momentum; give that enthusiasm a destination worth staying for."
+        },
+        {
+          "key": "rider/wands-queen",
+          "name": "Queen of Wands",
+          "minecraft_title": "The Hearth Host",
+          "body": "Beside a bright hearth, a confident host makes newcomers feel included. The Queen of Wands expresses warmth that encourages others without needing to dim itself."
+        },
+        {
+          "key": "rider/wands-king",
+          "name": "King of Wands",
+          "minecraft_title": "The Settlement Plan",
+          "body": "A leader sees a settlement where others see an empty plain. The King of Wands gives a vision direction, inviting others to help shape how it becomes real."
+        }
+      ]
+    },
+    {
+      "id": "cups",
+      "title": "Cups",
+      "intro": "Affection, imagination and the many ways people find connection.",
+      "entries": [
+        {
+          "key": "rider/cups-ace",
+          "name": "Ace of Cups",
+          "minecraft_title": "The Fresh Spring",
+          "body": "A spring breaks through dry ground beside the path. The Ace of Cups opens space for affection, wonder or a creative feeling your character has yet to put into words."
+        },
+        {
+          "key": "rider/cups-two",
+          "name": "Two of Cups",
+          "minecraft_title": "The Shared Campfire",
+          "body": "Two travelers make room at one campfire. The Two of Cups begins with mutual recognition: what can these characters offer freely, and receive with equal respect?"
+        },
+        {
+          "key": "rider/cups-three",
+          "name": "Three of Cups",
+          "minecraft_title": "The Picnic Table",
+          "body": "Three friends bring different dishes to the picnic table. The Three of Cups enjoys companionship, shared celebration and the ease of having people to laugh with."
+        },
+        {
+          "key": "rider/cups-four",
+          "name": "Four of Cups",
+          "minecraft_title": "The Untouched Bowl",
+          "body": "An offered bowl sits beside someone lost in thought. The Four of Cups allows discontent and withdrawal, while asking what invitation your character may be overlooking."
+        },
+        {
+          "key": "rider/cups-five",
+          "name": "Five of Cups",
+          "minecraft_title": "The Spilled Buckets",
+          "body": "Water spills from three buckets; two still stand nearby. The Five of Cups gives disappointment room, then gently asks what connection or possibility remains intact."
+        },
+        {
+          "key": "rider/cups-six",
+          "name": "Six of Cups",
+          "minecraft_title": "The Old Treehouse",
+          "body": "An old treehouse still holds the sign you made together. The Six of Cups explores familiar kindness, remembered joys and what the past can offer without becoming home."
+        },
+        {
+          "key": "rider/cups-seven",
+          "name": "Seven of Cups",
+          "minecraft_title": "The Market of Dreams",
+          "body": "Every market stall offers a different imagined life. The Seven of Cups explores tempting possibilities: which desire can your character name clearly enough to choose?"
+        },
+        {
+          "key": "rider/cups-eight",
+          "name": "Eight of Cups",
+          "minecraft_title": "The Leaving Boat",
+          "body": "A boat waits beside a comfortable home that no longer feels right. The Eight of Cups follows the difficult choice to leave something valued in search of deeper meaning."
+        },
+        {
+          "key": "rider/cups-nine",
+          "name": "Nine of Cups",
+          "minecraft_title": "The Favorite Supper",
+          "body": "A favorite supper waits in a room arranged just so. The Nine of Cups savors personal contentment: let your character enjoy enough without needing another prize."
+        },
+        {
+          "key": "rider/cups-ten",
+          "name": "Ten of Cups",
+          "minecraft_title": "The Village Feast",
+          "body": "A long table has a place for every member of the village. The Ten of Cups imagines lasting belonging, where shared happiness includes the work of caring for one another."
+        },
+        {
+          "key": "rider/cups-page",
+          "name": "Page of Cups",
+          "minecraft_title": "The Pond Sketch",
+          "body": "A young artist sketches an unexpected fish at the pond. The Page of Cups welcomes a tender idea or surprising feeling before deciding whether it makes practical sense."
+        },
+        {
+          "key": "rider/cups-knight",
+          "name": "Knight of Cups",
+          "minecraft_title": "The Flower Delivery",
+          "body": "A traveler brings flowers and a carefully rehearsed invitation. The Knight of Cups follows an ideal of beauty or affection, asking how that promise meets another person."
+        },
+        {
+          "key": "rider/cups-queen",
+          "name": "Queen of Cups",
+          "minecraft_title": "The Window Seat",
+          "body": "At the window seat, a listener leaves room for an unfinished story. The Queen of Cups offers emotional attention, with enough boundaries to keep kindness freely given."
+        },
+        {
+          "key": "rider/cups-king",
+          "name": "King of Cups",
+          "minecraft_title": "The Harbor Keeper",
+          "body": "A harbor keeper holds a steady course through a quarrel. The King of Cups imagines feeling deeply while choosing a measured response that others can safely answer."
+        }
+      ]
+    },
+    {
+      "id": "swords",
+      "title": "Swords",
+      "intro": "Thoughts, truths and conflicts that ask for careful attention.",
+      "entries": [
+        {
+          "key": "rider/swords-ace",
+          "name": "Ace of Swords",
+          "minecraft_title": "The Clean Cut",
+          "body": "One clean cut frees a tangled lead. The Ace of Swords offers a clear thought, a truthful sentence or a decision that separates the real issue from its distractions."
+        },
+        {
+          "key": "rider/swords-two",
+          "name": "Two of Swords",
+          "minecraft_title": "The Closed Gate",
+          "body": "Two roads wait beyond a gate your character keeps shut. The Two of Swords explores an uneasy stalemate: what information or feeling has been kept outside the decision?"
+        },
+        {
+          "key": "rider/swords-three",
+          "name": "Three of Swords",
+          "minecraft_title": "The Broken Sign",
+          "body": "A shared sign is split by words that cannot be unsaid. The Three of Swords makes room for hurt and difficult truth, without requiring the story to hurry past either."
+        },
+        {
+          "key": "rider/swords-four",
+          "name": "Four of Swords",
+          "minecraft_title": "The Quiet Bedroom",
+          "body": "Armor rests beside a bed in a quiet room. The Four of Swords gives a conflict an interval: your character can step away before choosing what deserves their next effort."
+        },
+        {
+          "key": "rider/swords-five",
+          "name": "Five of Swords",
+          "minecraft_title": "The Empty Arena",
+          "body": "The winner stands alone in an emptied arena. The Five of Swords questions a victory bought with trust: what did the argument cost beyond the point that was won?"
+        },
+        {
+          "key": "rider/swords-six",
+          "name": "Six of Swords",
+          "minecraft_title": "The River Crossing",
+          "body": "A boat carries a tired group toward a quieter shore. The Six of Swords marks a transition that brings old concerns along, even as distance makes a new beginning possible."
+        },
+        {
+          "key": "rider/swords-seven",
+          "name": "Seven of Swords",
+          "minecraft_title": "The Hidden Tunnel",
+          "body": "A hidden tunnel offers a way around the guarded gate. The Seven of Swords explores strategy and concealment: who benefits from this secret, and who bears its cost?"
+        },
+        {
+          "key": "rider/swords-eight",
+          "name": "Eight of Swords",
+          "minecraft_title": "The Fence Maze",
+          "body": "A traveler sees only the fences nearby. The Eight of Swords explores a sense of restriction, inviting a closer look at which limits are real and which are assumed."
+        },
+        {
+          "key": "rider/swords-nine",
+          "name": "Nine of Swords",
+          "minecraft_title": "The Midnight Window",
+          "body": "A character watches the dark through a bedroom window. The Nine of Swords gives worry a voice in the story, and asks what changes when that worry is finally spoken."
+        },
+        {
+          "key": "rider/swords-ten",
+          "name": "Ten of Swords",
+          "minecraft_title": "The Ruined Outpost",
+          "body": "At a ruined outpost, a failed plan has ended. The Ten of Swords names the finality of a defeat, leaving your character free to stop defending what is already over."
+        },
+        {
+          "key": "rider/swords-page",
+          "name": "Page of Swords",
+          "minecraft_title": "The Careful Scout",
+          "body": "A scout pauses over unfamiliar tracks. The Page of Swords brings questions and alert observation, learning to check a suspicion before repeating it as fact."
+        },
+        {
+          "key": "rider/swords-knight",
+          "name": "Knight of Swords",
+          "minecraft_title": "The Rushing Messenger",
+          "body": "A messenger races ahead with an urgent argument. The Knight of Swords commits fiercely to an idea, asking whether speed has left room to hear the people in its path."
+        },
+        {
+          "key": "rider/swords-queen",
+          "name": "Queen of Swords",
+          "minecraft_title": "The Clear Boundary",
+          "body": "A village judge listens, then draws a boundary. The Queen of Swords combines discernment with hard-earned honesty, allowing compassion without blurring what is true."
+        },
+        {
+          "key": "rider/swords-king",
+          "name": "King of Swords",
+          "minecraft_title": "The Council Ledger",
+          "body": "At the council table, a leader explains the reasons for a ruling. The King of Swords uses authority through clear standards, tested evidence and accountable decisions."
+        }
+      ]
+    },
+    {
+      "id": "pentacles",
+      "title": "Pentacles",
+      "intro": "Work, resources and the ordinary care that makes a life livable.",
+      "entries": [
+        {
+          "key": "rider/pentacles-ace",
+          "name": "Ace of Pentacles",
+          "minecraft_title": "The First Seed",
+          "body": "A seed rests beside fresh farmland. The Ace of Pentacles offers a practical opening, with the tools and time needed to turn a possibility into something tangible."
+        },
+        {
+          "key": "rider/pentacles-two",
+          "name": "Two of Pentacles",
+          "minecraft_title": "The Two Furnaces",
+          "body": "Two furnaces need tending as supplies change. The Two of Pentacles explores flexible balance, asking what rhythm helps your character manage competing needs."
+        },
+        {
+          "key": "rider/pentacles-three",
+          "name": "Three of Pentacles",
+          "minecraft_title": "The Shared Workshop",
+          "body": "A mason, carpenter and planner share one workshop. The Three of Pentacles values learned skill, useful feedback and respect between different kinds of expertise."
+        },
+        {
+          "key": "rider/pentacles-four",
+          "name": "Four of Pentacles",
+          "minecraft_title": "The Sealed Storeroom",
+          "body": "A storeroom stays locked when neighbors need supplies. The Four of Pentacles asks when careful keeping becomes a grip too tight to let resources serve their purpose."
+        },
+        {
+          "key": "rider/pentacles-five",
+          "name": "Five of Pentacles",
+          "minecraft_title": "The Snowbound Door",
+          "body": "Two travelers pass a lit doorway in the snow. The Five of Pentacles gives hardship and exclusion room in the story, asking where welcome or practical help might be found."
+        },
+        {
+          "key": "rider/pentacles-six",
+          "name": "Six of Pentacles",
+          "minecraft_title": "The Supply Chest",
+          "body": "A supply chest opens for someone who needs a start. The Six of Pentacles considers giving and receiving, including who sets the terms and whether help preserves dignity."
+        },
+        {
+          "key": "rider/pentacles-seven",
+          "name": "Seven of Pentacles",
+          "minecraft_title": "The Unripe Orchard",
+          "body": "An orchard grows slowly despite all the work already spent. The Seven of Pentacles pauses to assess progress: what needs more time, and what needs a different approach?"
+        },
+        {
+          "key": "rider/pentacles-eight",
+          "name": "Eight of Pentacles",
+          "minecraft_title": "The Workbench Row",
+          "body": "A craftsperson lines up a row of well-made tools. The Eight of Pentacles finds meaning in practice, patient attention and the small corrections that deepen a skill."
+        },
+        {
+          "key": "rider/pentacles-nine",
+          "name": "Nine of Pentacles",
+          "minecraft_title": "The Private Garden",
+          "body": "A well-kept garden offers shade earned through steady care. The Nine of Pentacles enjoys independence and cultivated comfort, with time to appreciate what has taken root."
+        },
+        {
+          "key": "rider/pentacles-ten",
+          "name": "Ten of Pentacles",
+          "minecraft_title": "The Family Base",
+          "body": "A family base holds old maps, tools and rooms for newcomers. The Ten of Pentacles considers shared inheritance: what can this community leave useful to those who follow?"
+        },
+        {
+          "key": "rider/pentacles-page",
+          "name": "Page of Pentacles",
+          "minecraft_title": "The First Sapling",
+          "body": "A learner studies the soil before planting a sapling. The Page of Pentacles takes a practical interest seriously, turning curiosity into a small, attentive experiment."
+        },
+        {
+          "key": "rider/pentacles-knight",
+          "name": "Knight of Pentacles",
+          "minecraft_title": "The Daily Farm Round",
+          "body": "Each morning, a farmer checks every field and closes every gate. The Knight of Pentacles honors reliability, while asking when a good routine needs an adjustment."
+        },
+        {
+          "key": "rider/pentacles-queen",
+          "name": "Queen of Pentacles",
+          "minecraft_title": "The Welcoming Kitchen",
+          "body": "A kitchen holds bread, boots and room by the stove. The Queen of Pentacles makes care tangible, tending everyday needs without forgetting the person doing the tending."
+        },
+        {
+          "key": "rider/pentacles-king",
+          "name": "King of Pentacles",
+          "minecraft_title": "The Village Granary",
+          "body": "A well-run granary supplies the village all winter. The King of Pentacles considers responsible stewardship, where lasting security matters more than displaying wealth."
+        }
+      ]
+    },
+    {
+      "id": "digits",
+      "title": "The Digits",
+      "intro": "Nine number characters to borrow for a scene, a question or a role.",
+      "entries": [
+        {
+          "key": "numbers/number-1",
+          "name": "One",
+          "minecraft_title": "The First Block",
+          "body": "One block marks a place where nothing stood before. One explores initiative and a distinct voice: what could your character begin without waiting for a leader?"
+        },
+        {
+          "key": "numbers/number-2",
+          "name": "Two",
+          "minecraft_title": "The Paired Beds",
+          "body": "Two beds share a shelter, with room left between them. Two explores partnership and tact, asking how your character can hear a second voice without losing their own."
+        },
+        {
+          "key": "numbers/number-3",
+          "name": "Three",
+          "minecraft_title": "The Painted Banner",
+          "body": "Three colors become a banner worth showing a friend. Three explores expression and sociability: what takes shape when your character shares an idea beyond their thoughts?"
+        },
+        {
+          "key": "numbers/number-4",
+          "name": "Four",
+          "minecraft_title": "The Four Corners",
+          "body": "Four corner posts mark a shelter that can bear a roof. Four explores structure and dependable habits, asking what foundation helps ordinary days hold together."
+        },
+        {
+          "key": "numbers/number-5",
+          "name": "Five",
+          "minecraft_title": "The Forking Trail",
+          "body": "A trail branches into new country off the usual route. Five explores variety and change, including the freedom of experimenting and the difficulty of staying anywhere."
+        },
+        {
+          "key": "numbers/number-6",
+          "name": "Six",
+          "minecraft_title": "The Supper Table",
+          "body": "A supper table needs food, chairs and someone noticing a gap. Six explores responsibility and care, asking how a household can include the needs of its caretaker."
+        },
+        {
+          "key": "numbers/number-7",
+          "name": "Seven",
+          "minecraft_title": "The Cave Notebook",
+          "body": "A lone explorer records patterns in a cave notebook. Seven explores study and inward searching, asking what your character learns after staying with a question."
+        },
+        {
+          "key": "numbers/number-8",
+          "name": "Eight",
+          "minecraft_title": "The Trading Hall",
+          "body": "A busy trading hall turns decisions into consequences. Eight explores organization and power, asking how your character handles resources when others depend on them."
+        },
+        {
+          "key": "numbers/number-9",
+          "name": "Nine",
+          "minecraft_title": "The Farewell Chest",
+          "body": "A departing builder leaves supplies in an open chest. Nine explores completion and generosity, asking what your character can release for a wider circle to inherit."
+        }
+      ]
+    },
+    {
+      "id": "masters",
+      "title": "Master Numbers",
+      "intro": "Three modern numerology motifs, widening partnership, structure and care.",
+      "entries": [
+        {
+          "key": "numbers/number-11",
+          "name": "Eleven",
+          "minecraft_title": "The Listening Post",
+          "body": "Two listeners compare faint sounds from a tunnel. Eleven heightens Two's sensitivity: let a subtle impression inspire a question, then leave room to check what was heard."
+        },
+        {
+          "key": "numbers/number-22",
+          "name": "Twenty-Two",
+          "minecraft_title": "The Long Bridge",
+          "body": "A long bridge needs a bold plan and firm supports. Twenty-Two widens Four's practical structure into work that serves many people and may outlast its first builders."
+        },
+        {
+          "key": "numbers/number-33",
+          "name": "Thirty-Three",
+          "minecraft_title": "The Open Workshop",
+          "body": "A builder opens a workshop for patient lessons. Thirty-Three widens Six's care through teaching, sharing a skill while keeping room for a life beyond helping."
+        }
+      ]
+    }
+  ],
+  "closer": {
+    "title": "Leave a Light On",
+    "body": "Put the kettle by the furnace, leave a chair for a friend, and tuck the cards away when the story feels done. May your next little table have a good view and a cat underneath."
+  }
+}

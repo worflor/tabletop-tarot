@@ -1,0 +1,1 @@
+function tarot:stack/deal

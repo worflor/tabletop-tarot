@@ -1,0 +1,72 @@
+Tabletop Tarot — one ZIP, two vanilla pack locations
+
+Keep this ZIP intact. It serves as both the datapack and resource pack.
+
+SINGLEPLAYER
+1. Copy this ZIP into your world's datapacks folder.
+2. Copy the same ZIP into Minecraft's resourcepacks folder, then enable it.
+3. Reload or reopen the world. No mod or plugin is required.
+
+SERVER
+Install this ZIP in the world's datapacks folder. Host the same unchanged ZIP
+at a direct download URL and set resource-pack and resource-pack-sha1 in
+server.properties. To calculate this ZIP's SHA-1 in PowerShell, run:
+Get-FileHash -Algorithm SHA1 ./Tabletop-Tarot-1.1.0.zip
+Use the hash shown, without spaces. GitHub release notes list the published hash.
+Players can then accept Minecraft's normal server resource-pack prompt.
+On older releases, keep Tabletop Tarot above other packs that replace item
+models (for example 3D Default). Ordinary texture replacements remain usable.
+If your server already offers resources, combine the packs during server setup;
+do not replace the existing server pack without preserving it.
+
+UPGRADING AND REMOVAL
+Back up your world before upgrading. Replace the old ZIP in both pack locations,
+then reopen the world or reload the server. Update the server pack URL and hash
+as needed. Existing signed guides keep their original pages.
+Before removing the pack, pick up any cards you want to keep while it is still
+active. Remove the ZIP from both pack locations and restart. Stored card items
+remain in the world, but handling actions and custom appearance require the
+pack. Cards left on tables retain their display entities and may need cleanup.
+
+PLAY
+Craft eight paper around the matching centre ingredient:
+- Rider: ink sac
+- Numbers: lapis lazuli
+The normal recipe book learns a deck when you have its ingredients.
+Deck in hand: use draws the top card; sneak-use shuffles.
+With a card offhand, sneak-use on a deck puts that card on top instead.
+Card in hand: use places it face-down on a clear flat surface (blocks, slabs,
+carpets, closed trapdoors, or upside-down stairs). Aim at the top face; sides
+and undersides do not place cards. Sneak-use avoids opening a workstation.
+On a placed card, use turns it over, sneak-use rotates it, and hit picks it up;
+hitting while holding a deck puts it straight back on top (sneak-hit gathers a spread).
+Q remains an ordinary item drop.
+Keep the offhand empty for ordinary use, except when returning a card.
+Vanilla blocks, usable offhand items and ridden pigs can take priority over use.
+The dependable alternative is /trigger tarot.action set N:
+1 draws, 2 shuffles, 3 returns the offhand card, 4 places the held card, 5 deals face-down.
+These commands also work while mounted and do not require operator permissions.
+Existing paper-based cards retain their notes and contents. Drawing, returning
+or placing one upgrades its carrier; hold a band offhand to place, or use
+/trigger tarot.action set 4. Until handled, older items still count as paper
+in crafting, so keep untouched older cards out of paper recipes.
+New cards and bands also have vanilla tool-repair eligibility removed. Successful
+handling upgrades older carriers; keep untouched earlier items out of tool-repair
+crafting. Custom durability-capacity overrides are saved in their card data.
+
+Optional guides: one plain book with one amethyst shard makes Steve's guide;
+add a feather for Alex's (better) guide. Steve's has 109 linked pages including
+a P.S.; Alex's has 108. Both cover the same controls, all 78 tarot cards and
+the 12 Numbers, with different personal Minecraft readings.
+Read either in your hand or share it on a lectern. Existing signed guides keep
+their pages. These imagined journals are part of the pack's own lore.
+Craft fresh guides for the new covers and wording. Their matte 3D item models
+need the resource pack; the reading screen and lectern book use vanilla rendering.
+
+Only your marked cards and bands respond. There is no welcome screen,
+automatic item grant, mandatory tutorial, or enforced reading/game.
+Vanilla fire, lava, despawn and inventory-space rules still apply.
+
+SUPPORTED JAVA RELEASES
+1.20.6, 1.21.1, 1.21.3, 1.21.4, 1.21.5, 1.21.6, 1.21.8, 1.21.10, 1.21.11, 26.1.2, 26.3.
+Other releases and Bedrock are not covered.

@@ -1,3 +1,7 @@
 * text=auto eol=lf
 *.png binary
 /licenses/** -text whitespace=cr-at-eol
+
+# Imported implementation is pinned by exact byte hashes, including line endings.
+/vendor/commonground-server/** -text whitespace=cr-at-eol
+/tests/fixtures/1.0.0/data_*.json -text whitespace=cr-at-eol

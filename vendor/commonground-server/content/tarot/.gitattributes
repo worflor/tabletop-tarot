@@ -1,0 +1,11 @@
+# Preserve the exact imported bytes bound by source-lock.json on every OS.
+/modules/** -text whitespace=cr-at-eol
+/core/** -text whitespace=cr-at-eol
+# Receipt/index/log hashes bind exact bytes, including line endings.
+/evidence/** -text whitespace=cr-at-eol
+/tools/mycelium-overlays/** -text whitespace=cr-at-eol
+# Test-source hashes also bind the exact Python/JavaScript fixture bytes.
+/tools/** -text whitespace=cr-at-eol
+# License bytes are embedded in reproducible generated packs.
+/LICENSE.md -text whitespace=cr-at-eol
+/licenses/** -text whitespace=cr-at-eol

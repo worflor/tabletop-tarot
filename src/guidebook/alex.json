@@ -1,0 +1,619 @@
+{
+  "title": "Alex's (better) Tarot Guide",
+  "author": "Alex",
+  "opening": {
+    "title": "Notes from the Road",
+    "body": "These notes began between home and the edge of my maps. Read as yourself or someone you play. Tap a name to jump; the links below lead back."
+  },
+  "how_to": [
+    {
+      "title": "A Deck in Hand",
+      "body": "Use a deck to draw its top card. Sneak-use to shuffle. To return a card, hold it in your offhand and sneak-use the deck. Otherwise, keep your offhand clear while handling cards."
+    },
+    {
+      "title": "Around the Table",
+      "body": "Use a loose card on a clear, flat surface to lay it face-down. Use it to flip; sneak-use to rotate. Empty-hand hit picks it up. Hit with a deck to return it; sneak-hit gathers nearby cards."
+    }
+  ],
+  "reading": {
+    "title": "A Little Reading",
+    "body": "Try one card for a choice, or three for a story. These are prompts, never predictions. Deal blind: hold a deck and aim at a table, then /trigger tarot.action set 5."
+  },
+  "sections": [
+    {
+      "id": "major",
+      "title": "Major Arcana",
+      "intro": "Turning points I have met along the road.",
+      "entries": [
+        {
+          "key": "rider/major-0",
+          "name": "The Fool",
+          "minecraft_title": "First Steps",
+          "body": "Beyond the last path marker lay a valley missing from my map. I went down with bread and questions. For a new character, curiosity can be enough to begin."
+        },
+        {
+          "key": "rider/major-1",
+          "name": "The Magician",
+          "minecraft_title": "Crafting Table",
+          "body": "A stalled journey left me with spare planks. They became a workbench and a way onward. Ask what a character can make from the means already at hand."
+        },
+        {
+          "key": "rider/major-2",
+          "name": "The High Priestess",
+          "minecraft_title": "Hidden Library",
+          "body": "The library's quietest corner held the book everyone walked past. I stayed to read. A character may learn more by attending to a silence than filling it with an answer."
+        },
+        {
+          "key": "rider/major-3",
+          "name": "The Empress",
+          "minecraft_title": "Garden Gate",
+          "body": "Bees kept visiting the wild edge of my neat garden. I left it alone, and the whole place grew livelier. What abundance might a character welcome instead of managing away?"
+        },
+        {
+          "key": "rider/major-4",
+          "name": "The Emperor",
+          "minecraft_title": "Stone Keep",
+          "body": "The keep's watchtower showed me who its gates kept waiting. Structure shapes more than a skyline. Ask whether a character's authority gives other people a secure place."
+        },
+        {
+          "key": "rider/major-5",
+          "name": "The Hierophant",
+          "minecraft_title": "Village Lesson",
+          "body": "A village taught me its way of marking safe roads. I borrowed the useful parts and asked about the rest. Which shared custom would your character learn before changing?"
+        },
+        {
+          "key": "rider/major-6",
+          "name": "The Lovers",
+          "minecraft_title": "Two Paths Home",
+          "body": "Our routes diverged where we had planned a home. Drawing them honestly helped us choose together. What value or affection would a character commit to?"
+        },
+        {
+          "key": "rider/major-7",
+          "name": "The Chariot",
+          "minecraft_title": "Minecart Junction",
+          "body": "At a rail junction, every route looked urgent until I chose a destination. Direction asks us to gather competing aims. Give a character a journey they mean to guide."
+        },
+        {
+          "key": "rider/major-8",
+          "name": "Strength",
+          "minecraft_title": "Patient Stable",
+          "body": "A shy horse watched me from the far fence. Waiting quietly was harder than approaching. Let a character discover courage through patience with what they cannot force."
+        },
+        {
+          "key": "rider/major-9",
+          "name": "The Hermit",
+          "minecraft_title": "Hilltop Lantern",
+          "body": "I let the village lights go out before I wrote in my notebook. Without anyone to impress, I could finally ask which road I actually wanted to take."
+        },
+        {
+          "key": "rider/major-10",
+          "name": "Wheel of Fortune",
+          "minecraft_title": "Turning Farm",
+          "body": "The empty patch on my map became a busy settlement on the next visit. Places keep changing without us. How might a character respond when familiar circumstances turn?"
+        },
+        {
+          "key": "rider/major-11",
+          "name": "Justice",
+          "minecraft_title": "Shared Chest",
+          "body": "Two travelers described the same dispute differently. I checked the path markers before judging. Ask what evidence a character owes the people affected by their decision."
+        },
+        {
+          "key": "rider/major-12",
+          "name": "The Hanged Man",
+          "minecraft_title": "Under the Bridge",
+          "body": "Under the bridge, I noticed the bank my usual route concealed. A chosen pause can change the question. What could a character see by giving up their familiar vantage?"
+        },
+        {
+          "key": "rider/major-13",
+          "name": "Death",
+          "minecraft_title": "Old Base",
+          "body": "I mapped the abandoned base but left its faded sign alone. A place can matter after its chapter closes. What would a character honor when it is time to leave?"
+        },
+        {
+          "key": "rider/major-14",
+          "name": "Temperance",
+          "minecraft_title": "Meeting Stream",
+          "body": "Where two streams met, I widened the channel a block at a time. Neither needed to disappear. I kept checking where the water went after my neat solution."
+        },
+        {
+          "key": "rider/major-15",
+          "name": "The Devil",
+          "minecraft_title": "Locked Treasure",
+          "body": "I visited the treasure room so often that the road beyond it vanished from my plans. A prize became a tether. What bargain keeps a character returning despite its cost?"
+        },
+        {
+          "key": "rider/major-16",
+          "name": "The Tower",
+          "minecraft_title": "Broken Spire",
+          "body": "The spire had burned when I returned; only its stone footings remained. My old map still showed its height. I kept that page, but could no longer use it as a guide."
+        },
+        {
+          "key": "rider/major-17",
+          "name": "The Star",
+          "minecraft_title": "Quiet Well",
+          "body": "Someone had set a bucket beside the repaired village well. That small sign of care outlasted my memory of the ruins. What might make a character willing to hope again?"
+        },
+        {
+          "key": "rider/major-18",
+          "name": "The Moon",
+          "minecraft_title": "Foggy Marsh",
+          "body": "Moonlight turned a marsh pool into what looked like solid ground. I checked before stepping. Let a character hold a fear and a possibility apart until evidence arrives."
+        },
+        {
+          "key": "rider/major-19",
+          "name": "The Sun",
+          "minecraft_title": "Sunny Courtyard",
+          "body": "We ate in the sunny courtyard and forgot to discuss our route. Delight sometimes asks only that we notice it. Give a character a moment with nothing to hide or prove."
+        },
+        {
+          "key": "rider/major-20",
+          "name": "Judgement",
+          "minecraft_title": "Village Bell",
+          "body": "The bell called us back to a promise nobody had finished keeping. Returning meant answering honestly. Which old choice might a character be ready to judge anew?"
+        },
+        {
+          "key": "rider/major-21",
+          "name": "The World",
+          "minecraft_title": "Finished Map",
+          "body": "At last, the maps joined into one landscape, including roads I once feared. Completion deserves attention. Let a character see the whole journey before choosing the next."
+        }
+      ]
+    },
+    {
+      "id": "wands",
+      "title": "Wands",
+      "intro": "Bright ideas and the journeys they set in motion.",
+      "entries": [
+        {
+          "key": "rider/wands-ace",
+          "name": "Ace of Wands",
+          "minecraft_title": "First Torch",
+          "body": "A torch at the edge of the clearing made an unwritten route feel possible. Inspiration needs a start. What would a character try while their interest is still warm?"
+        },
+        {
+          "key": "rider/wands-two",
+          "name": "Two of Wands",
+          "minecraft_title": "Watchtower Map",
+          "body": "From the watchtower I could trace two journeys, but travel neither yet. Planning has its own appetite. How wide a horizon would a character choose for this undertaking?"
+        },
+        {
+          "key": "rider/wands-three",
+          "name": "Three of Wands",
+          "minecraft_title": "Outbound Dock",
+          "body": "The boats vanished beyond the headland while I prepared for their return. A venture widens the world it touches. What new arrival could a character make ready to meet?"
+        },
+        {
+          "key": "rider/wands-four",
+          "name": "Four of Wands",
+          "minecraft_title": "Festival Arch",
+          "body": "The village arch was finished when I returned, with a lantern left for me. Shared milestones can make a place a home. Whose arrival would a character celebrate?"
+        },
+        {
+          "key": "rider/wands-five",
+          "name": "Five of Wands",
+          "minecraft_title": "Crowded Build",
+          "body": "Five travelers argued over a campsite, each noticing a different problem. Those differences mattered more than a winner. How could a character make disagreement useful?"
+        },
+        {
+          "key": "rider/wands-six",
+          "name": "Six of Wands",
+          "minecraft_title": "Homecoming Banner",
+          "body": "They hung a banner for the map I brought home. I named the guides who had kept me from getting lost. What help belongs beside a character's public success?"
+        },
+        {
+          "key": "rider/wands-seven",
+          "name": "Seven of Wands",
+          "minecraft_title": "Narrow Rampart",
+          "body": "I defended the small path our map left out when a new wall threatened it. A position may be worth the effort. Which overlooked need would a character stand up for?"
+        },
+        {
+          "key": "rider/wands-eight",
+          "name": "Eight of Wands",
+          "minecraft_title": "Arrow Volley",
+          "body": "A volley of arrows sent us moving before our discussion was done. Some scenes gather speed all at once. What message or decision needs a character's attention right now?"
+        },
+        {
+          "key": "rider/wands-nine",
+          "name": "Nine of Wands",
+          "minecraft_title": "Patched Fence",
+          "body": "At the repaired fence, the watchkeeper knew every mark and barely sat down. Endurance has a cost. Who could help a character keep a boundary without bearing it alone?"
+        },
+        {
+          "key": "rider/wands-ten",
+          "name": "Ten of Wands",
+          "minecraft_title": "Full Inventory",
+          "body": "I packed supplies for every imagined problem and could hardly reach the dock. Preparation had become a burden. What could a character entrust to a companion instead?"
+        },
+        {
+          "key": "rider/wands-page",
+          "name": "Page of Wands",
+          "minecraft_title": "New Explorer",
+          "body": "A biome I had never drawn filled three notebook pages. New interests can stay exploratory. What would a character investigate without promising to become an expert?"
+        },
+        {
+          "key": "rider/wands-knight",
+          "name": "Knight of Wands",
+          "minecraft_title": "Galloping Trail",
+          "body": "The next hill kept pulling me beyond the route I'd planned. Restless courage can discover much and finish little. What would persuade a character to stop and stay?"
+        },
+        {
+          "key": "rider/wands-queen",
+          "name": "Queen of Wands",
+          "minecraft_title": "Hearth Host",
+          "body": "The host hung their brightest banner despite the neighbors' jokes. By supper I had unrolled my own odd sketch. Their confidence made trying feel possible."
+        },
+        {
+          "key": "rider/wands-king",
+          "name": "King of Wands",
+          "minecraft_title": "Settlement Plan",
+          "body": "A settlement plan changed when I walked it with future neighbors. Vision needs people as well as distance. What direction could a character help others make their own?"
+        }
+      ]
+    },
+    {
+      "id": "cups",
+      "title": "Cups",
+      "intro": "Feelings, friendships and the places that become dear to us.",
+      "entries": [
+        {
+          "key": "rider/cups-ace",
+          "name": "Ace of Cups",
+          "minecraft_title": "Fresh Spring",
+          "body": "A spring beside the path caught the sky so clearly that I stopped drawing. Wonder can arrive before an explanation. What new feeling could your character allow to begin?"
+        },
+        {
+          "key": "rider/cups-two",
+          "name": "Two of Cups",
+          "minecraft_title": "Shared Campfire",
+          "body": "A traveler offered half the campfire, and I offered half my supper. Neither offer needed a tally. Let two characters recognize each other through shared kindness."
+        },
+        {
+          "key": "rider/cups-three",
+          "name": "Three of Cups",
+          "minecraft_title": "Picnic Table",
+          "body": "Three friends brought food and stories from different roads. For once, I had no wish to be elsewhere. Who gives a character the easy joy of being among their people?"
+        },
+        {
+          "key": "rider/cups-four",
+          "name": "Four of Cups",
+          "minecraft_title": "Untouched Bowl",
+          "body": "I stared across the pond while someone offered me a bowl. My thoughts had made the present almost invisible. What invitation might a withdrawn character fail to notice?"
+        },
+        {
+          "key": "rider/cups-five",
+          "name": "Five of Cups",
+          "minecraft_title": "Spilled Buckets",
+          "body": "The flood erased the trail I loved, though the crossing farther up survived. Loss needn't hide what remains. Let a character notice both without hurrying into gratitude."
+        },
+        {
+          "key": "rider/cups-six",
+          "name": "Six of Cups",
+          "minecraft_title": "Old Treehouse",
+          "body": "The treehouse sign still spelled our grand plans badly. I remembered our kindness toward those plans. What joy could a character revisit without moving into the past?"
+        },
+        {
+          "key": "rider/cups-seven",
+          "name": "Seven of Cups",
+          "minecraft_title": "Market of Dreams",
+          "body": "In the market, every stall suggested a life I could lead. Choosing felt harder than imagining. Ask which desire a character can name once the alternatives fall quiet."
+        },
+        {
+          "key": "rider/cups-eight",
+          "name": "Eight of Cups",
+          "minecraft_title": "Leaving Boat",
+          "body": "I left a safe harbor once my questions outgrew its walls. Affection did not make staying right. What valued place might a character need to leave without blaming it?"
+        },
+        {
+          "key": "rider/cups-nine",
+          "name": "Nine of Cups",
+          "minecraft_title": "Favorite Supper",
+          "body": "My favorite supper tasted best after I stopped planning the next journey. A private wish had come true in a small way. What would let a character enjoy having enough?"
+        },
+        {
+          "key": "rider/cups-ten",
+          "name": "Ten of Cups",
+          "minecraft_title": "Village Feast",
+          "body": "The feast stretched down the street, with a place saved for late arrivals. Happiness became a shared practice. What does a character do to help that welcome continue?"
+        },
+        {
+          "key": "rider/cups-page",
+          "name": "Page of Cups",
+          "minecraft_title": "Pond Sketch",
+          "body": "A fish stole the center of my pond sketch. I sent the crooked drawing to someone I missed; it said more than the careful letter I had put aside."
+        },
+        {
+          "key": "rider/cups-knight",
+          "name": "Knight of Cups",
+          "minecraft_title": "Flower Delivery",
+          "body": "I carried flowers across three biomes before daring to offer them. A beautiful intention needs room for a reply. What invitation could a character make without presuming?"
+        },
+        {
+          "key": "rider/cups-queen",
+          "name": "Queen of Cups",
+          "minecraft_title": "Window Seat",
+          "body": "At the window seat, my friend heard what I hadn't mapped. They did not press when I fell quiet. I left knowing I could return to the unfinished story."
+        },
+        {
+          "key": "rider/cups-king",
+          "name": "King of Cups",
+          "minecraft_title": "Harbor Keeper",
+          "body": "The harbor keeper heard our quarrel without borrowing our anger. Later, alone by the water, they admitted how much it had cost to answer steadily."
+        }
+      ]
+    },
+    {
+      "id": "swords",
+      "title": "Swords",
+      "intro": "Questions, difficult truths and the limits of a first impression.",
+      "entries": [
+        {
+          "key": "rider/swords-ace",
+          "name": "Ace of Swords",
+          "minecraft_title": "Clean Cut",
+          "body": "A clear footprint settled the question our guesses had tangled. Truth can be simple without being easy. What plain observation would change a character's understanding?"
+        },
+        {
+          "key": "rider/swords-two",
+          "name": "Two of Swords",
+          "minecraft_title": "Closed Gate",
+          "body": "I kept two routes folded shut because choosing would disappoint someone. Waiting began to choose for me. What feeling or fact must a character admit to break a stalemate?"
+        },
+        {
+          "key": "rider/swords-three",
+          "name": "Three of Swords",
+          "minecraft_title": "Broken Sign",
+          "body": "A broken sign told me more about the quarrel than the cheerful village map. Some truths hurt to read. Let a story make room for sorrow without explaining it away."
+        },
+        {
+          "key": "rider/swords-four",
+          "name": "Four of Swords",
+          "minecraft_title": "Quiet Bedroom",
+          "body": "I left my armor by the bed, but kept unfolding the map. My body had stopped before my mind would. That evening I learned how hard a real pause could be."
+        },
+        {
+          "key": "rider/swords-five",
+          "name": "Five of Swords",
+          "minecraft_title": "Empty Arena",
+          "body": "The victor described the quarrel while everyone else left the arena. Being right had become a lonely prize. What would a character lose by insisting on the final word?"
+        },
+        {
+          "key": "rider/swords-six",
+          "name": "Six of Swords",
+          "minecraft_title": "River Crossing",
+          "body": "We crossed the river with old worries beside our tools. The farther bank offered room, not forgetfulness. Let a character begin moving before their feelings catch up."
+        },
+        {
+          "key": "rider/swords-seven",
+          "name": "Seven of Swords",
+          "minecraft_title": "Hidden Tunnel",
+          "body": "A hidden tunnel shortened my route and left the gatekeeper misinformed. An elegant plan can conceal its price. Who needs to know what a character has chosen not to say?"
+        },
+        {
+          "key": "rider/swords-eight",
+          "name": "Eight of Swords",
+          "minecraft_title": "Fence Maze",
+          "body": "The fence maze had openings I could not reach alone. A companion found a loose panel. I had mistaken needing help for having no way out."
+        },
+        {
+          "key": "rider/swords-nine",
+          "name": "Nine of Swords",
+          "minecraft_title": "Midnight Window",
+          "body": "At midnight I drew dangers onto tomorrow's route. My companion could not promise safety, but stayed while I named them. The map was still there at dawn."
+        },
+        {
+          "key": "rider/swords-ten",
+          "name": "Ten of Swords",
+          "minecraft_title": "Ruined Outpost",
+          "body": "The outpost marked on my map no longer existed. At last I stopped planning around its return. A story can acknowledge a final defeat and begin the next page elsewhere."
+        },
+        {
+          "key": "rider/swords-page",
+          "name": "Page of Swords",
+          "minecraft_title": "Careful Scout",
+          "body": "I noted the strange tracks before deciding what had made them. Curiosity needs a little discipline. Which suspicion could a character turn into a testable question?"
+        },
+        {
+          "key": "rider/swords-knight",
+          "name": "Knight of Swords",
+          "minecraft_title": "Rushing Messenger",
+          "body": "I hurried home with a theory and nearly missed the witness who could correct it. Urgency can narrow a good mind. Who should a character hear before charging ahead?"
+        },
+        {
+          "key": "rider/swords-queen",
+          "name": "Queen of Swords",
+          "minecraft_title": "Clear Boundary",
+          "body": "The judge let the silence last until I stopped dressing my excuse as an explanation. I dreaded her next question, and trusted her more for asking it."
+        },
+        {
+          "key": "rider/swords-king",
+          "name": "King of Swords",
+          "minecraft_title": "Council Ledger",
+          "body": "The council compared maps, heard objections and gave its reasons. Authority makes its thinking visible. What principle would a character defend when it limits them too?"
+        }
+      ]
+    },
+    {
+      "id": "pentacles",
+      "title": "Pentacles",
+      "intro": "Resources, learned skills and things worth tending between journeys.",
+      "entries": [
+        {
+          "key": "rider/pentacles-ace",
+          "name": "Ace of Pentacles",
+          "minecraft_title": "First Seed",
+          "body": "A traveler gave me a seed from a place I wanted to understand. I planted it before planning a garden. What modest opportunity could a character turn into patient action?"
+        },
+        {
+          "key": "rider/pentacles-two",
+          "name": "Two of Pentacles",
+          "minecraft_title": "Two Furnaces",
+          "body": "Two furnaces and changing fuel taught me to adjust my pace. Balance moves as its demands do. How could a character keep two needs in view and respond to both?"
+        },
+        {
+          "key": "rider/pentacles-three",
+          "name": "Three of Pentacles",
+          "minecraft_title": "Shared Workshop",
+          "body": "The mason knew the stone, the carpenter its frame; I mapped the approach. I kept offering answers until I noticed nobody had asked me to solve their part."
+        },
+        {
+          "key": "rider/pentacles-four",
+          "name": "Four of Pentacles",
+          "minecraft_title": "Sealed Storeroom",
+          "body": "The locked storeroom was full while the shared workshop lacked tools. Security had stopped serving its purpose. What would a character fear if they loosened their grip?"
+        },
+        {
+          "key": "rider/pentacles-five",
+          "name": "Five of Pentacles",
+          "minecraft_title": "Snowbound Door",
+          "body": "I once passed a warm doorway because I thought the welcome belonged to others. Need can make a place seem closed. Who could help a character find a practical way inside?"
+        },
+        {
+          "key": "rider/pentacles-six",
+          "name": "Six of Pentacles",
+          "minecraft_title": "Supply Chest",
+          "body": "The supply chest let me choose what I lacked instead of proving I deserved it. Help has terms, even unspoken ones. What would make a character's generosity respectful?"
+        },
+        {
+          "key": "rider/pentacles-seven",
+          "name": "Seven of Pentacles",
+          "minecraft_title": "Unripe Orchard",
+          "body": "The orchard bore less than I had hoped. I walked each row before packing up. Was I waiting for growth, or reluctant to admit I wanted to leave?"
+        },
+        {
+          "key": "rider/pentacles-eight",
+          "name": "Eight of Pentacles",
+          "minecraft_title": "Workbench Row",
+          "body": "I drew the same shoreline until my hand noticed details I had missed. Practice changes attention. What small correction could help a character grow into their craft?"
+        },
+        {
+          "key": "rider/pentacles-nine",
+          "name": "Nine of Pentacles",
+          "minecraft_title": "Private Garden",
+          "body": "The garden I tended between journeys had become worth staying in. Independence includes enjoying its fruits. Let a character appreciate a comfort they can sustain."
+        },
+        {
+          "key": "rider/pentacles-ten",
+          "name": "Ten of Pentacles",
+          "minecraft_title": "Family Base",
+          "body": "New arrivals used old maps to extend the village paths. An inheritance stays alive through use. What could a character leave that gives the next people a beginning?"
+        },
+        {
+          "key": "rider/pentacles-page",
+          "name": "Page of Pentacles",
+          "minecraft_title": "First Sapling",
+          "body": "A new sapling became an experiment by my door. Learning sometimes needs a small patch of ground. What practical interest could a character give steady attention?"
+        },
+        {
+          "key": "rider/pentacles-knight",
+          "name": "Knight of Pentacles",
+          "minecraft_title": "Daily Farm Round",
+          "body": "The farmer checked each gate and showed me a latch that saved a trip. Reliability can learn. What routine could a character improve while keeping its quiet promise?"
+        },
+        {
+          "key": "rider/pentacles-queen",
+          "name": "Queen of Pentacles",
+          "minecraft_title": "Welcoming Kitchen",
+          "body": "A kitchen offered dry boots and a chair without asking for my story. I had come prepared to explain why I needed help. For once, I could just sit down."
+        },
+        {
+          "key": "rider/pentacles-king",
+          "name": "King of Pentacles",
+          "minecraft_title": "Village Granary",
+          "body": "The granary keeper knew which stores the village could spare and which it needed. Security asks for judgment. What resource could a character steward for others?"
+        }
+      ]
+    },
+    {
+      "id": "digits",
+      "title": "The Digits",
+      "intro": "Nine number characters to try beside a scene or a question.",
+      "entries": [
+        {
+          "key": "numbers/number-1",
+          "name": "One",
+          "minecraft_title": "First Block",
+          "body": "I placed one marker beyond the last known trail and called it a beginning. One gives initiative a voice. What could a character choose without waiting for someone else?"
+        },
+        {
+          "key": "numbers/number-2",
+          "name": "Two",
+          "minecraft_title": "Paired Beds",
+          "body": "Two maps disagreed until their makers compared the ground between them. Partnership needs both accounts. How could a character hear another voice while keeping their own?"
+        },
+        {
+          "key": "numbers/number-3",
+          "name": "Three",
+          "minecraft_title": "Painted Banner",
+          "body": "Three colors made the route banner easier to share than my explanation. Expression can invite company. What idea might a character discover by saying it aloud to someone?"
+        },
+        {
+          "key": "numbers/number-4",
+          "name": "Four",
+          "minecraft_title": "Four Corners",
+          "body": "Four corner posts turned a stopping place into a reliable shelter. Structure can make freedom easier to live with. What steady habit helps a character keep what matters?"
+        },
+        {
+          "key": "numbers/number-5",
+          "name": "Five",
+          "minecraft_title": "Forking Trail",
+          "body": "The branching trail took me beyond my map. I loved having no fixed route, until I noticed how often I left just as a place began to know me."
+        },
+        {
+          "key": "numbers/number-6",
+          "name": "Six",
+          "minecraft_title": "Supper Table",
+          "body": "At supper I noticed the host had served everyone but themselves. Care needs room for its giver too. How could a character look after the one holding a home together?"
+        },
+        {
+          "key": "numbers/number-7",
+          "name": "Seven",
+          "minecraft_title": "Cave Notebook",
+          "body": "I stayed by the cave wall until I noticed its pattern. Seven values inward attention. What question could a character consider quietly before seeking company?"
+        },
+        {
+          "key": "numbers/number-8",
+          "name": "Eight",
+          "minecraft_title": "Trading Hall",
+          "body": "The trading hall's neat rows hid how its keeper shaped our days. Eight gives power a practical form. What consequences should a character count besides their own gain?"
+        },
+        {
+          "key": "numbers/number-9",
+          "name": "Nine",
+          "minecraft_title": "Farewell Chest",
+          "body": "Before leaving, I copied my maps for travelers I would never meet. Nine gives completion a wider reach. What could a character release without seeing who takes it?"
+        }
+      ]
+    },
+    {
+      "id": "masters",
+      "title": "Master Numbers",
+      "intro": "Modern numerology motifs: closer attention, wider building and shared care.",
+      "entries": [
+        {
+          "key": "numbers/number-11",
+          "name": "Eleven",
+          "minecraft_title": "Listening Post",
+          "body": "Two listeners noticed a pause between tunnel sounds. Eleven heightens Two's attention. Let an impression lead a character to ask and check before declaring an answer."
+        },
+        {
+          "key": "numbers/number-22",
+          "name": "Twenty-Two",
+          "minecraft_title": "Long Bridge",
+          "body": "The long bridge joined villages once far apart on my map. Twenty-Two widens Four's foundations. What lasting work could a character make useful beyond their own circle?"
+        },
+        {
+          "key": "numbers/number-33",
+          "name": "Thirty-Three",
+          "minecraft_title": "Open Workshop",
+          "body": "At the workshop, I shared a route and learned a better knot. Thirty-Three widens Six through teaching. Care can travel both ways and leave time for the teacher's road."
+        }
+      ]
+    }
+  ],
+  "closer": {
+    "title": "Leave a Light On",
+    "body": "Map folded, cards tucked away, and someone has saved me a chair. The rest can wait till tomorrow. A good road should have a welcome at its end."
+  },
+  "edition": "alex",
+  "item_name": "Alex's (better) Tarot Guide"
+}

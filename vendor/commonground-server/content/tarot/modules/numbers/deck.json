@@ -1,0 +1,25 @@
+{
+ "back": "back.png",
+ "crosswalk": {
+  "numbers-12.v1:digit:1": "numbers-12.v1:1",
+  "numbers-12.v1:digit:2": "numbers-12.v1:2",
+  "numbers-12.v1:digit:3": "numbers-12.v1:3",
+  "numbers-12.v1:digit:4": "numbers-12.v1:4",
+  "numbers-12.v1:digit:5": "numbers-12.v1:5",
+  "numbers-12.v1:digit:6": "numbers-12.v1:6",
+  "numbers-12.v1:digit:7": "numbers-12.v1:7",
+  "numbers-12.v1:digit:8": "numbers-12.v1:8",
+  "numbers-12.v1:digit:9": "numbers-12.v1:9",
+  "numbers-12.v1:master:11": "numbers-12.v1:11",
+  "numbers-12.v1:master:22": "numbers-12.v1:22",
+  "numbers-12.v1:master:33": "numbers-12.v1:33"
+ },
+ "grid": [
+  72,
+  120
+ ],
+ "source": {
+  "converted": "art/tools/gen_packs.py",
+  "lore": "numbers.v1"
+ }
+}

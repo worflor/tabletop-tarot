@@ -20,8 +20,11 @@ Original code: Copyright (c) 2026 woflo (worflor), MIT.
 Original Numbers art, backs, textures and icon composition: woflo (worflor), CC BY 4.0.
 Rider–Waite–Smith 1909 illustrations: Pamela Colman Smith with Arthur Edward Waite; public domain.
 The icon includes a public-domain Rider illustration; no new rights are asserted over it.
-Source artwork is preserved without repainting or resampling.
+Imported card source artwork is preserved without repainting or resampling.
 Imported Lore/source license identifiers above are preserved provenance.
+Guidebook cover artwork was generated for Tabletop Tarot with OpenAI image_gen.
+Source images and generation prompts are preserved in src/guidebook/art/.
+Guidebook model geometry and texture-atlas compilation are project code.
 See LICENSE.md for the explicit Tabletop Tarot grant and attribution requirements.
 https://github.com/worflor/tabletop-tarot
 https://creativecommons.org/licenses/by/4.0/

@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "handled": {
+      "trigger": "minecraft:item_used_on_block"
+    }
+  },
+  "rewards": {
+    "function": "tarot:input/vanilla_block_use"
+  }
+}

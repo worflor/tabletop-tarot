@@ -1,0 +1,11 @@
+{
+ "back": "back.png",
+ "grid": [
+  70,
+  120
+ ],
+ "source": {
+  "converted": "art/tools/gen_packs.py",
+  "lore": "smith-waite.v1"
+ }
+}

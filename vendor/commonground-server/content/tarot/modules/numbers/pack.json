@@ -1,0 +1,768 @@
+{
+ "manifest": {
+  "id": "numbers.v1",
+  "name": "The Numbers",
+  "blurb": "The nine digits and the three master numbers. What a birth date and a name add up to, said plainly.",
+  "version": 1,
+  "locale": "en",
+  "author": "Lore",
+  "licenseId": "lore-original-v1",
+  "kind": "deck",
+  "metadata": {
+   "plate": "numbers"
+  },
+  "voice": {
+   "register": "The Numbers reads like somebody who does the sum on a napkin and then tells you plainly what has been said about the answer, and by whom. Two lineages sit under it: the Greek number philosophy, which said what a number is in itself and stopped at ten, and the numerology of the early twentieth century, where the life path and the master numbers come from. It is exact about the arithmetic and modest about the meaning. A number is a character the way a key signature is a character: it says what a piece tends to sound like, never what happens in it.",
+   "turned": "A turned card is the same number in excess or gone missing: the character running the whole show, or absent where it was needed."
+  },
+  "contentHash": "f4c3caaa8d15d22b9216ae102b704e84c1594c6b80572d46f2cfee50d822afb3"
+ },
+ "system": {
+  "kind": "oracle",
+  "structureId": "numbers-12.v1",
+  "orientation": "inverted",
+  "cardCount": 12,
+  "groups": [
+   {
+    "id": "digit",
+    "label": "THE DIGITS",
+    "ordinal": 0
+   },
+   {
+    "id": "master",
+    "label": "THE MASTER NUMBERS",
+    "ordinal": 1
+   }
+  ]
+ },
+ "vocab": {
+  "motifTags": [
+   "ritual",
+   "object",
+   "food",
+   "principle",
+   "media",
+   "habit",
+   "place",
+   "people",
+   "sound",
+   "light",
+   "movement",
+   "layout",
+   "objects",
+   "order",
+   "disorder"
+  ]
+ },
+ "license": {
+  "attributionBlock": "The Numbers. Twelve cards written for Lore. The qualities of the numbers themselves come from Greek number philosophy, the Theology of Arithmetic above all; the life path, the letter values and the master numbers come from the numerology L. Dow Balliett laid out early in the twentieth century and Juno Jordan refined, which is Pythagorean in name only. The arithmetic is the ordinary reduction and is printed beside every figure so it can be checked by hand.",
+  "artProvenance": "digitally-rendered",
+  "trainingUse": "never"
+ },
+ "art": {
+  "card": {
+   "longEdgeMm": 120,
+   "thicknessMm": 0.34,
+   "cornerRadiusMm": 3,
+   "front": {
+    "roughness": 0.84,
+    "metallic": 0,
+    "light": {
+     "returns": 0.06,
+     "colour": [
+      1,
+      0.95,
+      0.84
+     ],
+     "spread": 1.5,
+     "shade": 0.08,
+     "shadeColour": [
+      0.3,
+      0.22,
+      0.14
+     ],
+     "grain": [
+      {
+       "pattern": "dots",
+       "pitchMm": 0.6,
+       "angleDeg": 17,
+       "depth": 0.04
+      }
+     ]
+    }
+   },
+   "back": {
+    "roughness": 0.86,
+    "metallic": 0,
+    "light": {
+     "returns": 0.055,
+     "colour": [
+      1,
+      0.92,
+      0.8
+     ],
+     "spread": 1.5,
+     "shade": 0.1,
+     "shadeColour": [
+      0.16,
+      0.1,
+      0.07
+     ],
+     "grain": [
+      {
+       "pattern": "lines",
+       "pitchMm": 1.2,
+       "angleDeg": 90,
+       "depth": 0.05
+      }
+     ]
+    }
+   },
+   "edge": {
+    "roughness": 0.95,
+    "metallic": 0,
+    "light": {
+     "returns": 0.28,
+     "colour": [
+      0.42,
+      0.28,
+      0.2
+     ],
+     "shade": 0.16,
+     "shadeColour": [
+      0.16,
+      0.1,
+      0.07
+     ]
+    }
+   },
+   "edgeColour": [
+    0.36,
+    0.24,
+    0.16
+   ]
+  },
+  "back": {
+   "file": "back.webp",
+   "widthPx": 720,
+   "heightPx": 1200,
+   "sha256": "ff030c0da6cd70215efbd8a0f8c40f8963f5670bd2cf21fa408e5007e1e387d3"
+  }
+ },
+ "cards": [
+  {
+   "index": 0,
+   "id": "number-1",
+   "structureRef": "numbers-12.v1:1",
+   "canonicalName": "One",
+   "groupId": "digit",
+   "ordinal": 1,
+   "meaning": {
+    "upright": "One starts. It moves before there is a plan worth following, and usually it moves alone. The Greek number philosophers did not count one as a number at all; it was the monad, the unit every other number is counted out of, and something of that single point survives in how modern numerology reads it. One sees what wants doing and does it without checking who else has begun. Priority comes naturally to it, itself first and the room second, and seldom out of malice. Where One lands, things open on a decision already made, and other people find themselves answering a start they did not choose.",
+    "inverted": "An excess of One starts and never finishes, because starting again is easier than staying for the part that is no longer new. Where it is missing, the day waits for somebody else to open it, and the plan that would have worked sits unmade.",
+    "keywords": [
+     "First Move",
+     "The Single Point",
+     "Going Alone",
+     "Self-Reliance"
+    ]
+   },
+   "visual": {
+    "description": "A walnut counting tray of fine sand holds one stone, a topaz, alone at its centre inside a single ring drawn round it with a stylus. The numeral 1 is pressed into the sand above, rings raked in the sand go out from the stone toward the frame, and the plaque below is gold. Nothing crowds it and nothing answers it.",
+    "dominantMotifs": [
+     "principle"
+    ],
+    "altText": "One: a topaz alone in a ring drawn in a tray of sand, under the numeral pressed above it.",
+    "image": {
+     "file": "number-1.webp",
+     "widthPx": 720,
+     "heightPx": 1200,
+     "sha256": "bac5061135458757726cf1d0d77493fdca3e8010bace96306f766dfe75941464"
+    }
+   },
+   "lore": "Somebody has to go first.",
+   "motifTags": [
+    "principle"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "metadata": {
+    "lifePath": "A road that keeps arriving first, led by the next beginning, which has to learn along the way how to wait for company.",
+    "personalYear": "A year of beginnings, the first of the nine-year round, when whatever is started sets the pattern for the years after it.",
+    "drawn": "What would you start today if nobody else had to agree first?",
+    "classical": "Classical: to the Pythagoreans and the Greek mathematicians after them one was not a number at all but the monad, the unit every number is counted out of.",
+    "modern": "Modern: twentieth-century numerology, from L. Dow Balliett and Juno Jordan, reads One as the initiator; calling that system Pythagorean is a tribute, not a line of descent.",
+    "correspondence": "Correspondence: Cheiro's Book of Numbers (1926) gives One to the Sun, with the golds and yellows for its colours and the topaz and amber for its stones. Its plaque is gold, the Sun's metal as the alchemists had it."
+   },
+   "contentHash": "bd8dc6513cdd60e40d23ad8f15cead2daff8892586b9d4ed6b0341d90b1cd73a"
+  },
+  {
+   "index": 1,
+   "id": "number-2",
+   "structureRef": "numbers-12.v1:2",
+   "canonicalName": "Two",
+   "groupId": "digit",
+   "ordinal": 2,
+   "meaning": {
+    "upright": "Two waits for the second voice before it calls anything decided. To the Greek number philosophers the dyad was the first departure from unity, the moment one thing became two and a difference opened between them, and one old treatise says that is why it was called daring. Modern numerology keeps the pair and reads Two as partnership and tact. It notices the temperature of a room before it notices its own opinion, and it holds a question open rather than settle it alone. Its patience is particular. Where Two lands, agreement matters more than speed, and the gap between two people gets looked after.",
+    "inverted": "When Two runs the whole show, a decision waits forever for a second signature, because disagreement feels worse than delay. When it goes missing, the other person's account of the room stops registering, and the pair becomes one person acting as though nobody else is there.",
+    "keywords": [
+     "The Pair",
+     "Second Voice",
+     "Tact",
+     "Partnership"
+    ]
+   },
+   "visual": {
+    "description": "Two stones lie in a tray of sand under a numeral 2 pressed into it, close but not touching. The gap between them is measured in red ochre, like a space left for a reply. One of the two is a piece of jade, and the plaque below is silver.",
+    "dominantMotifs": [
+     "principle",
+     "people"
+    ],
+    "altText": "Two: two stones, one of them jade, across a measured gap in a tray of sand.",
+    "image": {
+     "file": "number-2.webp",
+     "widthPx": 720,
+     "heightPx": 1200,
+     "sha256": "0b73e317d3a2c1d1e5bb8942336ea0a9c46b82958d5db6fdf231a4496db976b5"
+    }
+   },
+   "lore": "Wait for the second voice before you call it decided.",
+   "motifTags": [
+    "principle",
+    "people"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "metadata": {
+    "lifePath": "A road walked in company, shaped by its partnerships, whose work is to keep its own voice inside them.",
+    "personalYear": "A year of patience and pairing: what was planted in the One year needs time now, and help arrives through other people.",
+    "drawn": "Whose second voice are you waiting for, and do you need it?",
+    "classical": "Classical: the dyad, the first to separate itself from the monad, which the Theology of Arithmetic says is why it was called daring.",
+    "modern": "Modern: twentieth-century numerology reads Two as partnership and tact.",
+    "correspondence": "Correspondence: Cheiro gives Two to the Moon, with the greens and creams for its colours and pearls and moonstones for its stones, and he says to carry a piece of jade. Its plaque is silver, the Moon's metal."
+   },
+   "contentHash": "a8e394fc3c37381d5f7f4491576c332ed47faa451a774a2227bc38e42d3665de"
+  },
+  {
+   "index": 2,
+   "id": "number-3",
+   "structureRef": "numbers-12.v1:3",
+   "canonicalName": "Three",
+   "groupId": "digit",
+   "ordinal": 3,
+   "meaning": {
+    "upright": "Three is what One and Two sound like once they are said out loud. The Greek number philosophers saw in it the first number with a beginning, a middle and an end, and three pebbles make the first figure that closes around anything. Modern numerology reads Three as expression. It would rather put a thing into words or paint or a room full of people than keep it as private knowledge, and it thinks best while talking. It is sociable, quick to laugh and liable to scatter. Where Three lands, feelings get said and ideas get shown, sometimes before they are finished.",
+    "inverted": "Everything turns into a performance, even the parts never meant for an audience, until the telling matters more than the thing told. Or the reverse happens, and a real feeling stays behind the face, unspoken, for everyone nearby to guess at.",
+    "keywords": [
+     "Said Aloud",
+     "Expression",
+     "The First Figure",
+     "Good Company"
+    ]
+   },
+   "visual": {
+    "description": "Three stones sit at the corners of a triangle grooved into a tray of sand, the first figure that closes around a space, spread wide as if laid out to be seen across a room. One is an amethyst with a glint on it. The numeral 3 is pressed into the sand above, and the plaque below is tin.",
+    "dominantMotifs": [
+     "media",
+     "people"
+    ],
+    "altText": "Three: three stones, one an amethyst, at the corners of a triangle drawn in sand.",
+    "image": {
+     "file": "number-3.webp",
+     "widthPx": 720,
+     "heightPx": 1200,
+     "sha256": "352cd8299e4321617345d6d67401c07a958c0c1d7228a9f9632f4898d7f11ff1"
+    }
+   },
+   "lore": "Say it out loud and find out what you think.",
+   "motifTags": [
+    "media",
+    "people"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "metadata": {
+    "lifePath": "A road of making and telling, lived out loud, whose work is to finish what it starts to say so easily.",
+    "personalYear": "A year for saying and showing: work goes public and friendships multiply, and effort scatters if nothing is chosen.",
+    "drawn": "What do you know that you have not yet said out loud?",
+    "classical": "Classical: the triad, the first number with a beginning, a middle and an end, and the first to make a figure, since three points close a triangle.",
+    "modern": "Modern: twentieth-century numerology reads Three as expression and sociability.",
+    "correspondence": "Correspondence: Cheiro gives Three to Jupiter, with the mauves and purples for its colours and the amethyst for its stone. Its plaque is tin, Jupiter's metal."
+   },
+   "contentHash": "42ae65c525e41ae1251fb72cb00aa640ad2244113f15ace54d0ca1aeb888502e"
+  },
+  {
+   "index": 3,
+   "id": "number-4",
+   "structureRef": "numbers-12.v1:4",
+   "canonicalName": "Four",
+   "groupId": "digit",
+   "ordinal": 4,
+   "meaning": {
+    "upright": "Four builds the frame before it hangs anything on it. Four pebbles make a square, and the old number philosophy prized the shape: the first square number, and the last row of the tetractys, the triangle of ten pebbles the Pythagoreans are said to have sworn by. Modern numerology reads Four as order and work. It asks what a thing is standing on before it asks how high it can go. It trusts a plan it can check, and it would rather lay one more course than hurry the roof. It is steady, and it can be stubborn. Where Four lands, the foundation comes first.",
+    "inverted": "The frame never gets a room built inside it, because there is always one more support to add before it is safe to live in. Without enough Four, the walls go up with nothing under them and come down in the first weather.",
+    "keywords": [
+     "The Frame",
+     "Foundation",
+     "The Square",
+     "Steady Work"
+    ]
+   },
+   "visual": {
+    "description": "Four stones stand at the corners of a square grooved into a tray of sand, evenly spaced, each one holding its own edge, under a numeral 4 pressed above them. One of the four is a sapphire. The plaque below is enamelled the pale blue-green the Sky gives Uranus.",
+    "dominantMotifs": [
+     "object",
+     "principle"
+    ],
+    "altText": "Four: four stones, one a sapphire, at the corners of a square drawn in sand.",
+    "image": {
+     "file": "number-4.webp",
+     "widthPx": 720,
+     "heightPx": 1200,
+     "sha256": "a39791fbf5c5f0a6c4e639e5cafcc27125c6bfa812cc436cb980244c88d46c42"
+    }
+   },
+   "lore": "Check what it's standing on first.",
+   "motifTags": [
+    "object",
+    "principle"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "metadata": {
+    "lifePath": "A road built course by course and trusted because it holds, with a lesson somewhere in it about bending before it cracks.",
+    "personalYear": "A year of work and foundations: the ideas of the Three year get walls, and every shortcut costs more than it saves.",
+    "drawn": "What is this standing on, and have you checked it?",
+    "classical": "Classical: the first square number, and the last row of the tetractys, the triangle of ten pebbles the Pythagoreans are said to have sworn by.",
+    "modern": "Modern: twentieth-century numerology reads Four as order and work.",
+    "correspondence": "Correspondence: Cheiro gives Four to Uranus, with what he called half-shades and electric blues for its colours and the sapphire for its stone. Uranus has no classical metal, so its plaque takes the colour the Sky gives it."
+   },
+   "contentHash": "8c33c9b01d318d17199a67f2940e3892cebab8602019165956a6921e603f30b2"
+  },
+  {
+   "index": 4,
+   "id": "number-5",
+   "structureRef": "numbers-12.v1:5",
+   "canonicalName": "Five",
+   "groupId": "digit",
+   "ordinal": 5,
+   "meaning": {
+    "upright": "Five sits in the middle of the nine digits and will not stay there. The Greek number philosophers called it marriage, because it joins two, the first even number, to three, the first odd one. Something of that restless mixing survives in how modern numerology reads it: change, motion, the senses, the door out. Five wants the new city and the conversation nobody planned. It feels a routine as a wall long before it becomes one. It is curious, and it is good in a crisis. Where Five lands, the plan tends to change halfway through.",
+    "inverted": "Nothing gets finished while there is still a door left to open, so every start becomes another start. Or the door is sealed from the inside, and the routine hardens into the only shape a day is allowed to take.",
+    "keywords": [
+     "The Door Out",
+     "Change",
+     "The Middle",
+     "Restless Senses"
+    ]
+   },
+   "visual": {
+    "description": "Five stones lie in a tray of sand under a numeral 5. Four sit at the corners of a grooved square, and the fifth is set a little off true from where the square's diagonals cross, as if it moved after the others settled. One corner stone is a diamond, and the plaque below is quicksilver grey.",
+    "dominantMotifs": [
+     "movement"
+    ],
+    "altText": "Five: four stones on a square drawn in sand and a fifth set off true near its centre.",
+    "image": {
+     "file": "number-5.webp",
+     "widthPx": 720,
+     "heightPx": 1200,
+     "sha256": "9d9a859d3d3c0f1803fbda260e07f41c7c7abfea1d0a7c3ad488c2a3929484ed"
+    }
+   },
+   "lore": "The door is more interesting than the room.",
+   "motifTags": [
+    "movement"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "metadata": {
+    "lifePath": "A restless road of many turns and many rooms, whose freedom means most once it learns to stay for something.",
+    "personalYear": "A year of change and motion, of moves and surprises, with plans that hold only loosely.",
+    "drawn": "Are you leaving the room, or only the routine in it?",
+    "classical": "Classical: the pentad, called marriage because it adds the first even number to the first odd one.",
+    "modern": "Modern: twentieth-century numerology reads Five as change and freedom.",
+    "correspondence": "Correspondence: Cheiro gives Five to Mercury, with light greys and anything that glistens for its colours and the diamond for its stone. Its plaque is quicksilver grey, Mercury's metal."
+   },
+   "contentHash": "fdf94e1e5abdf8f3cd66129ed681e5e25f8daf8175ea94f8a58eb1c797d2ecba"
+  },
+  {
+   "index": 5,
+   "id": "number-6",
+   "structureRef": "numbers-12.v1:6",
+   "canonicalName": "Six",
+   "groupId": "digit",
+   "ordinal": 6,
+   "meaning": {
+    "upright": "Six looks after the room before it looks after itself. It is the first perfect number, equal to the sum of the numbers that divide it, since one and two and three make exactly six, and the Greek mathematicians admired it for that balance. Modern numerology reads Six as care and the household. It notices who has not eaten yet, pulls the extra chair to the table and remembers the birthday nobody wrote down. Responsibility gets picked up here without anyone asking. That makes Six the one everybody leans on, and now and then the one who forgets to lean. Where it lands, a day is measured by whether the people in it were looked after.",
+    "inverted": "Looking after everyone becomes a way of never asking for anything, until the care runs in one direction and nobody notices. With too little Six, the extra chair stays against the wall and the household runs on no one's attention at all.",
+    "keywords": [
+     "The Extra Chair",
+     "Care",
+     "Household",
+     "Perfect Balance"
+    ]
+   },
+   "visual": {
+    "description": "Six stones are laid in a triangle grooved into a tray of sand, a row of one on a row of two on a row of three, packed close like places at a family table. The one at the top is a turquoise. The numeral 6 is pressed into the sand above, and the plaque below is copper.",
+    "dominantMotifs": [
+     "people",
+     "ritual"
+    ],
+    "altText": "Six: six stones in a triangle of rows drawn in sand, a turquoise at the top.",
+    "image": {
+     "file": "number-6.webp",
+     "widthPx": 720,
+     "heightPx": 1200,
+     "sha256": "a0d012d43d4e3ffcb2cdbf34b697255c1ec3fe1d93617d002abd37413aaa83a2"
+    }
+   },
+   "lore": "Pull up the extra chair.",
+   "motifTags": [
+    "people",
+    "ritual"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "metadata": {
+    "lifePath": "A road of care and home, where love is shown by responsibility, and the work is to receive as well as to give.",
+    "personalYear": "A year for home and duty, when family or a household or a commitment asks a great deal and gets it.",
+    "drawn": "Who is looking after you while you look after them?",
+    "classical": "Classical: the first perfect number, equal to the sum of the numbers that divide it; the Theology of Arithmetic calls it marriage too, made by multiplying the first even number by the first odd one.",
+    "modern": "Modern: twentieth-century numerology reads Six as care, the household and responsibility.",
+    "correspondence": "Correspondence: Cheiro gives Six to Venus, with every blue and the rose pinks for its colours and the turquoise above all for its stone. Its plaque is copper, Venus's metal."
+   },
+   "contentHash": "2eca1566352208028f886d1d3a63ec788ff386c276a3286227e33f5c21821f10"
+  },
+  {
+   "index": 6,
+   "id": "number-7",
+   "structureRef": "numbers-12.v1:7",
+   "canonicalName": "Seven",
+   "groupId": "digit",
+   "ordinal": 7,
+   "meaning": {
+    "upright": "Seven asks before it agrees. The Greek number philosophers called it the virgin and gave it to Athena, because among the first ten numbers it neither divides any other nor is made by multiplying any; it stands apart. Modern numerology keeps that apartness and reads Seven as the questioner. It drifts to the edge of a room rather than the middle. It reads past what it was told, and it would rather sit with a question than borrow an answer. Solitude is where it does its best thinking. Where Seven lands, belief waits on evidence, and trust takes its time.",
+    "inverted": "The checking never ends, so no answer is ever good enough to act on, and the solitude that once helped thinking now only delays it. Short of Seven, the first convenient answer goes unchecked, and the question that mattered is never properly asked.",
+    "keywords": [
+     "The Questioner",
+     "Apartness",
+     "Solitude",
+     "Tested Trust"
+    ]
+   },
+   "visual": {
+    "description": "Seven stones lie in a tray of sand under a numeral 7: six set in a grooved ring and one alone at its centre, looking out at the others. One stone of the ring is a moonstone, pale and cool. The plaque below is enamelled the deep blue the Sky gives Neptune.",
+    "dominantMotifs": [
+     "principle"
+    ],
+    "altText": "Seven: six stones in a ring drawn in sand, one of them a moonstone, and one alone at the centre.",
+    "image": {
+     "file": "number-7.webp",
+     "widthPx": 720,
+     "heightPx": 1200,
+     "sha256": "488039401a503ef6271f3cd79b2734417dccd091051aa112ac6cd48f2d73de81"
+    }
+   },
+   "lore": "Check it yourself before you believe it.",
+   "motifTags": [
+    "principle"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "metadata": {
+    "lifePath": "A road of study and solitude that trusts only what it has tested, and lets people in more slowly than they would like.",
+    "personalYear": "A year to step back and study, when rest and research count for more than whatever the world is shouting about.",
+    "drawn": "What have you believed without checking it yourself?",
+    "classical": "Classical: the virgin, given to Athena, because within ten it neither divides another number nor is made by multiplying any.",
+    "modern": "Modern: twentieth-century numerology reads Seven as the questioner and the inner life.",
+    "correspondence": "Correspondence: Cheiro gives Seven to Neptune, with pale greens and white for its colours and moonstones and cat's-eyes for its stones. Neptune has no classical metal, so its plaque takes the colour the Sky gives it."
+   },
+   "contentHash": "36152a78691d47d96a2094e9dd91cfe172216a52b84943365760936e79b6349c"
+  },
+  {
+   "index": 7,
+   "id": "number-8",
+   "structureRef": "numbers-12.v1:8",
+   "canonicalName": "Eight",
+   "groupId": "digit",
+   "ordinal": 8,
+   "meaning": {
+    "upright": "Eight keeps the ledger and checks it twice. It is the first cube, two times two times two, and to the Greek number philosophers that made it the first number with a body, something solid enough to stand on. Modern numerology reads Eight as material weight: money, authority, the account that has to balance before anyone can rest. It measures a project by what it produces, closes a deal properly, and pays a debt before it is asked for. Ambition comes easily to it, and so does judgement. Where Eight lands, somebody is keeping score, fairly or otherwise.",
+    "inverted": "The ledger becomes the whole conversation, and effort only counts once its return can be seen. Short of Eight, the accounts never balance: work goes unpaid and unclaimed, and whatever got built has nothing to show for it.",
+    "keywords": [
+     "The Ledger",
+     "Authority",
+     "The First Cube",
+     "Material Weight"
+    ]
+   },
+   "visual": {
+    "description": "Eight stones sit at the corners of a cube grooved into a tray of sand in plain perspective, four in front and four behind, its hidden edges broken into dashes. The front corner on the left is a black pearl. The numeral 8 is pressed into the sand above, and the plaque below is lead.",
+    "dominantMotifs": [
+     "object",
+     "order"
+    ],
+    "altText": "Eight: eight stones at the corners of a cube drawn in sand, one of them a black pearl.",
+    "image": {
+     "file": "number-8.webp",
+     "widthPx": 720,
+     "heightPx": 1200,
+     "sha256": "7be307681af7a7ebda7ad9b4ee9b3026c131dde7bea1452efa842488474f8804"
+    }
+   },
+   "lore": "Make sure the ledger balances before you rest.",
+   "motifTags": [
+    "object",
+    "order"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "metadata": {
+    "lifePath": "A road of work and authority, measured in results, whose real test is what it does with the power it gathers.",
+    "personalYear": "A year of reckoning, when money and rank move and the account of the last seven years comes due.",
+    "drawn": "What are you counting, and who taught you it was the thing to count?",
+    "classical": "Classical: the octad, which the Theology of Arithmetic calls the first actual cube, two times two times two.",
+    "modern": "Modern: twentieth-century numerology reads Eight as material power and authority.",
+    "correspondence": "Correspondence: Cheiro gives Eight to Saturn, with dark greys and black for its colours and the black pearl and dark sapphire among its stones. Its plaque is lead, Saturn's metal."
+   },
+   "contentHash": "6203cb414516cd9d3b459990327943daf7ad8beaef8b2d519dff250ac32f17e9"
+  },
+  {
+   "index": 8,
+   "id": "number-9",
+   "structureRef": "numbers-12.v1:9",
+   "canonicalName": "Nine",
+   "groupId": "digit",
+   "ordinal": 9,
+   "meaning": {
+    "upright": "Nine finishes what the other digits started. It is the last of the single figures, and the Greek number philosophers called it the horizon, since past it the count only comes round again. Modern numerology reads Nine as completion and a wide compassion. It closes a chapter instead of dragging it past its stop, and its circle of concern reaches beyond the household Six kept, out toward strangers. Nine gives things away, the credit included. It can also leave early and call that wisdom. Where Nine lands, something ends, and the ending is part of the work.",
+    "inverted": "Endings arrive before anything is finished, and a chapter gets closed for the relief of closing it. Or nothing is allowed to end at all, and the old thing is dragged past its natural stop, taking up the room the next thing needed.",
+    "keywords": [
+     "Completion",
+     "The Horizon",
+     "Wide Compassion",
+     "Letting Go"
+    ]
+   },
+   "visual": {
+    "description": "Nine stones in three rows of three fill a square grooved into a tray of sand, the fullest square any single digit makes. Red ochre traces how the odd numbers fold round one another to build it. The corner stone is a ruby, and the plaque below is iron.",
+    "dominantMotifs": [
+     "principle"
+    ],
+    "altText": "Nine: nine stones filling a square drawn in sand, a ruby at its corner.",
+    "image": {
+     "file": "number-9.webp",
+     "widthPx": 720,
+     "heightPx": 1200,
+     "sha256": "bb2307758f530ccb707580af4ee890c27fbabf731f92af385dd5d06ade83c192"
+    }
+   },
+   "lore": "Close the door properly so the next one opens.",
+   "motifTags": [
+    "principle"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "metadata": {
+    "lifePath": "A road that gives widely and lets go often, whose lesson is to finish well rather than leave early.",
+    "personalYear": "A year of endings and clearing out, as the nine-year round closes and what is let go makes room for the next One.",
+    "drawn": "What is already over that you are still carrying?",
+    "classical": "Classical: the last and greatest number within ten, after which the count only repeats; the Theology of Arithmetic says it was called Oceanus and the horizon.",
+    "modern": "Modern: twentieth-century numerology reads Nine as completion and a wide compassion, and closes its nine-year round with it.",
+    "correspondence": "Correspondence: Cheiro gives Nine to Mars, with the crimsons and reds for its colours and the ruby and garnet among its stones. Its plaque is iron, Mars's metal."
+   },
+   "contentHash": "677f3f58a79ee86fe9781ad80c91dc1ce02681d2a71c1fcd517fca55edf9b8e7"
+  },
+  {
+   "index": 9,
+   "id": "number-11",
+   "structureRef": "numbers-12.v1:11",
+   "canonicalName": "Eleven",
+   "groupId": "master",
+   "ordinal": 11,
+   "meaning": {
+    "upright": "Eleven is Two carrying more current than a pair usually holds. It belongs to modern numerology alone. L. Dow Balliett, early in the twentieth century, ruled that it should be kept whole rather than reduced to Two, and the practice stuck. Read that way, Eleven is Two heightened: the same attention to the other person, turned up until it picks up what has not been said yet. It can inspire and it can overload, often in the same week. Eleven is also, plainly, Two, with the patience and the pairing intact. Where it lands, intuition runs ahead of evidence, and the nerves come with the gift.",
+    "inverted": "The sensitivity has nowhere to put what it picks up, so the current runs without an outlet and wears out wiring built for ordinary Two. When the charge goes flat, only the plain pairing is left, watchful and kind and no longer lit.",
+    "keywords": [
+     "Heightened Two",
+     "The Charge",
+     "Intuition",
+     "Live Wire"
+    ]
+   },
+   "visual": {
+    "description": "The numerals 1 and 1 are pressed side by side into a tray of sand above two pairs of stones. Each pair faces across its own small gap measured in red ochre, the single pair of Two doubled. One stone is jade, and the plaque is silver, the metal of its root.",
+    "dominantMotifs": [
+     "principle"
+    ],
+    "altText": "Eleven: two pairs of stones, each across its own measured gap, in a tray of sand.",
+    "image": {
+     "file": "number-11.webp",
+     "widthPx": 720,
+     "heightPx": 1200,
+     "sha256": "ffbf67281686fa7144f0b056b13fc14602f56829ee20d524d40cff7ce87c7bfd"
+    }
+   },
+   "lore": "Notice what hasn't been said yet.",
+   "motifTags": [
+    "principle"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "metadata": {
+    "lifePath": "A road of heightened sensitivity and sudden insight, which has to learn to ground the current before it can use it.",
+    "personalYear": "A year when intuition runs loud and meetings feel charged, and when rest matters more than it seems to.",
+    "drawn": "What have you already sensed that you are still waiting for proof of?",
+    "classical": "Classical: the old number philosophy counted to ten and stopped. It has nothing to say about eleven as a master number.",
+    "modern": "Modern: L. Dow Balliett kept Eleven whole instead of reducing it to Two, and numerologists since have read it as a master number, Two heightened.",
+    "correspondence": "Correspondence: Cheiro kept no master numbers. Read by its root, Eleven falls to Two and the Moon, and its plaque is silver."
+   },
+   "contentHash": "41c1728f0f9e8220a7cb12de5a8e0ed962187f4b974bfd4099ac9b6f09a1e92d"
+  },
+  {
+   "index": 10,
+   "id": "number-22",
+   "structureRef": "numbers-12.v1:22",
+   "canonicalName": "Twenty-Two",
+   "groupId": "master",
+   "ordinal": 22,
+   "meaning": {
+    "upright": "Twenty-Two is Four with the ambition to build at a scale one frame cannot hold. Like Eleven it is a twentieth-century rule, a number modern numerology keeps whole instead of reducing, and it reads Twenty-Two as the master builder. It has the care Four takes over a foundation, aimed at something large enough to hold other people: a bridge, a school, an institution. It thinks in decades. Twenty-Two is also, plainly, Four, with the level and the corner and the course laid on course. Where it lands, the plan is big and practical at once, which is rarer than it sounds.",
+    "inverted": "The scale of the plan crushes the patient labour Four needs to finish anything, and the institution stays a drawing. Shrunk the other way, the vision falls back to a single frame that is competent and small, and the larger building is never attempted.",
+    "keywords": [
+     "Master Builder",
+     "Scale",
+     "Practical Vision",
+     "The Long Build"
+    ]
+   },
+   "visual": {
+    "description": "The numerals 2 and 2 are pressed into a tray of sand above two squares of four stones grooved side by side, the plan of a second room built onto the first with a doorway between them. One stone is a sapphire, and the plaque takes the blue-green of Four, its root.",
+    "dominantMotifs": [
+     "object",
+     "layout"
+    ],
+    "altText": "Twenty-Two: two squares of four stones drawn side by side in sand, like two rooms.",
+    "image": {
+     "file": "number-22.webp",
+     "widthPx": 720,
+     "heightPx": 1200,
+     "sha256": "957ce15435031455f045ad1168d3948a6c0ac0680dd3bbcdac1018a46e453cbb"
+    }
+   },
+   "lore": "Build it to outlast you.",
+   "motifTags": [
+    "object",
+    "layout"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "metadata": {
+    "lifePath": "A road for building what outlasts the builder, asked to make something large and then to finish it by hand.",
+    "personalYear": "A year to build at scale, when a big plan becomes possible as long as it is made practical, one course at a time.",
+    "drawn": "What would you build if you planned for it to outlast you?",
+    "classical": "Classical: the old number philosophy counted to ten and stopped. It has nothing to say about twenty-two as a master number.",
+    "modern": "Modern: Balliett kept Twenty-Two whole as she did Eleven, and numerologists read it as the master builder, Four at scale.",
+    "correspondence": "Correspondence: Cheiro kept no master numbers. Read by its root, Twenty-Two falls to Four and Uranus, with the sapphire for its stone."
+   },
+   "contentHash": "9e6ecd192423b37a1fa6e1d58c0ba94c22b63b5105eb3e0b44847bd6300f9b18"
+  },
+  {
+   "index": 11,
+   "id": "number-33",
+   "structureRef": "numbers-12.v1:33",
+   "canonicalName": "Thirty-Three",
+   "groupId": "master",
+   "ordinal": 33,
+   "meaning": {
+    "upright": "Thirty-Three is Six with the household widened to whoever needs teaching. It is the youngest of the master numbers, added by later numerologists to the two Balliett kept whole, and it is read as the master teacher, care grown into a calling. It keeps the instinct Six has to look after the room, widened to a street or a school, and it teaches mostly by example: the patient explanation, the second try, staying on after the lesson has technically ended. Thirty-Three is also, plainly, Six. Where it lands, service is the point, and the risk is giving until nothing is left.",
+    "inverted": "The care spreads so wide that nobody close gets any of it, and the calling becomes a way to avoid the people at home. Shrunk down, it goes back to a single household that is kind and tired, and the wider room it could have taught stays empty.",
+    "keywords": [
+     "Master Teacher",
+     "Wide Care",
+     "Service",
+     "Taught By Example"
+    ]
+   },
+   "visual": {
+    "description": "The numerals 3 and 3 are pressed into a tray of sand above two triangles of three stones set point to point, like two small tables pulled together for a crowd. One stone is a turquoise, and the plaque below is copper, the metal of Six, its root.",
+    "dominantMotifs": [
+     "people",
+     "principle"
+    ],
+    "altText": "Thirty-Three: two triangles of stones set point to point in a tray of sand.",
+    "image": {
+     "file": "number-33.webp",
+     "widthPx": 720,
+     "heightPx": 1200,
+     "sha256": "14b375ba6c3fabcc1c69e7eb5c3ed82966b6fce854299c50c5bea9e99b0f7de3"
+    }
+   },
+   "lore": "Stay after the lesson technically ended.",
+   "motifTags": [
+    "people",
+    "principle"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "metadata": {
+    "lifePath": "A road of service and teaching by example, asked to care widely without spending itself down to nothing.",
+    "personalYear": "A rare year of service and responsibility for others, in which helping teaches as much as it asks.",
+    "drawn": "Who are you caring for so widely that the nearest people go without?",
+    "classical": "Classical: the old number philosophy counted to ten and stopped. It has nothing to say about thirty-three as a master number.",
+    "modern": "Modern: a later addition to the two master numbers Balliett kept whole; numerologists who use it read it as the master teacher, Six widened.",
+    "correspondence": "Correspondence: Cheiro kept no master numbers. Read by its root, Thirty-Three falls to Six and Venus, with the turquoise for its stone and copper for its plaque."
+   },
+   "contentHash": "8ce7d3c22686455dc6fb6d7d3dc2f09aaa9a03adaa4a97f2b813cb34716cbd10"
+  }
+ ]
+}

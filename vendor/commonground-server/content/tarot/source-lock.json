@@ -1,0 +1,594 @@
+{
+  "repository": "worflor/cartomancy-private",
+  "verified_ref": "f990fcf610f0a2676e0f29b1231760e08332a167",
+  "files": [
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/pack.json",
+      "destination": "modules/rider/pack.json",
+      "git_blob": "7d2be72e4f530621a819c952e57b7a5ab789eec1",
+      "sha256": "c1479a06bfb92149c1634ecf5f19b96cb8c06d1bd48ad055cd5c6a8f5be25bd3"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/deck.json",
+      "destination": "modules/rider/deck.json",
+      "git_blob": "e8bee61ae9855d0734fefc044d7f6de1c8668e41",
+      "sha256": "6636d2f003cf88d71aefbb9d2da4f353e3fff5a09ec490b44f1345ee65cc3987"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/back.png",
+      "destination": "modules/rider/back.png",
+      "git_blob": "82d1fe6ac53867cc99534d21fc26c3e5e5610c8a",
+      "sha256": "af76699d3811b68b250eca6faf359bfc398e2add69ca5df981fb8b81422dfd77"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/major-0.png",
+      "destination": "modules/rider/major-0.png",
+      "git_blob": "e04f34a6b9cf975401298d4f42d14848efb0b25a",
+      "sha256": "477ecfd859b0c8262db75ca647e29bd3b6ed62cad4402bc09a9f735a0cd151af"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/major-1.png",
+      "destination": "modules/rider/major-1.png",
+      "git_blob": "da811d15c934e75b0588e0c8b4bc8ba5da1bc1e5",
+      "sha256": "aa929a8512fb5f45d63abc1872901689aa0b2f45a7a0f9f1a859f1ecc19d914a"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/major-2.png",
+      "destination": "modules/rider/major-2.png",
+      "git_blob": "f4a78fea3a76d77ff920bf08aea5d7b9f20fb2d3",
+      "sha256": "679e9bb3b4c020383c86c3da312107b9be687c26159043ce03ee641365553179"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/major-3.png",
+      "destination": "modules/rider/major-3.png",
+      "git_blob": "a0b43f85338317edbc78541620921ff26fb70922",
+      "sha256": "f66be6cf30a6faf827a43de5c568e603902c627b1cfc6e8f6c5845854fe9925e"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/major-4.png",
+      "destination": "modules/rider/major-4.png",
+      "git_blob": "cadba7382be02d01548877e953b43052a1e9ae09",
+      "sha256": "5dda34023bd78cffca5777fd3e65dabc8b62a64dff8f3a9685a88ce6aca4633a"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/major-5.png",
+      "destination": "modules/rider/major-5.png",
+      "git_blob": "64a62a057176f2a22e3b3b701ca39e2586a1c995",
+      "sha256": "1bd2aae24007196308e43a346a10c22330dc519eca07e4a5d9436c790ad930d6"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/major-6.png",
+      "destination": "modules/rider/major-6.png",
+      "git_blob": "cfbfb1d98349a135de61850d960420a2f8657e51",
+      "sha256": "11faaa8c95579bd8aa2691161d3250f6d04c191df8c95cc846ff114e9663dd4c"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/major-7.png",
+      "destination": "modules/rider/major-7.png",
+      "git_blob": "513ed1f85c10c7ceee22348e91fa70da7663fe85",
+      "sha256": "83c978d200c29496a5f18163405264b0ac622279d1548b5c2a8faab71b233566"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/major-8.png",
+      "destination": "modules/rider/major-8.png",
+      "git_blob": "f26b434f31b71c0d322340daa9a46b10dbe9e6b1",
+      "sha256": "f68af73636875fc6092dc562abfb530775290b9d774283a6c56c4e5a83a4a877"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/major-9.png",
+      "destination": "modules/rider/major-9.png",
+      "git_blob": "e8b8340cd1f29e2f1376d7f221308032201ab409",
+      "sha256": "a11b5b909ca01dbb2caef5b91be01370ed41f2970b78f33ca9c73527585daf2f"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/major-10.png",
+      "destination": "modules/rider/major-10.png",
+      "git_blob": "839ba8f018c10dbfe4a2d0c768565d1d55b90bac",
+      "sha256": "0e183a2f9ccfb20ba6cea5e46b4f5efb0e5ebbc6b8d0ef99b5ce51f9066d2b81"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/major-11.png",
+      "destination": "modules/rider/major-11.png",
+      "git_blob": "55c0b5cba15b64f905a7a141adf47211c4937955",
+      "sha256": "15a5dde6730e0d658061f6326a2520ac07e052558cc9229cbe047c884f258e24"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/major-12.png",
+      "destination": "modules/rider/major-12.png",
+      "git_blob": "5629b5a0f30378ed2adefc7c33e5e75828c97e9d",
+      "sha256": "2b17949fb014071f28794c7575cabb1ebb3c5256ed2b1b474696aff137b4935f"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/major-13.png",
+      "destination": "modules/rider/major-13.png",
+      "git_blob": "84c4bdc712ff4caf986f9c2526d674f137f7d495",
+      "sha256": "403374d9c12bb1a17cef551f9840ee416fd8ef733484b938ec8f56edae2f575f"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/major-14.png",
+      "destination": "modules/rider/major-14.png",
+      "git_blob": "80885ca450bec9ce8a67db75b50eff1b287a9826",
+      "sha256": "811de44a494e8bf36bc7190a3acb0e6f970965700f2b8f7aac467731db612a03"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/major-15.png",
+      "destination": "modules/rider/major-15.png",
+      "git_blob": "7ebaa26fb9c7c5240a2e31cd61f26c37d4cc9279",
+      "sha256": "831a545e211509df1290c98f36fc6a96f78abbfc79c3008bd376b78e61c50650"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/major-16.png",
+      "destination": "modules/rider/major-16.png",
+      "git_blob": "6d5549c4fe43023f82e5dd18baa82a41b9b4cf98",
+      "sha256": "d7f61e23652fc501406ecc9a46f4719c03fdd5086affe5f430113f762ec371d3"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/major-17.png",
+      "destination": "modules/rider/major-17.png",
+      "git_blob": "98287381204cf56b0757d6c2b28afd40a4b8f221",
+      "sha256": "c8dd96f38608e6022e1adfb030c2cf1e16a412c04b30172d1def350ca6e51964"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/major-18.png",
+      "destination": "modules/rider/major-18.png",
+      "git_blob": "5b01716c8f5abe6f3de415b2a29458e34bd1818d",
+      "sha256": "aa876decdcdf9cb2d5dd683e73c5da35084131d67bf12f14a57e3eebda45e3d2"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/major-19.png",
+      "destination": "modules/rider/major-19.png",
+      "git_blob": "6ff5fc8fd33fb23e969df85bebdb50e21b9cc7df",
+      "sha256": "8aa24b1ba27810a73c79445b33f445d0646f1645126c5d3922d0e73d6c601cf3"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/major-20.png",
+      "destination": "modules/rider/major-20.png",
+      "git_blob": "281f7c91470182de2a7182fda4f5871f100b7f9b",
+      "sha256": "36bb7eae474f164b22c7c4aaf99910e2ab81b4fa36ed3add07e7d3e11b0d0f09"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/major-21.png",
+      "destination": "modules/rider/major-21.png",
+      "git_blob": "ab60747274ff01721198c5262ffe82e644eef650",
+      "sha256": "5ee3548e6295743412ee8a5c1ebc7721580481cdbc8d2572d477e13793d02d9e"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/wands-ace.png",
+      "destination": "modules/rider/wands-ace.png",
+      "git_blob": "186761a837f3ea2bbc10075e67941ff08b78c4d6",
+      "sha256": "d87d864f77fd7ae5db1f157cf506679e10aa8db20b520bd578f9f78c2ca62c69"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/wands-two.png",
+      "destination": "modules/rider/wands-two.png",
+      "git_blob": "18d7149ccbc94fd3945e7046ed584e7e115dc5e7",
+      "sha256": "d503eddb7c0f4898346593a0cbc3aa020ceb943d529bc8386bf86dd9f9d7ee08"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/wands-three.png",
+      "destination": "modules/rider/wands-three.png",
+      "git_blob": "31217b5be4186c13cccf4bc3c3e712c567be2f74",
+      "sha256": "92de8e58ad2eb20dd541479b4907df3897ad4446c553dc35985c5cbd6b1ead22"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/wands-four.png",
+      "destination": "modules/rider/wands-four.png",
+      "git_blob": "d5e84b73a8a40275601cc3ebabd3d0c5683c6db6",
+      "sha256": "581e72e3af19df567288a52b0f1fd9abf95ce676256285eb2678898af74e080e"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/wands-five.png",
+      "destination": "modules/rider/wands-five.png",
+      "git_blob": "43acceaa9098eee62e5ee06e76e3424d80ca867e",
+      "sha256": "36fafe387e4a440b98130f646082a3df14adbef47f397026d4baedf4dba60593"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/wands-six.png",
+      "destination": "modules/rider/wands-six.png",
+      "git_blob": "c78ae70dab1a95a103b8ac3e029b65be5e8464bb",
+      "sha256": "df62de51828408aeaded0f386f573fdaad1399bb4c9af4b4f55ae326d89ec914"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/wands-seven.png",
+      "destination": "modules/rider/wands-seven.png",
+      "git_blob": "af1ba14625eabf8f3a41b62e1550f5d01fe2648e",
+      "sha256": "a209cb81717b84fe8116e2134df3631f41e2ee56eec302891507d6c6e3baa233"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/wands-eight.png",
+      "destination": "modules/rider/wands-eight.png",
+      "git_blob": "687f6527e279055c26292e5dd4f6b615edb74824",
+      "sha256": "83828b2abdfe4838fe0958d5b3295b901fd2101bc05ffe1ffbaae85df4c84c33"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/wands-nine.png",
+      "destination": "modules/rider/wands-nine.png",
+      "git_blob": "fbdf24c504728d017f7677c2f0dccbe6c991f2ce",
+      "sha256": "7ef6bba738ad1c2127bfa3b2b84b4e940d3d71ac6220ba6b7565545d38fa914f"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/wands-ten.png",
+      "destination": "modules/rider/wands-ten.png",
+      "git_blob": "df6b71badf23d3ee78319ba7dbd7f1be60468f4a",
+      "sha256": "d59e157a02c7a9a606eaa1c5828125faead1e33d298a7d68c5722e64461c9ac5"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/wands-page.png",
+      "destination": "modules/rider/wands-page.png",
+      "git_blob": "17ee4b25530f7c8e69f0cf271c9608c20af90962",
+      "sha256": "4cab31bd1be710bd643252ebfbe18626bc6432cfa0cfe7ed7872913f84f6819b"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/wands-knight.png",
+      "destination": "modules/rider/wands-knight.png",
+      "git_blob": "34896ba9ed02600500b8446e5a922f9f84b73799",
+      "sha256": "55a11770a18c1c011c631f466bd09f981baad0c5e98eca447781b1ed11fc9368"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/wands-queen.png",
+      "destination": "modules/rider/wands-queen.png",
+      "git_blob": "9f382e10cc391f4d14b7fbb647c18cceec28640f",
+      "sha256": "1abae60730e07953b74b3ccfcae6423eab61e1dbac673c24aa4e9b09b557969c"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/wands-king.png",
+      "destination": "modules/rider/wands-king.png",
+      "git_blob": "007cfe4ae2b2d539f0de26db4c745bc5d49b9b17",
+      "sha256": "e70b295fc0548ee9f449ba4796f25c4ba04ba14ca2cd882cba4cf0b555af03f1"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/cups-ace.png",
+      "destination": "modules/rider/cups-ace.png",
+      "git_blob": "339c4afba4960e44aeffee0b80242371d25284a3",
+      "sha256": "045d545902a226b8ed96c4b4303ffb82d2b7b40ba9f05f65b627b1a94e18ba56"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/cups-two.png",
+      "destination": "modules/rider/cups-two.png",
+      "git_blob": "5ba06dbfe674224856896c68149aaea10db21f6e",
+      "sha256": "c38e3a70615627c6ef503d5ae21d722d51e86fc932b49bc3ff42a0c25fe6f692"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/cups-three.png",
+      "destination": "modules/rider/cups-three.png",
+      "git_blob": "ecd6a5f1799c908736de61b0be3b058684d22f93",
+      "sha256": "bbf3e52c47ba02ecbc82e8c66bb2a60c4b5685c166d15e493efaf55c87a25899"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/cups-four.png",
+      "destination": "modules/rider/cups-four.png",
+      "git_blob": "d82f6f9cf7c2322c3e1aae236996e1c8bdd14523",
+      "sha256": "c59064b7c9e868df4a6f7be2e6146f0866bc5160714a88d2c064cd6d663151d1"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/cups-five.png",
+      "destination": "modules/rider/cups-five.png",
+      "git_blob": "c194a6b0ef1cb9f584d12698b8c78ef9edd0f185",
+      "sha256": "d12e4699534dde046abf0b44bab0383032e2d26d97a97ebac8d78ef1b20433aa"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/cups-six.png",
+      "destination": "modules/rider/cups-six.png",
+      "git_blob": "4485f5e9db5c44f75db72f1229665554cef1573f",
+      "sha256": "80da6cffdc1adb83501045aebf87aaa8e151fd14c8810848b9cd4295c5a1c878"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/cups-seven.png",
+      "destination": "modules/rider/cups-seven.png",
+      "git_blob": "6c05a4fd2b4754db16897ab77534f5bab0590444",
+      "sha256": "09f0bfad4409f8e9ce5a250edb504adcc7ceb80367981958d758d5053bdd578d"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/cups-eight.png",
+      "destination": "modules/rider/cups-eight.png",
+      "git_blob": "2f580a37533cb73dfd6f336d89315c472fdf0cfc",
+      "sha256": "01354e00bdbe086436ab813d5a7a5ecf431b537064410800724b8895adb99a9c"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/cups-nine.png",
+      "destination": "modules/rider/cups-nine.png",
+      "git_blob": "cb4dd8e0608fe68428483d0591ad589352781d10",
+      "sha256": "001a25d9fd318618695a3cf6a4c0f6e416ae34087d381144257a594bff4c361f"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/cups-ten.png",
+      "destination": "modules/rider/cups-ten.png",
+      "git_blob": "045cbc82804ab21b6b9d06d4aefb606e4074701e",
+      "sha256": "0fd73d6f7946742b3886ebcfb0e4762eb6ad599670ff8a395a7ba978d1f8cb52"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/cups-page.png",
+      "destination": "modules/rider/cups-page.png",
+      "git_blob": "adad802cfffdb8a3517b29356dfa8cd36e98be1b",
+      "sha256": "93cb8d372e588567b81094a90cee4219af36e447359fa314957a503a936180fe"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/cups-knight.png",
+      "destination": "modules/rider/cups-knight.png",
+      "git_blob": "507b1f46714f9d56c3dccb04df00680b11fec77f",
+      "sha256": "f6125f2a44f0b6633adafb796f42b0205a810cb26c74d2807fef866b453339ef"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/cups-queen.png",
+      "destination": "modules/rider/cups-queen.png",
+      "git_blob": "bc90652d0faf8a35e99a955818e754b67250293c",
+      "sha256": "6562e7f73ebaba03e49fc56b0aeea893a3875156525b309f38a5f9cfa8ccf592"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/cups-king.png",
+      "destination": "modules/rider/cups-king.png",
+      "git_blob": "dff3db47a96860c2ce81ca00291a3c49b8fbbb60",
+      "sha256": "e2199497d3ecddb32b255b44b211515b9c51f89b4dcd93d967a251530ebaa3f4"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/swords-ace.png",
+      "destination": "modules/rider/swords-ace.png",
+      "git_blob": "4252889396690cde9b9dfaf28adb3c004e4c26d6",
+      "sha256": "879d4b129bc524306cef34fa977750ec6ac01a4c498be3b5093959680cc666dc"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/swords-two.png",
+      "destination": "modules/rider/swords-two.png",
+      "git_blob": "48cb8ad25d5e4abd7b9d7c97275dfdc1df162125",
+      "sha256": "923d70247373b445b57ce3921a460c422adb1a3b3511e91dae70097e7e6e0935"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/swords-three.png",
+      "destination": "modules/rider/swords-three.png",
+      "git_blob": "ba2523015098acac75d687f50ab6c05b14886dfd",
+      "sha256": "e1d4426e753099d932cc9c46f4cc1290c6918f0aca50a4947bf014f4202a049d"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/swords-four.png",
+      "destination": "modules/rider/swords-four.png",
+      "git_blob": "0e4535d6953af1ba72ff574b6273b686739159f3",
+      "sha256": "6250efd7eff9e8d82dd2b4c5ad0d3903bede9811e7ce292b009ade49136cd4ae"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/swords-five.png",
+      "destination": "modules/rider/swords-five.png",
+      "git_blob": "90178ce6921c7fecb1f0d8445d3c9d3ba782be0e",
+      "sha256": "26b01febb4222483acb30e7f8a4f84aa2fde47ab14ac97b00652721fa2f1a6eb"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/swords-six.png",
+      "destination": "modules/rider/swords-six.png",
+      "git_blob": "82a252f6dd11e9c824ab5e4b9f2f288a3f9d5947",
+      "sha256": "b5df878bcd0fb21159db152a622fe4628d3de2e6187725c91b93d4fd362b9c71"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/swords-seven.png",
+      "destination": "modules/rider/swords-seven.png",
+      "git_blob": "53c70d914ac28b545656023b912f76facc0c699b",
+      "sha256": "255a125c099b62592b30b0c26682606289589f23309d348653c7e028e83c9731"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/swords-eight.png",
+      "destination": "modules/rider/swords-eight.png",
+      "git_blob": "c7798f4e76bb1bbb43ffca151534e156a9ef061a",
+      "sha256": "95291060481bd5bcb577a828922d911be00ca3dc9369f5b5a9c523694ff23e70"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/swords-nine.png",
+      "destination": "modules/rider/swords-nine.png",
+      "git_blob": "df6f99e78345e0b4ee1390ff518a90d35d4b3907",
+      "sha256": "c4c2399fc702c6f55b6c646a2c83467ff9174b262be2793bfd573e8dd6a76bc2"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/swords-ten.png",
+      "destination": "modules/rider/swords-ten.png",
+      "git_blob": "d15a5304ee1f158b7e5560423a7682179776a53e",
+      "sha256": "66119dd02a812ef565a325fb13daa02a89c13b7543a15d84fdd592654c5873f4"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/swords-page.png",
+      "destination": "modules/rider/swords-page.png",
+      "git_blob": "330e7d518385fdc2d44dec8008f62df9dae07d96",
+      "sha256": "f7e9fba570f5b58fa1f4ead6065bf4e15900ce6bff11c8055c5fe8cfa45cd087"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/swords-knight.png",
+      "destination": "modules/rider/swords-knight.png",
+      "git_blob": "07eafd4480e0195a177899fc9f18da87a9be51a7",
+      "sha256": "20812e05c3b2417bd3909a158be012546d4fb4d3f7dc88187d15079875a4e05d"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/swords-queen.png",
+      "destination": "modules/rider/swords-queen.png",
+      "git_blob": "322646e115cc3162f17c0ab0616a89f965744cfe",
+      "sha256": "84920d55dec2d7d1632daf0db3a4ff857f6b7660db45fa42cb86ecf0e6d31159"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/swords-king.png",
+      "destination": "modules/rider/swords-king.png",
+      "git_blob": "696277e2c83311b5091b26a7ebee18e1b835ab33",
+      "sha256": "08591a630ee879f8d5bdfb5207cf094a3d556f53783c6cf7c450038bddb11b6e"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/pentacles-ace.png",
+      "destination": "modules/rider/pentacles-ace.png",
+      "git_blob": "473ac80b7818502a6912c6e1a2b498c391f99024",
+      "sha256": "3ee99160b953544cf9fd855f657646ced94617f289049081339b6631c50a6a6f"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/pentacles-two.png",
+      "destination": "modules/rider/pentacles-two.png",
+      "git_blob": "2d14e80e4bb3a3a2b12afb01c89f1b705604084f",
+      "sha256": "5f9864b5e7676732d74024d8d26c3732f28c957f9cf04a9c61e252254ff1fdf3"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/pentacles-three.png",
+      "destination": "modules/rider/pentacles-three.png",
+      "git_blob": "5a6f4e62cba93d3b45accb56aa222423b2c1d0cb",
+      "sha256": "538d3bcd48b289c63f0baa1ca04388e1b770304f01a3e8b7fd8ab01f8cd02fda"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/pentacles-four.png",
+      "destination": "modules/rider/pentacles-four.png",
+      "git_blob": "58396466f924f06ab9298aa54a061d00036ea21f",
+      "sha256": "108cf2ba5209f6f153897516105e3ca0af52f0ccc2f223cb6f6d11575fbe85d6"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/pentacles-five.png",
+      "destination": "modules/rider/pentacles-five.png",
+      "git_blob": "b95254c546b6740198c60079289dc3b78be9ee5b",
+      "sha256": "a7544e09845b52bc05b475ee4b5eb90bbbad91cb60e5623e85c75400754909dc"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/pentacles-six.png",
+      "destination": "modules/rider/pentacles-six.png",
+      "git_blob": "a0aebae374017ac656c9b3193b080934d482efc6",
+      "sha256": "10facff27bbd74c0f257f485eee5ca878e12729f8bacf6da1931c0e84e5a03e6"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/pentacles-seven.png",
+      "destination": "modules/rider/pentacles-seven.png",
+      "git_blob": "62f034ea960f79507ebbff7020dce9bc5b3aec17",
+      "sha256": "a1cbf491132942e7ff8b3e522112a04b9391bd1a1aadee052892a1a2f8607c41"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/pentacles-eight.png",
+      "destination": "modules/rider/pentacles-eight.png",
+      "git_blob": "883aeb2c658cd5de146d2e814b6a3136d2533f1d",
+      "sha256": "698108a013438da5ef7e1901dc330b2f6ad8909e5f7cccbf4623e250fa5a0f62"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/pentacles-nine.png",
+      "destination": "modules/rider/pentacles-nine.png",
+      "git_blob": "d77cb44af63a1bd87c09295e5fd34b92699dcc7d",
+      "sha256": "cd5a3b21825e40c776873ef45303ca057c81917183a5db15c4020b9906f45513"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/pentacles-ten.png",
+      "destination": "modules/rider/pentacles-ten.png",
+      "git_blob": "0c25e81bf6dd5c6c5d428a590910d7f984b239af",
+      "sha256": "9c63251a3685502c9a7c460203423f879c279bbbc3dc3d02391024b042aae6c2"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/pentacles-page.png",
+      "destination": "modules/rider/pentacles-page.png",
+      "git_blob": "2366824648ca244b7361d7ac7e85deea135b1649",
+      "sha256": "ebc61f94414d249f49a0f4b078631116b0806af34bbd6b23c28621786f13ada6"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/pentacles-knight.png",
+      "destination": "modules/rider/pentacles-knight.png",
+      "git_blob": "342d206617c60a0bf5c7002bd578c723c5efa3bc",
+      "sha256": "0df84877f46936153535be0e2ebb82ceb6efad143641861fbe06315c6494d452"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/pentacles-queen.png",
+      "destination": "modules/rider/pentacles-queen.png",
+      "git_blob": "478fdf5f2f6eb2b9db321fb77d00a78c6ee6f7b9",
+      "sha256": "ec0487d54f34c6407a66afafc29bf8402b17947511763e14d08c1371d4d30321"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/smith-waite/pentacles-king.png",
+      "destination": "modules/rider/pentacles-king.png",
+      "git_blob": "ed0eda5b4adc8f768347e307a08b40f134fd29a8",
+      "sha256": "7c792ab5099cf8b8dc1a48f0c0c3c2bb3db9d369c68e24576cfbf0be8624a62d"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/numbers/pack.json",
+      "destination": "modules/numbers/pack.json",
+      "git_blob": "e45f280b1dc0dc2123f0e272136e88727b5c2bc3",
+      "sha256": "98589f6ee5ddff83259a2998ef240d1bbbf3c5ec537a3659660b1de0868ee9f8"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/numbers/deck.json",
+      "destination": "modules/numbers/deck.json",
+      "git_blob": "afd75417f2373f2dd10cc3c65467f65379f33f13",
+      "sha256": "e47b5631a6f01f90bf3112c681e450730fa1e008e769e22aa4c1376bb1007e54"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/numbers/back.png",
+      "destination": "modules/numbers/back.png",
+      "git_blob": "4081a630592d491de0af526c65e8ba877fb6ed98",
+      "sha256": "f512a8fdd66d1f13c60310597d759c8e4d27fad110249b6322f24d4e67c2520c"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/numbers/number-1.png",
+      "destination": "modules/numbers/number-1.png",
+      "git_blob": "ed3360739337f7dbdf6ab5613c283de31f7c7c39",
+      "sha256": "c151e41fe042699491e8eb12191f2431b0ee96e424145374d8d241eaa1bd859f"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/numbers/number-2.png",
+      "destination": "modules/numbers/number-2.png",
+      "git_blob": "d381132ea786304a7b5cee7aa927c1f000440075",
+      "sha256": "64831c4357d25a29e8ecf3c78c1847ddce6c9016deb6e967ca74c5712c04b431"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/numbers/number-3.png",
+      "destination": "modules/numbers/number-3.png",
+      "git_blob": "2510bc4e251ef4f37c8842059ff050a78de7881b",
+      "sha256": "f66a3be0a69f659593f750104fba6bf3145bee3d35cf2acda73b69a311f11fcb"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/numbers/number-4.png",
+      "destination": "modules/numbers/number-4.png",
+      "git_blob": "4dd624c48f285140827fa97f8174d4ce8f4bbad8",
+      "sha256": "b997e9ec3c515100c92f1b7e4072cda6917ebedd658a15f38cd18f42f57e2c6d"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/numbers/number-5.png",
+      "destination": "modules/numbers/number-5.png",
+      "git_blob": "b1d80075cc81aa9e7e220248138e33e7b78196c3",
+      "sha256": "5ccd9a46b6170926c04c738b5b8488f70ea5f17dbfab83ed960891077b45c311"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/numbers/number-6.png",
+      "destination": "modules/numbers/number-6.png",
+      "git_blob": "6c24d1145edf0e35153ca26fe75159e9cc112184",
+      "sha256": "7dee8f81c1462b8d913bcc8662bac7a707ac10e99b71545ad5de99a7c9e0dc4d"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/numbers/number-7.png",
+      "destination": "modules/numbers/number-7.png",
+      "git_blob": "0cc1975b7581f93cee639190c6a978856f2a2362",
+      "sha256": "6978d7d36bd97f9c366c4fb05485a83b24edcce2c461563d701f66edb5a6c708"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/numbers/number-8.png",
+      "destination": "modules/numbers/number-8.png",
+      "git_blob": "5577fea641df43a7b3845c514d82b785b9f5adc5",
+      "sha256": "286c5fed27b6128f63b9688d9e3510c3416ffad583420adc32370ac3f871e52b"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/numbers/number-9.png",
+      "destination": "modules/numbers/number-9.png",
+      "git_blob": "67eb36d9059280bb088873e9ac82149a12de6d04",
+      "sha256": "9d22469ac0bcf6cf841c7b4bf80cca448a16c99e2d32bc0cb14e1a3d73f1c419"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/numbers/number-11.png",
+      "destination": "modules/numbers/number-11.png",
+      "git_blob": "ec7fd94898a4b0aaff3654de3e481446779b3248",
+      "sha256": "0a5f11f4542669d8623e43877da767b7aac2ccc200264b91561dea70174eb97f"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/numbers/number-22.png",
+      "destination": "modules/numbers/number-22.png",
+      "git_blob": "4652064cdcc9c83bd114782c8809d8bbd6f0857c",
+      "sha256": "1e59955d3f654f432fcb492238f97f1b9ee3a89e4bcae90db47e667334dc7f28"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/decks/numbers/number-33.png",
+      "destination": "modules/numbers/number-33.png",
+      "git_blob": "0f30c92c1a1b570741b5111350cc026849a5cfa6",
+      "sha256": "f6c6027e27c84ab73dff8d4e18c9517c0bd60c8b5efafff2934a8688963d9b5e"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/models/item/card.json",
+      "destination": "core/display-source.json",
+      "git_blob": "317d1fd80c8eb7bc846c72fe341d121f0f4f2c9a",
+      "sha256": "e7ccffdd9f048b70b2d07152b1153f13f39027fa1a75414c228dca914f5cc9f0"
+    },
+    {
+      "source": "src/main/resources/assets/cartomancy/textures/card/edge_vellum.png",
+      "destination": "core/edge_vellum.png",
+      "git_blob": "b6680a5538ab3f1ed0b85aa0dd955f19b3090804",
+      "sha256": "ea75b4f30b481e3abb61a13384cdd336790287bb00abfa194f4798ee94ad1f08"
+    }
+  ]
+}

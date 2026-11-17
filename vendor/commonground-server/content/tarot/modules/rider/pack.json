@@ -1,0 +1,4441 @@
+{
+ "manifest": {
+  "id": "smith-waite.v1",
+  "name": "Smith 1909",
+  "blurb": "The seventy-eight Pamela Colman Smith drew in 1909. A fool at the edge of a cliff, a hanged man who looks comfortable, ten swords in somebody's back.",
+  "voice": {
+   "register": "Reads the picture first: who is in it, what they are holding, which way they face, what the weather is doing behind them. Plain words, present tense, and the detail in the plate before any doctrine. A card is a scene somebody is standing in, and what it means is what is happening in the scene.",
+   "turned": "A card that lands turned is the same scene from the other side: what was steady has come loose, or what was loose has been put down. Say which, in the picture’s own terms."
+  },
+  "version": 1,
+  "locale": "en",
+  "author": "Lore",
+  "licenseId": "public-domain-smith-1909",
+  "kind": "deck",
+  "contentHash": "d4225b0cd3fcc97077db26fd6308a0e277133f9662d7e9d25f7a3acc3ba91dfb"
+ },
+ "system": {
+  "kind": "tarot",
+  "structureId": "rws-78.v1",
+  "orientation": "inverted",
+  "cardCount": 78,
+  "groups": [
+   {
+    "id": "major",
+    "label": "Major Arcana",
+    "ordinal": 0
+   },
+   {
+    "id": "wands",
+    "label": "Wands",
+    "ordinal": 1
+   },
+   {
+    "id": "cups",
+    "label": "Cups",
+    "ordinal": 2
+   },
+   {
+    "id": "swords",
+    "label": "Swords",
+    "ordinal": 3
+   },
+   {
+    "id": "pentacles",
+    "label": "Pentacles",
+    "ordinal": 4
+   }
+  ]
+ },
+ "vocab": {
+  "motifTags": [
+   "ritual",
+   "object",
+   "food",
+   "principle",
+   "media",
+   "habit",
+   "place",
+   "people",
+   "sound",
+   "light",
+   "movement",
+   "layout",
+   "objects",
+   "order",
+   "disorder"
+  ]
+ },
+ "art": {
+  "card": {
+   "longEdgeMm": 120,
+   "thicknessMm": 0.32,
+   "cornerRadiusMm": 3,
+   "front": {
+    "roughness": 0.85,
+    "metallic": 0,
+    "clearcoat": 0.12,
+    "clearcoatRoughness": 0.65,
+    "light": {
+     "returns": 0.055,
+     "colour": [
+      1,
+      0.98,
+      0.941
+     ],
+     "spread": 1.6,
+     "along": 0.063,
+     "shade": 0.07,
+     "shadeColour": [
+      0.157,
+      0.118,
+      0.086
+     ],
+     "grain": [
+      {
+       "pattern": "dots",
+       "pitchMm": 0.45,
+       "angleDeg": 0,
+       "depth": 0.05
+      }
+     ]
+    }
+   },
+   "back": {
+    "roughness": 0.85,
+    "metallic": 0,
+    "clearcoat": 0.12,
+    "clearcoatRoughness": 0.65,
+    "light": {
+     "returns": 0.055,
+     "colour": [
+      1,
+      0.98,
+      0.941
+     ],
+     "spread": 1.6,
+     "along": 0.063,
+     "shade": 0.07,
+     "shadeColour": [
+      0.157,
+      0.118,
+      0.086
+     ],
+     "grain": [
+      {
+       "pattern": "dots",
+       "pitchMm": 0.45,
+       "angleDeg": 0,
+       "depth": 0.05
+      }
+     ]
+    }
+   },
+   "edge": {
+    "roughness": 0.92,
+    "metallic": 0,
+    "light": {
+     "returns": 0.32,
+     "colour": [
+      0.93,
+      0.91,
+      0.86
+     ],
+     "shade": 0.16,
+     "shadeColour": [
+      0.157,
+      0.118,
+      0.086
+     ]
+    }
+   },
+   "edgeColour": [
+    0.93,
+    0.91,
+    0.86
+   ]
+  },
+  "back": {
+   "file": "back.webp",
+   "widthPx": 825,
+   "heightPx": 1425,
+   "sha256": "16dd29ee5d458133f09891c88626e4e73780d3b8631c610386d0639ec5d724ef"
+  },
+  "cover": {
+   "file": "cover.webp",
+   "widthPx": 500,
+   "heightPx": 866,
+   "sha256": "0b5d4a368e81a7d5cc3810ed7073fac6cf396610645bf7f5ea3e7fb06e9a0267"
+  }
+ },
+ "license": {
+  "attributionBlock": "Illustrations by Pamela Colman Smith, from the deck published by William Rider & Son, London, 1909, and in the public domain. The descriptions here describe that artwork. Meanings, keywords and reversed readings written for Lore, not adapted from A. E. Waite's The Pictorial Key to the Tarot or any other published guidebook. “Rider-Waite” is another party's trademark and is not used to describe this deck.",
+  "artProvenance": "public-domain",
+  "trainingUse": "never"
+ },
+ "cards": [
+  {
+   "index": 0,
+   "id": "major-0",
+   "structureRef": "rws-78.v1:major:0",
+   "canonicalName": "The Fool",
+   "groupId": "major",
+   "ordinal": 0,
+   "meaning": {
+    "upright": "You step off with the day's whole plan in a bundle on a stick, which is to say without one. Not knowing yet is the only condition under which some things get started at all.",
+    "inverted": "You have been standing at the same edge long enough to have memorised the drop. Calling it caution does not make the ground any closer.",
+    "keywords": [
+     "beginning",
+     "risk",
+     "openness",
+     "unknowing"
+    ]
+   },
+   "visual": {
+    "description": "A young figure in an embroidered tunic steps toward the edge of a cliff, chin up and eyes on the sky rather than the ground. A small bundle hangs from a stick over one shoulder and a white rose rests in the other hand. A small white dog leaps at their heel, and the sun stands behind them in a pale sky.",
+    "dominantMotifs": [
+     "movement",
+     "place",
+     "light"
+    ],
+    "altText": "A figure steps off a cliff edge with a bundle on a stick, a white rose, and a small dog leaping at their heel.",
+    "image": {
+     "file": "major-0.jpg",
+     "widthPx": 500,
+     "heightPx": 839,
+     "sha256": "f7f4b182d2566cfcc4fb1a8087d987d1d5ba29d41902cd03356adcdadbb2620c"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "major-0.usdz",
+       "bytes": 361324,
+       "sha256": "9d3ae1990b40b5f06ae9090179a91fd7a7527ff8f179f63aa27f42dd0230ff91"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "movement",
+    "place",
+    "light"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "916dea87f9878108ffeab09327f197dd41fada5bbcc2902edfe87f0f7495ba26"
+  },
+  {
+   "index": 1,
+   "id": "major-1",
+   "structureRef": "rws-78.v1:major:1",
+   "canonicalName": "The Magician",
+   "groupId": "major",
+   "ordinal": 1,
+   "meaning": {
+    "upright": "Everything you need is already on the table in front of you, and you are the one who has to pick something up. Capability is not the same as having used it yet.",
+    "inverted": "You keep arranging the tools into better rows and the arrangement keeps improving. A table set perfectly is not a thing made, and at some point laying it out has become what you do instead of the work.",
+    "keywords": [
+     "capability",
+     "will",
+     "focus",
+     "beginning work"
+    ]
+   },
+   "visual": {
+    "description": "A figure in white and red stands behind a table holding a cup, a coin, a sword, and a wand, one hand raised with a white wand toward the sky and the other pointing at the ground. A horizontal figure of eight floats above their head and a snake circles their waist. Roses and lilies crowd the foreground.",
+    "dominantMotifs": [
+     "object",
+     "principle",
+     "ritual"
+    ],
+    "altText": "A figure at a table bearing cup, coin, sword and wand, one arm raised and one pointing down, an infinity sign overhead.",
+    "image": {
+     "file": "major-1.jpg",
+     "widthPx": 500,
+     "heightPx": 866,
+     "sha256": "91e12ac4550ea5ba81ffcf176cb0f0e2fe8ec190af511a5b3db070b22e020216"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "major-1.usdz",
+       "bytes": 364725,
+       "sha256": "81b2ad838fbbac456d167762d47ca4c97499f2c4122718bdafe46ba3452ace53"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "lore": "The gesture is the whole card: one hand up, one hand down, the same person at both ends of it. Every reading of this card that leaves out the downward hand is only reading half.",
+   "motifTags": [
+    "object",
+    "principle",
+    "ritual"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "122b49e25ea7fda9823e0187c1aeb1813e9787ecaf8e2a016e882d6b93902ec0"
+  },
+  {
+   "index": 2,
+   "id": "major-2",
+   "structureRef": "rws-78.v1:major:2",
+   "canonicalName": "The High Priestess",
+   "groupId": "major",
+   "ordinal": 2,
+   "meaning": {
+    "upright": "You know something you have not said, and not saying it is not the same as hiding it. Some knowledge only stays accurate while it is still unspoken.",
+    "inverted": "The quiet has stopped being yours and started being a habit. What you are not saying has begun to keep things from you as well.",
+    "keywords": [
+     "inwardness",
+     "knowing",
+     "quiet",
+     "threshold"
+    ]
+   },
+   "visual": {
+    "description": "A veiled figure sits between one black pillar and one white, a crescent moon at her feet and a partly hidden scroll in her lap. A curtain of pomegranates hangs behind her, closing the space between the pillars. Her robe pools and runs like water toward the bottom of the card.",
+    "dominantMotifs": [
+     "place",
+     "principle",
+     "layout"
+    ],
+    "altText": "A veiled figure seated between a black and a white pillar with a crescent moon at her feet and a scroll half hidden in her lap.",
+    "image": {
+     "file": "major-2.jpg",
+     "widthPx": 500,
+     "heightPx": 859,
+     "sha256": "7c80428131233457e7b213d94e70c20834cfc91e68029bac86abdaf351f35d5a"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "major-2.usdz",
+       "bytes": 384915,
+       "sha256": "25d2ae27f529f4de6fa2365db21fc972c9543d1e0916386374b6c95b7a6bed0b"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "place",
+    "principle",
+    "layout"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "b14967911dca7c2f2430d74006d4715336cf3f10383f38ed1d7940e5517b63fd"
+  },
+  {
+   "index": 3,
+   "id": "major-3",
+   "structureRef": "rws-78.v1:major:3",
+   "canonicalName": "The Empress",
+   "groupId": "major",
+   "ordinal": 3,
+   "meaning": {
+    "upright": "Something you tended without hurrying it has come in. Abundance here is not luck; it is the season after a lot of unglamorous watering.",
+    "inverted": "You keep tending long after the harvest, unable to let the thing be finished and be eaten. Something grown well and never taken in spoils in exactly the same way as something neglected.",
+    "keywords": [
+     "abundance",
+     "tending",
+     "growth",
+     "comfort"
+    ]
+   },
+   "visual": {
+    "description": "A crowned figure reclines on cushions in a field of ripe wheat, a heart-shaped shield resting against the seat beside her. Trees stand close behind and a stream falls through them. Her gown is patterned with pomegranates and her crown carries twelve stars.",
+    "dominantMotifs": [
+     "place",
+     "food",
+     "people"
+    ],
+    "altText": "A crowned figure reclining on cushions in a wheat field, with a heart-shaped shield and a waterfall behind.",
+    "image": {
+     "file": "major-3.jpg",
+     "widthPx": 500,
+     "heightPx": 855,
+     "sha256": "2bbc894dde4f25251944379b44e9a363ed782d94ecbeefc05896b670bc5f99f7"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "major-3.usdz",
+       "bytes": 396514,
+       "sha256": "d7cb3bc5cc0bf8e04f79ac6f5104b992f849a0ba08b26073185821843a9e7d45"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "place",
+    "food",
+    "people"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "3d851a688f092f0d19a1b7e6285520d461ffaa2e77b485f2d36369f19675e342"
+  },
+  {
+   "index": 4,
+   "id": "major-4",
+   "structureRef": "rws-78.v1:major:4",
+   "canonicalName": "The Emperor",
+   "groupId": "major",
+   "ordinal": 4,
+   "meaning": {
+    "upright": "The rule holds because somebody is prepared to keep holding it, in public, where it can be argued with. Structure is a thing people do, not a thing that happens.",
+    "inverted": "The rule is still being enforced and nobody can remember what it was for. Authority that will not answer the question has stopped being structure and started being furniture.",
+    "keywords": [
+     "structure",
+     "authority",
+     "order",
+     "responsibility"
+    ]
+   },
+   "visual": {
+    "description": "A bearded figure in armour sits upright on a stone throne carved with four ram heads, an ankh-topped sceptre in one hand and an orb in the other. Bare orange mountains rise behind him and a thin river runs at their foot. Nothing in the picture is soft.",
+    "dominantMotifs": [
+     "principle",
+     "order",
+     "place"
+    ],
+    "altText": "An armoured figure on a stone throne carved with ram heads, holding a sceptre and orb before bare mountains.",
+    "image": {
+     "file": "major-4.jpg",
+     "widthPx": 500,
+     "heightPx": 859,
+     "sha256": "faf0951bf4d60e59fb1aca374fe35fe822dce7e3d311e003a3a5947bc4a619df"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "major-4.usdz",
+       "bytes": 389788,
+       "sha256": "1c6e29696a7848ed04ee8e5fe03e17de1cb05c4e82a62c3db5125b14b5ef914d"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "principle",
+    "order",
+    "place"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "b363d8363c32dc1ba2306ea6f16b38276c4c59dc106400fcf18923b7adeeddbb"
+  },
+  {
+   "index": 5,
+   "id": "major-5",
+   "structureRef": "rws-78.v1:major:5",
+   "canonicalName": "The Hierophant",
+   "groupId": "major",
+   "ordinal": 5,
+   "meaning": {
+    "upright": "Somebody is handing on the way it has always been done, and the handing on is doing real work. Not everything inherited is a weight.",
+    "inverted": "The form is being kept and the reason has been mislaid somewhere behind it. What is handed on now is the handing on, and everybody in the room can feel the difference without being able to name it.",
+    "keywords": [
+     "tradition",
+     "teaching",
+     "form",
+     "inheritance"
+    ]
+   },
+   "visual": {
+    "description": "A figure in triple vestments sits between two stone pillars, one hand raised in blessing and the other holding a triple cross. Two tonsured attendants kneel below in embroidered robes. Two crossed keys lie on the floor between them.",
+    "dominantMotifs": [
+     "ritual",
+     "people",
+     "principle"
+    ],
+    "altText": "A vested figure between two pillars blessing two kneeling attendants, with crossed keys on the floor.",
+    "image": {
+     "file": "major-5.jpg",
+     "widthPx": 500,
+     "heightPx": 861,
+     "sha256": "cd8adc2b1195db2bad4244c355fe0bb9d042e39421bc4d728a68b888c614bae2"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "major-5.usdz",
+       "bytes": 390846,
+       "sha256": "40d5b01e6f79f5cb4dedf94ced9fc116569fb6ddc4aa0200c4cdce4fb7931f06"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "ritual",
+    "people",
+    "principle"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "8bf6fc8eb6220219fd979c32dfd32f480065e5f595fc6977d4ad3f5fd8ef5660"
+  },
+  {
+   "index": 6,
+   "id": "major-6",
+   "structureRef": "rws-78.v1:major:6",
+   "canonicalName": "The Lovers",
+   "groupId": "major",
+   "ordinal": 6,
+   "meaning": {
+    "upright": "Two people stand in the open with nothing arranged between them yet. A choice made here is a choice about who you are going to be with somebody, not just about them.",
+    "inverted": "One of you has started deciding for both, and doing it kindly, without saying so out loud. A choice made on somebody's behalf is still a room they have to live in, and they will notice the walls before they notice who built them.",
+    "keywords": [
+     "choice",
+     "union",
+     "openness",
+     "two people"
+    ]
+   },
+   "visual": {
+    "description": "A naked man and woman stand apart in a green place, a flowering tree behind her with a serpent in it and a burning tree behind him. A winged figure rises out of cloud above them with arms spread over both. A grey mountain stands between and behind.",
+    "dominantMotifs": [
+     "people",
+     "place",
+     "principle"
+    ],
+    "altText": "A man and a woman standing apart beneath a winged figure in cloud, a serpent in the tree behind her.",
+    "image": {
+     "file": "major-6.jpg",
+     "widthPx": 500,
+     "heightPx": 856,
+     "sha256": "567b05ac660fd51a98b64b2de4b973c873ef03c5122361145f56a99a114a34dd"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "major-6.usdz",
+       "bytes": 403076,
+       "sha256": "e6ac56e8c706643c94b4ec44caa1808faaa93704c056084b322f75a3e48918a8"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "people",
+    "place",
+    "principle"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "b71ed67a4bc27472c08a46536853265925e4986c175f25eeb6a1e9a3aaa13b6a"
+  },
+  {
+   "index": 7,
+   "id": "major-7",
+   "structureRef": "rws-78.v1:major:7",
+   "canonicalName": "The Chariot",
+   "groupId": "major",
+   "ordinal": 7,
+   "meaning": {
+    "upright": "You are holding two things that want to go different ways and you are going anyway. Direction here is something applied every minute, not set once.",
+    "inverted": "The two are still pulling different ways and you have started calling the wobble a route. Holding a course you are not actually holding costs more than admitting the animals have won.",
+    "keywords": [
+     "direction",
+     "will",
+     "tension",
+     "momentum"
+    ]
+   },
+   "visual": {
+    "description": "An armoured figure stands in a stone chariot drawn by one black sphinx and one white, holding a wand and no reins at all. A starred canopy hangs above and a walled city recedes behind. A winged disc is carved on the front of the car.",
+    "dominantMotifs": [
+     "movement",
+     "order",
+     "principle"
+    ],
+    "altText": "An armoured figure in a chariot drawn by a black sphinx and a white one, holding a wand and no reins.",
+    "image": {
+     "file": "major-7.jpg",
+     "widthPx": 500,
+     "heightPx": 864,
+     "sha256": "8c6a551b9d86339e282cb7e59d8253527ae44472faba086783341f20374aec8c"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "major-7.usdz",
+       "bytes": 384005,
+       "sha256": "381f2d1d7b7bd8b4cc3d613ba9c6394987a270370b2b693cfbd2be8f6ea52b7d"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "lore": "There are no reins. Whatever is keeping those two animals pointed the same way is not in the picture, which is the part of this card worth sitting with.",
+   "motifTags": [
+    "movement",
+    "order",
+    "principle"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "fcfc7e344d7558d3d88f1b4efb5fdc3be5a33289def9a05399c8956182f3c1b6"
+  },
+  {
+   "index": 8,
+   "id": "major-8",
+   "structureRef": "rws-78.v1:major:8",
+   "canonicalName": "Strength",
+   "groupId": "major",
+   "ordinal": 8,
+   "meaning": {
+    "upright": "The hard thing gets done with an open hand and no hurry, and it works better than force would have. Being gentle is a method here, not a temperament.",
+    "inverted": "The patience has become a way of not saying no. Holding something calmly for long enough to avoid deciding about it is not strength.",
+    "keywords": [
+     "gentleness",
+     "patience",
+     "steadiness",
+     "courage"
+    ]
+   },
+   "visual": {
+    "description": "A figure in a white gown closes a lion's jaws with both hands, unhurried, the lion's tail low and its head tilted up toward her. A garland of flowers loops around her waist and a horizontal figure of eight floats above her head. The ground is pale and the sky is clear.",
+    "dominantMotifs": [
+     "people",
+     "movement",
+     "principle"
+    ],
+    "altText": "A figure in white calmly closing a lion's jaws with both hands, an infinity sign above her head.",
+    "image": {
+     "file": "major-8.jpg",
+     "widthPx": 500,
+     "heightPx": 861,
+     "sha256": "167de59e462c7b423734e80f6eab70bf4a167fc2335e3e7caf355bec5ccd1da9"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "major-8.usdz",
+       "bytes": 357322,
+       "sha256": "28d289c91869f354c574167f8d1f2ee4c170b5d2a8cc6f6ffc6e61cd70e4ad9b"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "people",
+    "movement",
+    "principle"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "2fe37cd23ba20c3ef392d985715fda8c8944ebb6add0f97a1eb80d1d7b7e6119"
+  },
+  {
+   "index": 9,
+   "id": "major-9",
+   "structureRef": "rws-78.v1:major:9",
+   "canonicalName": "The Hermit",
+   "groupId": "major",
+   "ordinal": 9,
+   "meaning": {
+    "upright": "You take the light and go up on your own, and what you find can only be found by somebody who went alone. Solitude here is a method.",
+    "inverted": "You have been up there a while now. A lamp held where nobody is looking for it lights nothing, and there is a point past which going alone stops being a method and becomes an address.",
+    "keywords": [
+     "solitude",
+     "searching",
+     "patience",
+     "light"
+    ]
+   },
+   "visual": {
+    "description": "A grey-robed figure stands on a snowy peak, head bowed, holding up a lantern with a six-pointed star burning inside it. The other hand rests on a long staff. Everything past the small circle of lamplight is dark blue and empty.",
+    "dominantMotifs": [
+     "place",
+     "light",
+     "habit"
+    ],
+    "altText": "A grey-robed figure on a snowy peak holding up a lantern with a star inside it, leaning on a staff.",
+    "image": {
+     "file": "major-9.jpg",
+     "widthPx": 500,
+     "heightPx": 855,
+     "sha256": "739dd2c93a4929e99a48fa2e2881f61970accc12c77a9b47061f03699c0113f3"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "major-9.usdz",
+       "bytes": 340643,
+       "sha256": "a393dc5af0a7c9075970430a2ede95f7d6f0a34c25ff704742675f6e51244d35"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "place",
+    "light",
+    "habit"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "e42efc19bc6a8b5f102e2cacbe8c51b2fb12b1ca9361cc6b2c45afbd12a64ccb"
+  },
+  {
+   "index": 10,
+   "id": "major-10",
+   "structureRef": "rws-78.v1:major:10",
+   "canonicalName": "Wheel of Fortune",
+   "groupId": "major",
+   "ordinal": 10,
+   "meaning": {
+    "upright": "The thing turned, and it did not turn because of anything you did. What is yours is not the turning but what you do on the way round, which is a smaller job and the only one on offer.",
+    "inverted": "You keep looking for the reason it turned. Some turns are only turns, and hunting the cause is a way of staying on the rim.",
+    "keywords": [
+     "turning",
+     "chance",
+     "timing",
+     "change"
+    ]
+   },
+   "visual": {
+    "description": "A great wheel hangs in a blue sky, lettered around its rim and marked with four alchemical signs at the spokes. A snake slides down one side, a dog-headed figure rises on the other, and a sphinx with a sword sits still at the top. A winged bull, lion, eagle and man read books in the four corners.",
+    "dominantMotifs": [
+     "movement",
+     "principle",
+     "order"
+    ],
+    "altText": "A lettered wheel in the sky with a snake descending one side and a sphinx seated at the top, winged figures reading in each corner.",
+    "image": {
+     "file": "major-10.jpg",
+     "widthPx": 500,
+     "heightPx": 870,
+     "sha256": "0f2cac244ade379f1a65b133a0d3720571b00d6a096af54ceb3f42cb9edbba2f"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "major-10.usdz",
+       "bytes": 391009,
+       "sha256": "4b4b5e5986581b8469d9453613bb73eb623f9b11e06dcf57d0fb89c84c7296a1"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "movement",
+    "principle",
+    "order"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "878c75fe6cbae17e0a0647632c51c0e8b3299afcbac98c64e3ddbe035982fc21"
+  },
+  {
+   "index": 11,
+   "id": "major-11",
+   "structureRef": "rws-78.v1:major:11",
+   "canonicalName": "Justice",
+   "groupId": "major",
+   "ordinal": 11,
+   "meaning": {
+    "upright": "What was actually owed against what was actually given, weighed with the story left out. The number holds whether or not it flatters anybody.",
+    "inverted": "The scale is being adjusted until it agrees with the verdict already arrived at: the decision in better clothes, not fairness measured after the fact.",
+    "keywords": [
+     "fairness",
+     "weighing",
+     "honesty",
+     "consequence"
+    ]
+   },
+   "visual": {
+    "description": "A crowned figure sits between two pillars holding an upright sword in the right hand and a level pair of scales in the left. A purple curtain hangs behind, closing the gap. One foot shows at the hem of the red robe.",
+    "dominantMotifs": [
+     "principle",
+     "object",
+     "order"
+    ],
+    "altText": "A crowned figure between two pillars holding an upright sword and level scales.",
+    "image": {
+     "file": "major-11.jpg",
+     "widthPx": 500,
+     "heightPx": 861,
+     "sha256": "a722bca07239a3f2eecd2cf3d2f82a36236950104d0d9e2e1725dbb405b30af9"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "major-11.usdz",
+       "bytes": 386625,
+       "sha256": "62def5cf146509894245da057308c10aa0aa9891d9c88b212104894629e9ca10"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "principle",
+    "object",
+    "order"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "f22b0518cf2b750e69997b121a6590c098c6d41c4e76f125ffe58636b14150af"
+  },
+  {
+   "index": 12,
+   "id": "major-12",
+   "structureRef": "rws-78.v1:major:12",
+   "canonicalName": "The Hanged Man",
+   "groupId": "major",
+   "ordinal": 12,
+   "meaning": {
+    "upright": "You are stuck in a position you did not pick and cannot yet leave, and the view from here is not available standing up. Suspension is doing something even though it looks like nothing.",
+    "inverted": "The waiting has quietly become the plan. A pause you have stopped intending to end is not a pause, and the view you were getting up there stopped being new some time ago.",
+    "keywords": [
+     "suspension",
+     "perspective",
+     "waiting",
+     "reversal"
+    ]
+   },
+   "visual": {
+    "description": "A figure hangs upside down by one ankle from a living T-shaped tree, the free leg crossed behind the other at the knee and hands hidden behind the back. The face is calm and a pale halo surrounds the head. The wood is green and still putting out leaves.",
+    "dominantMotifs": [
+     "movement",
+     "place",
+     "principle"
+    ],
+    "altText": "A figure hanging upside down by one ankle from a living wooden frame, calm, with a halo of light.",
+    "image": {
+     "file": "major-12.jpg",
+     "widthPx": 500,
+     "heightPx": 879,
+     "sha256": "3fbe3406aab02dce56385b982615d00295e77055a22a0c07d6e5bb7ae932b28d"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "major-12.usdz",
+       "bytes": 386578,
+       "sha256": "896b5cacc3460062e8918aa5ddef14e27e4c429ed797c7dc407b4f3c81ad235b"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "movement",
+    "place",
+    "principle"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "23202974ae662dfffb1717d9637fc2ffb417b413ec75e6495d850b5fbf4ee7ce"
+  },
+  {
+   "index": 13,
+   "id": "major-13",
+   "structureRef": "rws-78.v1:major:13",
+   "canonicalName": "Death",
+   "groupId": "major",
+   "ordinal": 13,
+   "meaning": {
+    "upright": "Something is over, and it is over whether or not anybody has agreed to it. What comes next is not a consolation for that. It just comes next.",
+    "inverted": "You are carrying the finished thing around, making arrangements for it, going to real trouble to avoid saying the word. It is over either way, and all that is left to decide is how long you spend not saying so.",
+    "keywords": [
+     "ending",
+     "change",
+     "finality",
+     "passage"
+    ]
+   },
+   "visual": {
+    "description": "An armoured skeleton rides a white horse across level ground, carrying a black banner with a white five-petalled rose. A bishop stands to meet it, a child kneels, and a crowned figure lies fallen beneath the hooves. Far behind, a river runs and the sun rises between two towers.",
+    "dominantMotifs": [
+     "movement",
+     "people",
+     "order"
+    ],
+    "altText": "An armoured skeleton on a white horse with a black rose banner, a bishop and a child before it and a fallen king beneath.",
+    "image": {
+     "file": "major-13.jpg",
+     "widthPx": 500,
+     "heightPx": 864,
+     "sha256": "e8e9aa20fcf49c2f6077b345f57b62ff85f03c8e0d2af328c498ae164cecb257"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "major-13.usdz",
+       "bytes": 394331,
+       "sha256": "379e3d02a3f09adb9cfaececc48fa94aa5cdea26323616419ef9c90134f4fd4f"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "lore": "The sun in the background is rising, not setting. Smith drew it between the two towers on purpose, and it is the detail most often left out of descriptions of this card.",
+   "motifTags": [
+    "movement",
+    "people",
+    "order"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "daf6232afef460112be464edd4f2cd0dadc258411decbee0d87381377c1c0df0"
+  },
+  {
+   "index": 14,
+   "id": "major-14",
+   "structureRef": "rws-78.v1:major:14",
+   "canonicalName": "Temperance",
+   "groupId": "major",
+   "ordinal": 14,
+   "meaning": {
+    "upright": "Two things that do not obviously go together are being combined slowly, by somebody paying attention to the mixture. The rate is the skill.",
+    "inverted": "You are pouring faster and calling it the same recipe. What made the mixture work was the rate it was made at, and skipping the one part that was the whole skill leaves you with two things in a cup.",
+    "keywords": [
+     "mixture",
+     "measure",
+     "patience",
+     "balance"
+    ]
+   },
+   "visual": {
+    "description": "A winged figure stands with one foot on land and one in a pool, pouring liquid between two cups in an unbroken stream that runs at an angle water does not run at. A path leads from the water's edge to distant hills, where a crown of light shows between two peaks. Irises grow at the bank.",
+    "dominantMotifs": [
+     "movement",
+     "place",
+     "ritual"
+    ],
+    "altText": "A winged figure with one foot on land and one in water, pouring between two cups in a single stream.",
+    "image": {
+     "file": "major-14.jpg",
+     "widthPx": 500,
+     "heightPx": 868,
+     "sha256": "248fc40d55f66fb01b2f4990086ed10739a5de31379e19708ac236d565beef5f"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "major-14.usdz",
+       "bytes": 403844,
+       "sha256": "2e8bfca9df186a7cf7576c18b0f62ec8adf669ad5e9e8976eacdc060caa313ac"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "movement",
+    "place",
+    "ritual"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "7b429bd32cdb4bd66df47ea8606168d7532abca371f402ae067de0b76dce005f"
+  },
+  {
+   "index": 15,
+   "id": "major-15",
+   "structureRef": "rws-78.v1:major:15",
+   "canonicalName": "The Devil",
+   "groupId": "major",
+   "ordinal": 15,
+   "meaning": {
+    "upright": "Something has you, and the arrangement is more comfortable than admitting it would be. Naming what you are getting out of it is the only part still yours.",
+    "inverted": "You keep announcing the escape, in some detail, to people who have heard it before. The announcement has become part of the arrangement, and it is doing the job leaving would have done.",
+    "keywords": [
+     "compulsion",
+     "arrangement",
+     "appetite",
+     "awareness"
+    ]
+   },
+   "visual": {
+    "description": "A horned figure with bat wings crouches on a half-cube, one hand raised and a lit torch lowered in the other. A naked man and woman stand chained to the block by loose collars, small horns growing on both, a tail on each. The chains are wide enough to lift over their heads.",
+    "dominantMotifs": [
+     "habit",
+     "people",
+     "disorder"
+    ],
+    "altText": "A horned winged figure on a block, with a chained man and woman below whose collars hang loose.",
+    "image": {
+     "file": "major-15.jpg",
+     "widthPx": 500,
+     "heightPx": 881,
+     "sha256": "b85551ae65c811c90a60a7a750c604acff5fdd794b4de23856a3f99d500773f3"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "major-15.usdz",
+       "bytes": 366819,
+       "sha256": "7284a34f758662646b93a6736abaee90706053858c25064fd6e412cce9956529"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "lore": "The chains are loose. Smith drew them deliberately slack, and the whole reading of this card in Lore follows from that one drafting decision.",
+   "motifTags": [
+    "habit",
+    "people",
+    "disorder"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "a2248650e14b051d506118f3a803c954a63d54c7ea8b7995eab0e59017e0030a"
+  },
+  {
+   "index": 16,
+   "id": "major-16",
+   "structureRef": "rws-78.v1:major:16",
+   "canonicalName": "The Tower",
+   "groupId": "major",
+   "ordinal": 16,
+   "meaning": {
+    "upright": "It goes all at once, and what was built on the wrong thing stops being built. Nothing about this is gradual and nothing about it is a mistake.",
+    "inverted": "You are sweeping the same rubble into smaller and smaller piles, hoping nobody asks what the foundation was. Tidying an aftermath is not the same as finding out why it fell.",
+    "keywords": [
+     "collapse",
+     "exposure",
+     "sudden change",
+     "aftermath"
+    ]
+   },
+   "visual": {
+    "description": "Lightning strikes the top of a tall stone tower on a dark peak and knocks its crown clean off. Two figures fall headfirst on either side, one crowned. Flames come out of three windows and small shapes of light fall through the black sky.",
+    "dominantMotifs": [
+     "disorder",
+     "light",
+     "place"
+    ],
+    "altText": "Lightning striking the crown off a tower on a dark peak, two figures falling headfirst on either side.",
+    "image": {
+     "file": "major-16.jpg",
+     "widthPx": 500,
+     "heightPx": 866,
+     "sha256": "7e7d5a138ff8e976b9c739a6f54a42804fb82ab4e82a92e328e63986ff061f7b"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "major-16.usdz",
+       "bytes": 363693,
+       "sha256": "f184ede20f683c1fb09a1833366d73e8f49fc77692f59f89479359a4432eb649"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "disorder",
+    "light",
+    "place"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "93a6437ad9c38455bf57f519ff0bf191a8eba7ab235be451ba8a62ed90cafd08"
+  },
+  {
+   "index": 17,
+   "id": "major-17",
+   "structureRef": "rws-78.v1:major:17",
+   "canonicalName": "The Star",
+   "groupId": "major",
+   "ordinal": 17,
+   "meaning": {
+    "upright": "After the worst of it, something plain and steady. Not a reward and not a promise; just water going back into the ground and the sky being clear.",
+    "inverted": "You are waiting for it to get bigger before you will count it. Small and steady was the whole offer, and holding out for a version that arrives with more noise is a way of going without.",
+    "keywords": [
+     "hope",
+     "quiet",
+     "replenishment",
+     "clarity"
+    ]
+   },
+   "visual": {
+    "description": "A naked figure kneels at a pool, one knee on the bank and one foot in the water, pouring from two jugs so that one stream feeds the pool and the other runs out across the grass in five rivulets. One large eight-pointed star and seven smaller ones stand in the sky. A bird sits in a tree behind.",
+    "dominantMotifs": [
+     "place",
+     "light",
+     "movement"
+    ],
+    "altText": "A kneeling figure pouring from two jugs into a pool and onto the grass, under one large star and seven small ones.",
+    "image": {
+     "file": "major-17.jpg",
+     "widthPx": 500,
+     "heightPx": 861,
+     "sha256": "abbbb92accdcc4cd66c1d84ac3e1ea17f9e8f1ba6ae442a2994d8cd9e1e527db"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "major-17.usdz",
+       "bytes": 371913,
+       "sha256": "a6192f80aa5374bb1200a6870697f59b7fe85296b395a24e28c18292c30a88fb"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "place",
+    "light",
+    "movement"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "7e2512d0003b0b91c21c352d6887ed0a0848a4d99ec785241410f88bf3fddd44"
+  },
+  {
+   "index": 18,
+   "id": "major-18",
+   "structureRef": "rws-78.v1:major:18",
+   "canonicalName": "The Moon",
+   "groupId": "major",
+   "ordinal": 18,
+   "meaning": {
+    "upright": "You cannot tell yet which of the things in front of you is tame. Going on without being sure is different from going on while pretending to be.",
+    "inverted": "You have decided which one is the dog, because deciding was more comfortable than not knowing. A guess made to end the discomfort is still a guess, and now it has your confidence behind it.",
+    "keywords": [
+     "uncertainty",
+     "night",
+     "instinct",
+     "half-light"
+    ]
+   },
+   "visual": {
+    "description": "A face in a crescent looks down from a full moon, with fifteen rays and fifteen drops falling from it. A dog and a wolf howl from either side of a path that runs from a pool in the foreground to two towers and the hills beyond. A crayfish is climbing out of the water onto the path.",
+    "dominantMotifs": [
+     "light",
+     "place",
+     "sound"
+    ],
+    "altText": "A moon with a face in it above a path between two towers, a dog and a wolf howling and a crayfish leaving the pool.",
+    "image": {
+     "file": "major-18.jpg",
+     "widthPx": 500,
+     "heightPx": 864,
+     "sha256": "3890d95f119b1a95519d1cbcbf279de32b6bc247510147e8d6c70e6225d5dbf7"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "major-18.usdz",
+       "bytes": 374859,
+       "sha256": "be5449951a2a5a96d86edf442d2c5ed1cdb457762a2da34bfe22db4baf0d046a"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "light",
+    "place",
+    "sound"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "2885ef809cd8b09132f30b56b7963ff788b04ae851114f76a6f638a7567a41ad"
+  },
+  {
+   "index": 19,
+   "id": "major-19",
+   "structureRef": "rws-78.v1:major:19",
+   "canonicalName": "The Sun",
+   "groupId": "major",
+   "ordinal": 19,
+   "meaning": {
+    "upright": "It is simply good, in daylight, with nothing hidden inside it and nothing owed for it. Some things do not need to be complicated to be true, and this is one of the days that is exactly what it looks like.",
+    "inverted": "You are checking the good thing for the catch, thoroughly, from several angles. The checking is what is spoiling it, and no amount of it ends with you satisfied there was nothing there.",
+    "keywords": [
+     "clarity",
+     "gladness",
+     "plainness",
+     "daylight"
+    ]
+   },
+   "visual": {
+    "description": "A naked child rides a white horse bareback out from behind a wall, arms open, a large red banner streaming overhead. Four tall sunflowers look over the wall. The sun above has a face and alternating straight and wavy rays.",
+    "dominantMotifs": [
+     "light",
+     "people",
+     "movement"
+    ],
+    "altText": "A naked child on a white horse with a red banner, riding out past a wall of sunflowers under a faced sun.",
+    "image": {
+     "file": "major-19.jpg",
+     "widthPx": 500,
+     "heightPx": 861,
+     "sha256": "3cc836dc40561fa3f14b28a342e8b54def0e4aacd6015d0eada2e1b3521e33f6"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "major-19.usdz",
+       "bytes": 397283,
+       "sha256": "618addf6405970a51efab83bc5ede4e4da615dbe09e54d2847028b987988c3e2"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "light",
+    "people",
+    "movement"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "fda17b6eb67f79d395d37e2b66a96c6f7877d0ad061192623109d9b5fb7fe8b8"
+  },
+  {
+   "index": 20,
+   "id": "major-20",
+   "structureRef": "rws-78.v1:major:20",
+   "canonicalName": "Judgement",
+   "groupId": "major",
+   "ordinal": 20,
+   "meaning": {
+    "upright": "Something you did a long time ago is being called back up, by name, and you are the one who has to answer to it. It is not an accusation. It is an accounting.",
+    "inverted": "You keep rehearsing the answer instead of giving it. Every version is better than the last and none of them has been said to the person waiting, which is the only place an answer does anything.",
+    "keywords": [
+     "reckoning",
+     "calling",
+     "account",
+     "rising"
+    ]
+   },
+   "visual": {
+    "description": "An angel leans from cloud and blows a straight trumpet with a square banner hanging from it. Below, grey figures rise with their arms open from open coffins floating on water, a man, a woman and a child in the foreground. Snow-covered mountains close the horizon.",
+    "dominantMotifs": [
+     "sound",
+     "people",
+     "ritual"
+    ],
+    "altText": "An angel in cloud blowing a trumpet while grey figures rise with open arms from coffins on the water.",
+    "image": {
+     "file": "major-20.jpg",
+     "widthPx": 500,
+     "heightPx": 861,
+     "sha256": "d3f318f1b010634fc126b0b71fb6390e3136e77eb1fdbe8d2330662b739ba748"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "major-20.usdz",
+       "bytes": 394695,
+       "sha256": "9c13f134f2cc8ae878b774e18f56c53f2372e1e9839f2892d3b8f8db7f72d528"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "sound",
+    "people",
+    "ritual"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "fa3a2cad993d0bdfb455f76f42a4f4067f4b129ffb3785e1652f6b2b623f0e86"
+  },
+  {
+   "index": 21,
+   "id": "major-21",
+   "structureRef": "rws-78.v1:major:21",
+   "canonicalName": "The World",
+   "groupId": "major",
+   "ordinal": 21,
+   "meaning": {
+    "upright": "The thing is finished, all the way round, and closing it is an event in its own right rather than the gap before the next one. Nothing here is asking what comes after, and that is not an oversight.",
+    "inverted": "You are looking for the next one before the last of this one has landed. A thing finished and immediately replaced never gets counted, and the ledger of what you have actually done stays strangely empty.",
+    "keywords": [
+     "completion",
+     "wholeness",
+     "closing",
+     "arrival"
+    ]
+   },
+   "visual": {
+    "description": "A figure moves inside a great green wreath bound at top and bottom, a short wand in each hand and a light drape crossing the body. A winged bull, lion, eagle and man occupy the four corners against blue. The wreath is closed and the figure is in the middle of a step.",
+    "dominantMotifs": [
+     "movement",
+     "order",
+     "principle"
+    ],
+    "altText": "A figure stepping inside a closed green wreath holding two wands, with four winged figures in the corners.",
+    "image": {
+     "file": "major-21.jpg",
+     "widthPx": 500,
+     "heightPx": 863,
+     "sha256": "5ed78e922aed3197619df93048b1ae69b83e28892c28ede03a4f6fd760df1eb8"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "major-21.usdz",
+       "bytes": 391244,
+       "sha256": "aae98c6fe294eaf30acab3940e2326e65d36915191e75c2bfdd9f1c136314b52"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "movement",
+    "order",
+    "principle"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "a72ba254247a8405bb965b9410ebe57f5e4702bf90f38493ba65a7117b38cf94"
+  },
+  {
+   "index": 22,
+   "id": "wands-ace",
+   "structureRef": "rws-78.v1:wands:1",
+   "canonicalName": "Ace of Wands",
+   "groupId": "wands",
+   "ordinal": 0,
+   "meaning": {
+    "upright": "An idea arrives with its own energy attached, before there is any plan for it. What you have is the impulse, and the impulse is genuinely something.",
+    "inverted": "The idea is still exciting and has been on the list for a month. Enthusiasm that never gets put down anywhere burns at about the same rate either way: a feeling about fuel, not fuel.",
+    "keywords": [
+     "impulse",
+     "beginning",
+     "energy",
+     "idea"
+    ]
+   },
+   "visual": {
+    "description": "A hand comes out of a cloud holding a leafy club upright, loose leaves falling away from it on both sides. Below, a river runs past a small green hill with a castle standing on it. The wood is still green and putting out shoots, as though it was cut this morning and has not noticed.",
+    "dominantMotifs": [
+     "object",
+     "movement"
+    ],
+    "altText": "A hand from a cloud holding a sprouting wooden club, with a castle on a hill below.",
+    "image": {
+     "file": "wands-ace.jpg",
+     "widthPx": 500,
+     "heightPx": 868,
+     "sha256": "280b2e5436c036e18d1cf59df71acb3db9eed6f225872442ba134eb2bbe1ff2d"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "wands-ace.usdz",
+       "bytes": 374516,
+       "sha256": "f1a653e28eb6078c7d2c0a615683e8c86ed6aa9772658efc892649d39a59dc45"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "object",
+    "movement"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "25e85664a6531f2f3404c39e716753745018327edba24a507eec8055f070fe48"
+  },
+  {
+   "index": 23,
+   "id": "wands-two",
+   "structureRef": "rws-78.v1:wands:2",
+   "canonicalName": "Two of Wands",
+   "groupId": "wands",
+   "ordinal": 1,
+   "meaning": {
+    "upright": "You have done the first thing and you are standing with the result in your hands, looking at what is further out. Deciding to go is separate from having gone.",
+    "inverted": "The view has become the activity. Standing on the wall every morning with the globe in your hand is not the same as leaving, and from the outside the two look identical for a surprisingly long time.",
+    "keywords": [
+     "planning",
+     "surveying",
+     "decision",
+     "before"
+    ]
+   },
+   "visual": {
+    "description": "A figure in a red cap stands on a castle rampart holding a small globe in one hand, one staff gripped in the other and a second staff fixed to the wall beside him. He looks out over sea and low hills. Lilies and roses are laid in a cross on the stone.",
+    "dominantMotifs": [
+     "place",
+     "object"
+    ],
+    "altText": "A figure on a castle wall holding a small globe, one staff in hand and another fixed beside him, looking out to sea.",
+    "image": {
+     "file": "wands-two.jpg",
+     "widthPx": 500,
+     "heightPx": 861,
+     "sha256": "c68da7b56cbfbdd3eb3cd4c93b2cf3f5e5369cad4398b091e83f27b2867ca120"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "wands-two.usdz",
+       "bytes": 368303,
+       "sha256": "667b7507964ff789492d78b9e8ebff433295884fc34c6c63ce27d8cb57b86363"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "place",
+    "object"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "09d5ca6299d93d7f23066bc1004e265e2aec4de97c823099280490948d4eb4fa"
+  },
+  {
+   "index": 24,
+   "id": "wands-three",
+   "structureRef": "rws-78.v1:wands:3",
+   "canonicalName": "Three of Wands",
+   "groupId": "wands",
+   "ordinal": 2,
+   "meaning": {
+    "upright": "The thing you set going is out of your hands and on its way somewhere. Watching it go is part of the work rather than a gap in it, and there is nothing useful to do with the waiting except do it.",
+    "inverted": "You keep calling it back to check on it. Nothing arrives that gets hauled in halfway, and each inspection costs the thing more distance than it costs you worry.",
+    "keywords": [
+     "departure",
+     "waiting",
+     "trust",
+     "underway"
+    ]
+   },
+   "visual": {
+    "description": "A figure in a rich cloak stands with his back to us on a high ledge, one hand resting on a staff, two more staves planted in the ground on either side of him. Below, small ships pass on a yellow sea between low headlands. He is not doing anything, and everything in the picture is already underway.",
+    "dominantMotifs": [
+     "place",
+     "movement"
+    ],
+    "altText": "A cloaked figure seen from behind on a ledge with three staves, watching ships cross a yellow sea.",
+    "image": {
+     "file": "wands-three.jpg",
+     "widthPx": 500,
+     "heightPx": 870,
+     "sha256": "8916f2abbe68a5aabd9ae1238155690a9ae43f32276316352abba92e33937d08"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "wands-three.usdz",
+       "bytes": 382928,
+       "sha256": "81e2d3432e3d74587d882b1404e00301a82caf80689bc8540897cc4e7878f854"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "place",
+    "movement"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "30ae5d16ca2d5bd91228b067e7bf470baa28e2cc3e6fa010c7fd17dfdd789564"
+  },
+  {
+   "index": 25,
+   "id": "wands-four",
+   "structureRef": "rws-78.v1:wands:4",
+   "canonicalName": "Four of Wands",
+   "groupId": "wands",
+   "ordinal": 3,
+   "meaning": {
+    "upright": "A thing is finished enough to be celebrated and the people are already arriving. Marking it now is how it becomes real to everybody else, not a jump ahead of itself.",
+    "inverted": "The gathering happened and nothing was actually said. A celebration that names nothing leaves the thing uncelebrated, and everybody goes home having attended something rather than having marked it.",
+    "keywords": [
+     "arrival",
+     "celebration",
+     "welcome",
+     "threshold"
+    ]
+   },
+   "visual": {
+    "description": "Four staves stand upright with a garland of flowers and fruit slung between their tops. Two figures beyond the garland raise bunches of flowers, with more people and a stone castle behind them. The light is broad and yellow.",
+    "dominantMotifs": [
+     "ritual",
+     "people",
+     "food"
+    ],
+    "altText": "Four staves garlanded with flowers and fruit, with figures raising bouquets before a castle.",
+    "image": {
+     "file": "wands-four.jpg",
+     "widthPx": 500,
+     "heightPx": 866,
+     "sha256": "a1354222f5eece5aa4af8960d229b603ad1bc915e9e11848e12764992ec10c85"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "wands-four.usdz",
+       "bytes": 362833,
+       "sha256": "39686985eeda335d6c5b884666738e63d94206739d082d9b212b38890b930b54"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "ritual",
+    "people",
+    "food"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "471a284939f42834d90a696d9c92339cd408f204445ede0f6f052dff5efe413b"
+  },
+  {
+   "index": 26,
+   "id": "wands-five",
+   "structureRef": "rws-78.v1:wands:5",
+   "canonicalName": "Five of Wands",
+   "groupId": "wands",
+   "ordinal": 4,
+   "meaning": {
+    "upright": "Everybody is pushing and nobody is actually fighting. Some disorder is just what a room full of people with ideas sounds like.",
+    "inverted": "The scuffle has been going long enough that somebody is going to get hurt, and everyone has forgotten it started as practice.",
+    "keywords": [
+     "scuffle",
+     "competition",
+     "noise",
+     "friction"
+    ]
+   },
+   "visual": {
+    "description": "Five young figures in differently coloured clothes wave staves at each other on bare open ground, none of the blows landing and none of the staves aligned with another. Their footing is loose and nobody is braced. The sky behind them is pale and empty, and there is no sign of what any of this is over.",
+    "dominantMotifs": [
+     "people",
+     "disorder",
+     "movement"
+    ],
+    "altText": "Five young figures waving staves at each other on open ground, no blow landing.",
+    "image": {
+     "file": "wands-five.jpg",
+     "widthPx": 500,
+     "heightPx": 866,
+     "sha256": "5d1c3fee3238bdce4f619fc17d93ba4f7c4101c249118f70a0873ab65a12df70"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "wands-five.usdz",
+       "bytes": 369712,
+       "sha256": "61d23eb579aef858a8a2b20ac0db2c1d72cd152a115a3aee3ed62d888279cd20"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "people",
+    "disorder",
+    "movement"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "d06e353f24c8d9f25804dd506508f5d914554955f71432a7a72569b9295e5cf2"
+  },
+  {
+   "index": 27,
+   "id": "wands-six",
+   "structureRef": "rws-78.v1:wands:6",
+   "canonicalName": "Six of Wands",
+   "groupId": "wands",
+   "ordinal": 5,
+   "meaning": {
+    "upright": "It went well and people can see that it went well. Being acknowledged out loud is a real thing to have, and pretending not to want it is its own kind of dishonesty.",
+    "inverted": "The parade is still going. Applause you keep going back for stops being about the thing you did, and the horse gets tired long before the crowd does.",
+    "keywords": [
+     "recognition",
+     "success",
+     "public",
+     "return"
+    ]
+   },
+   "visual": {
+    "description": "A rider in a laurel wreath sits on a horse draped in green cloth, holding a staff with a second wreath tied to it. Figures walk alongside carrying five more staves, their heads below his. The horse is walking, not galloping.",
+    "dominantMotifs": [
+     "people",
+     "ritual",
+     "movement"
+    ],
+    "altText": "A wreathed rider on a draped horse holding a garlanded staff, walking among five figures with staves.",
+    "image": {
+     "file": "wands-six.jpg",
+     "widthPx": 500,
+     "heightPx": 859,
+     "sha256": "5463bf257bc90717e20962314901c53d7f5c8be4559699ac58575f6b74f04088"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "wands-six.usdz",
+       "bytes": 376599,
+       "sha256": "0384ef16497da07e624751d0bbd50d411bd639b9dd058f685269103b70a529f6"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "people",
+    "ritual",
+    "movement"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "382c952dfee56f83979972995797ae0a341600b25f47a1631aa0c48c2413a8e4"
+  },
+  {
+   "index": 28,
+   "id": "wands-seven",
+   "structureRef": "rws-78.v1:wands:7",
+   "canonicalName": "Seven of Wands",
+   "groupId": "wands",
+   "ordinal": 6,
+   "meaning": {
+    "upright": "You are holding a position against more than you have, and holding it is going better than the count suggests. The higher ground is doing some of the work.",
+    "inverted": "You have been defending so long you would not recognise the moment the attack stopped. The high ground holds either way, and the cost of staying on it is now the whole cost.",
+    "keywords": [
+     "defending",
+     "position",
+     "persistence",
+     "odds"
+    ]
+   },
+   "visual": {
+    "description": "A figure stands on a green rise swinging a staff downward, six more staves coming up at him from below the edge of the card and none of them yet touching him. He is wearing one boot and one shoe. The sky behind is plain and light, and nobody attacking him is in the picture.",
+    "dominantMotifs": [
+     "place",
+     "movement",
+     "disorder"
+    ],
+    "altText": "A figure on a rise swinging a staff down against six staves rising from below the frame.",
+    "image": {
+     "file": "wands-seven.jpg",
+     "widthPx": 500,
+     "heightPx": 866,
+     "sha256": "3514d81077016a8c5c6a3ae0afc7f4e1acc31ce567cfb47872e27cf9a883d477"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "wands-seven.usdz",
+       "bytes": 349624,
+       "sha256": "86654fce976c55351b21e47b0fe1b4434a4727341f8f79cbb790dae9f3305680"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "place",
+    "movement",
+    "disorder"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "a06cdb9a4f2945160b71dcb2853a046f3c7c21cb7917e317443fdf6e61100e42"
+  },
+  {
+   "index": 29,
+   "id": "wands-eight",
+   "structureRef": "rws-78.v1:wands:8",
+   "canonicalName": "Eight of Wands",
+   "groupId": "wands",
+   "ordinal": 7,
+   "meaning": {
+    "upright": "Everything is moving at once and all of it is going the same way. Speed like this is not chaos; it is the part where things land.",
+    "inverted": "It is all in the air and none of it has landed. The motion has started standing in for progress, and a week of this looks from inside exactly like a week of getting somewhere.",
+    "keywords": [
+     "speed",
+     "motion",
+     "convergence",
+     "news"
+    ]
+   },
+   "visual": {
+    "description": "Eight staves fly through a clear sky at a shallow angle, evenly spaced and exactly parallel, still sprouting leaves as they go. Below them a river runs past a low green hill with a small house on it. There is nobody in the picture at all, and nothing indicates who threw them or where they will land.",
+    "dominantMotifs": [
+     "movement",
+     "order"
+    ],
+    "altText": "Eight leafy staves flying in parallel through a clear sky above a river and a green hill.",
+    "image": {
+     "file": "wands-eight.jpg",
+     "widthPx": 500,
+     "heightPx": 861,
+     "sha256": "e2255fca22c9cbf023c62ace4e85a362684e7c72480d4722f03c516ee253df4a"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "wands-eight.usdz",
+       "bytes": 351786,
+       "sha256": "2fbae64a9e292e65d7573e65717673e7e364aae8b016658db80c1f623ca81513"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "movement",
+    "order"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "179e51bd950e5aa13d46c368770d0bfa4ca93605a77bd4c1d06af5a0a86fa881"
+  },
+  {
+   "index": 30,
+   "id": "wands-nine",
+   "structureRef": "rws-78.v1:wands:9",
+   "canonicalName": "Nine of Wands",
+   "groupId": "wands",
+   "ordinal": 8,
+   "meaning": {
+    "upright": "You are tired, you are still standing, and you are watching the treeline. Wariness earned the hard way is not paranoia, and the bandage is evidence rather than an argument.",
+    "inverted": "Nothing is coming and you are still on the wall. Guarding is easier than finding out it is over, because finding out would mean putting the staff down and having no idea what to do next.",
+    "keywords": [
+     "wariness",
+     "endurance",
+     "guard",
+     "tiredness"
+    ]
+   },
+   "visual": {
+    "description": "A bandaged figure leans his weight on one staff and looks sideways out of the frame, eight more staves standing in a row behind him like a fence. His shoulders are up around his ears. Bare hills close the distance, and nothing is coming over them that the picture shows.",
+    "dominantMotifs": [
+     "people",
+     "place",
+     "habit"
+    ],
+    "altText": "A bandaged figure leaning on a staff and looking sideways, with eight staves standing in a row behind.",
+    "image": {
+     "file": "wands-nine.jpg",
+     "widthPx": 500,
+     "heightPx": 861,
+     "sha256": "c3cf8f9316e2ae941dd642a895808f31e201be9ae3723c6259864fccd763f8b5"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "wands-nine.usdz",
+       "bytes": 378577,
+       "sha256": "2cb531de50117b94d6b7eb68971f8e47a5e3cfae3455153989e84c379c49cca3"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "people",
+    "place",
+    "habit"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "7ab7bde6a8df9df033bf291512dd7020a67b2666bee2aa836de54a44445dad79"
+  },
+  {
+   "index": 31,
+   "id": "wands-ten",
+   "structureRef": "rws-78.v1:wands:10",
+   "canonicalName": "Ten of Wands",
+   "groupId": "wands",
+   "ordinal": 9,
+   "meaning": {
+    "upright": "You are carrying all of it and you are nearly there. The load is genuinely heavy and the distance left is genuinely short, and both of those are true at once and neither cancels the other.",
+    "inverted": "You picked up the rest of it as well, because putting any down would mean saying out loud which part was never yours. The bundle is wide enough now that you cannot see over it.",
+    "keywords": [
+     "burden",
+     "carrying",
+     "nearly",
+     "load"
+    ]
+   },
+   "visual": {
+    "description": "A figure bends forward under an armful of ten staves held across the chest, their tops fanned out and hiding his face entirely. A ploughed field and a small settlement lie ahead. He is walking toward it.",
+    "dominantMotifs": [
+     "object",
+     "movement",
+     "people"
+    ],
+    "altText": "A figure bent under an armful of ten staves that hide his face, walking toward a settlement.",
+    "image": {
+     "file": "wands-ten.jpg",
+     "widthPx": 500,
+     "heightPx": 872,
+     "sha256": "5f65bb88266221c84a92bbc51b51f10128d3bb9f22a3295f8319218d8a7f8597"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "wands-ten.usdz",
+       "bytes": 361736,
+       "sha256": "7a22dfdce4f2227b8f12f19176b8c3fec4c4eadd227d3012ed8ccb21a2edd353"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "object",
+    "movement",
+    "people"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "c4e0884fb59ff6dd8c40d43814f67815162ab71fc6ef379a2194753267abab5e"
+  },
+  {
+   "index": 32,
+   "id": "wands-page",
+   "structureRef": "rws-78.v1:wands:11",
+   "canonicalName": "Page of Wands",
+   "groupId": "wands",
+   "ordinal": 10,
+   "meaning": {
+    "upright": "Somebody is genuinely interested and has not worked out yet what they are interested in. Not knowing what it is for does not make the interest fake.",
+    "inverted": "The interest keeps moving on before anything comes of it. Being genuinely curious about forty things and finishing none of them is a way of never finding out whether you were any good at one.",
+    "keywords": [
+     "curiosity",
+     "beginning",
+     "news",
+     "attention"
+    ]
+   },
+   "visual": {
+    "description": "A young figure in a tunic patterned with salamanders stands holding a tall leafy staff upright with both hands, head tipped back to look at its top. Three pyramids stand in the flat plain behind him. Red feathers rise from his cap and the ground is bare sand.",
+    "dominantMotifs": [
+     "people",
+     "object"
+    ],
+    "altText": "A young figure in a patterned tunic holding a tall leafy staff and looking up at it, pyramids behind.",
+    "image": {
+     "file": "wands-page.jpg",
+     "widthPx": 500,
+     "heightPx": 866,
+     "sha256": "805d40c3deb9927af889eb7e9167b78a72467e06074efac7a044cb4ca71fe17a"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "wands-page.usdz",
+       "bytes": 387927,
+       "sha256": "3641e449febf88a3b7dadd60415c80e0870ff4d7acc9b50d5b8e12733dc6ab94"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "people",
+    "object"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "a48625f805c23d6c55a893e6b731f24c9a1dc31fff2373ec2d5011ce53eef78e"
+  },
+  {
+   "index": 33,
+   "id": "wands-knight",
+   "structureRef": "rws-78.v1:wands:12",
+   "canonicalName": "Knight of Wands",
+   "groupId": "wands",
+   "ordinal": 11,
+   "meaning": {
+    "upright": "Somebody goes at it hard and early and the going is most of the point. Not every departure needs a destination attached first, and some of them would never happen if one were required.",
+    "inverted": "It has been all charge and no arrival for a while now. Speed is doing the work that direction was supposed to do, and the horse cannot tell the difference.",
+    "keywords": [
+     "charge",
+     "haste",
+     "drive",
+     "departure"
+    ]
+   },
+   "visual": {
+    "description": "An armoured rider on a rearing horse holds a leafy staff, visor up and cloak patterned with salamanders. The horse's front legs are both off the ground. Three small pyramids stand behind on flat sand.",
+    "dominantMotifs": [
+     "movement",
+     "people"
+    ],
+    "altText": "An armoured rider on a rearing horse holding a leafy staff, pyramids on the sand behind.",
+    "image": {
+     "file": "wands-knight.jpg",
+     "widthPx": 500,
+     "heightPx": 861,
+     "sha256": "6e3b82641cc7485c9b802f9b9708c41d4f0a040c09c387169606755460bb69f1"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "wands-knight.usdz",
+       "bytes": 396201,
+       "sha256": "449e9fbae7c3ec0319a3763aa036199eb19fa1d98d2315bef74c42f3d409d4ab"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "movement",
+    "people"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "57e79a436b0e62118cebfeb5ffe9705cec28d57167d8d4d6085fb534f71f7123"
+  },
+  {
+   "index": 34,
+   "id": "wands-queen",
+   "structureRef": "rws-78.v1:wands:13",
+   "canonicalName": "Queen of Wands",
+   "groupId": "wands",
+   "ordinal": 12,
+   "meaning": {
+    "upright": "Somebody backs their own judgement in public without needing the room to agree first. Confidence here is a way of making space, not taking it.",
+    "inverted": "The certainty has stopped listening. A room is being kept warm for one opinion, and everybody in it has worked out which one and stopped offering others.",
+    "keywords": [
+     "confidence",
+     "warmth",
+     "judgement",
+     "presence"
+    ]
+   },
+   "visual": {
+    "description": "A crowned figure sits facing forward on a stone throne carved with lions and sunflowers, a staff in one hand and a sunflower in the other. A black cat sits at her feet looking out of the card. The ground behind is bare and yellow.",
+    "dominantMotifs": [
+     "people",
+     "principle"
+    ],
+    "altText": "A crowned figure on a lion-carved throne holding a staff and a sunflower, a black cat at her feet.",
+    "image": {
+     "file": "wands-queen.jpg",
+     "widthPx": 500,
+     "heightPx": 859,
+     "sha256": "a6d9038c336bfe31dca27fe1a44ba5870f84e0dab90dcc34e0b31776324eebbc"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "wands-queen.usdz",
+       "bytes": 398215,
+       "sha256": "8ebfbba5760b8251df653551201863cf4fa49fa90ab2c6d32a3246e552ec4fe7"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "people",
+    "principle"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "6e784d7899ea7dd2ec599d06fc4e699c811b5f5b7899c9c0752d77a19b5a8098"
+  },
+  {
+   "index": 35,
+   "id": "wands-king",
+   "structureRef": "rws-78.v1:wands:14",
+   "canonicalName": "King of Wands",
+   "groupId": "wands",
+   "ordinal": 13,
+   "meaning": {
+    "upright": "Somebody has been doing this long enough to be brief about it. Authority that does not need to perform itself, and answers that are short because the thinking happened years ago rather than because it was skipped.",
+    "inverted": "The last word keeps arriving before the discussion has finished. Being usually right is not the same as being owed agreement, and the difference is invisible from the throne and obvious from the floor.",
+    "keywords": [
+     "authority",
+     "experience",
+     "decisiveness",
+     "vision"
+    ]
+   },
+   "visual": {
+    "description": "A crowned figure sits half turned on a throne carved with lions and salamanders, holding a sprouting staff and looking to one side. His robe is patterned with salamanders biting their own tails. A live salamander sits on the ground beside the throne.",
+    "dominantMotifs": [
+     "people",
+     "principle",
+     "object"
+    ],
+    "altText": "A crowned figure half turned on a salamander-carved throne, holding a sprouting staff.",
+    "image": {
+     "file": "wands-king.jpg",
+     "widthPx": 500,
+     "heightPx": 870,
+     "sha256": "85a5ee095228839fdfb9545e70bfec9955e7e7fff023616cd8bdcb7d57059962"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "wands-king.usdz",
+       "bytes": 404244,
+       "sha256": "1b82908662dd0fde7b3fcfc34a0bd1e9a675c7b58885a22415046fd304134b11"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "people",
+    "principle",
+    "object"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "c6a83fecf9f54221704e597c32536d4460a674a5a47503f66214bd9b7526033b"
+  },
+  {
+   "index": 36,
+   "id": "cups-ace",
+   "structureRef": "rws-78.v1:cups:1",
+   "canonicalName": "Ace of Cups",
+   "groupId": "cups",
+   "ordinal": 0,
+   "meaning": {
+    "upright": "Something is offered and it is full to the point of running over. Whether you take it is a separate question from whether it was genuinely given, and the second one has already been answered.",
+    "inverted": "You keep examining the offer for what it is going to cost. Some things are simply offered, and the search for the price is its own way of not accepting.",
+    "keywords": [
+     "offering",
+     "opening",
+     "feeling",
+     "gift"
+    ]
+   },
+   "visual": {
+    "description": "A hand comes out of a cloud holding a wide cup with five streams running steadily over its rim. A dove descends toward the cup carrying a disc marked with a cross in its beak. Below, water lilies float on still water, and the whole lower half of the card is calm.",
+    "dominantMotifs": [
+     "object",
+     "light"
+    ],
+    "altText": "A hand from a cloud holding an overflowing cup, a dove descending to it with a marked disc.",
+    "image": {
+     "file": "cups-ace.jpg",
+     "widthPx": 500,
+     "heightPx": 863,
+     "sha256": "4e70ba40c3e53396ec0bd705855fee92ee18ed663f3cd15c1eba913f0f4e6275"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "cups-ace.usdz",
+       "bytes": 386054,
+       "sha256": "c645a22dc76136393ce7d9eb265b956cabebd2234afd60ec7834678574173e79"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "object",
+    "light"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "821d4d50c91913d389554381913b129e3240e97ed6956768387dc856265a1765"
+  },
+  {
+   "index": 37,
+   "id": "cups-two",
+   "structureRef": "rws-78.v1:cups:2",
+   "canonicalName": "Two of Cups",
+   "groupId": "cups",
+   "ordinal": 1,
+   "meaning": {
+    "upright": "Two people make something between them that neither had alone. An agreement small enough to actually be kept, which is the only kind worth making at this stage.",
+    "inverted": "The agreement is being restated more often than it is being kept. Saying it again has started doing the work that doing it was supposed to do, and both of you know.",
+    "keywords": [
+     "agreement",
+     "two people",
+     "meeting",
+     "exchange"
+    ]
+   },
+   "visual": {
+    "description": "A man and a woman face each other raising cups, a winged lion's head rising between them above a staff wound with two snakes. Both are looking at each other rather than at the cups. A small house stands on a green hill behind.",
+    "dominantMotifs": [
+     "people",
+     "ritual"
+    ],
+    "altText": "A man and a woman raising cups to each other beneath a winged lion's head and a twin-snake staff.",
+    "image": {
+     "file": "cups-two.jpg",
+     "widthPx": 500,
+     "heightPx": 866,
+     "sha256": "ffd6ffc5c99d5b0ce030e1e69c1dbcbedc1b554e1edc97b80c6904c3fde954c6"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "cups-two.usdz",
+       "bytes": 380622,
+       "sha256": "52ff48afcc8a22bb7be36db8a150a175f92ec5e24ef5ab6ee9e96c93ab7b7472"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "people",
+    "ritual"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "38edfd5b7b65ae3934081b68a2347d3a8f247402c50787b4f14c71ff5d1817fc"
+  },
+  {
+   "index": 38,
+   "id": "cups-three",
+   "structureRef": "rws-78.v1:cups:3",
+   "canonicalName": "Three of Cups",
+   "groupId": "cups",
+   "ordinal": 2,
+   "meaning": {
+    "upright": "The good thing gets shared out loud with the people it belongs to. Gladness in company is not a lesser kind of gladness.",
+    "inverted": "The toast has gone on well past whatever was being toasted. What began as marking something has become the evening itself, and the thing it was for has quietly left the room.",
+    "keywords": [
+     "company",
+     "gladness",
+     "sharing",
+     "harvest"
+    ]
+   },
+   "visual": {
+    "description": "Three figures in loose robes raise cups together in a ring, each with her free arm lifted and her face turned toward the others. Vines, pumpkins and heavy fruit cover the ground at their feet. The sky above them is plain and pale, and nothing else is happening anywhere in the picture.",
+    "dominantMotifs": [
+     "people",
+     "food",
+     "ritual"
+    ],
+    "altText": "Three figures in a ring raising cups above ground covered in fruit and vines.",
+    "image": {
+     "file": "cups-three.jpg",
+     "widthPx": 500,
+     "heightPx": 859,
+     "sha256": "cb3a3222813ad0d50007848cb9b1996d9f041bb6a773558058e8b31c6c7d18fd"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "cups-three.usdz",
+       "bytes": 382255,
+       "sha256": "2f2c705dd6604f95691925e72f0360127ce123e67bcf803c149c3fa74a505634"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "people",
+    "food",
+    "ritual"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "c3121dde4b28ca04a52d03069b38f48f501ebf30ecf4487f42f4f8330fef4a70"
+  },
+  {
+   "index": 39,
+   "id": "cups-four",
+   "structureRef": "rws-78.v1:cups:4",
+   "canonicalName": "Four of Cups",
+   "groupId": "cups",
+   "ordinal": 3,
+   "meaning": {
+    "upright": "Three perfectly good things are in front of you and not one of them is landing. Being unmoved is information rather than a fault, and pretending otherwise would only waste the information.",
+    "inverted": "A fourth is being held out and you have not looked up in some time. The offer does not expire loudly; it just stops being made, and nobody announces which one was the last.",
+    "keywords": [
+     "flatness",
+     "enough",
+     "inattention",
+     "offering"
+    ]
+   },
+   "visual": {
+    "description": "A figure sits under a tree with arms and legs both crossed, looking down at three cups standing in the grass in front of him. A hand reaches out of a small cloud beside him holding a fourth. He is not looking at it, and nothing in his posture suggests he is about to.",
+    "dominantMotifs": [
+     "people",
+     "place",
+     "habit"
+    ],
+    "altText": "A figure sitting cross-armed under a tree ignoring a fourth cup offered from a cloud.",
+    "image": {
+     "file": "cups-four.jpg",
+     "widthPx": 500,
+     "heightPx": 859,
+     "sha256": "18392369f0ede5e071d3d67a78cbcb3e43f3540b09a0c8faded2f4a4bb8bb606"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "cups-four.usdz",
+       "bytes": 362039,
+       "sha256": "dfb9ae121f9af165f4580afa1f059fd07fffeac48a4daeb567a9b1c2089ef081"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "people",
+    "place",
+    "habit"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "3f46e25d3b3252751627e26f80c778a48638b92adca267ac4e21f3ea6ff347b9"
+  },
+  {
+   "index": 40,
+   "id": "cups-five",
+   "structureRef": "rws-78.v1:cups:5",
+   "canonicalName": "Five of Cups",
+   "groupId": "cups",
+   "ordinal": 4,
+   "meaning": {
+    "upright": "Some of it is spilled and cannot be unspilled. The two still standing are also true, and they are behind you, which is not the same as them not being there.",
+    "inverted": "You have counted the three so many times that the two have stopped being real. Grief is accurate and it is also selective, and it never volunteers what it has left out of the count.",
+    "keywords": [
+     "loss",
+     "grief",
+     "remainder",
+     "turning"
+    ]
+   },
+   "visual": {
+    "description": "A figure in a long black cloak stands with head bowed over three fallen cups, their contents run out across the ground. Two cups still stand upright behind him. Beyond, a river runs under a bridge toward a small castle.",
+    "dominantMotifs": [
+     "disorder",
+     "people",
+     "place"
+    ],
+    "altText": "A cloaked figure with bowed head over three spilled cups, two still upright behind him.",
+    "image": {
+     "file": "cups-five.jpg",
+     "widthPx": 500,
+     "heightPx": 856,
+     "sha256": "e907cb9acce3d8f1356bcbe79d213296cc873c5e84e554dbb7103e3ac4af7564"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "cups-five.usdz",
+       "bytes": 329228,
+       "sha256": "586e760dfd43e476960f31fba64327a32c1e3037e01a435cc631ecc7635db258"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "lore": "Two of the five are still standing and they are drawn behind the figure, out of his line of sight. Almost nobody describing this card mentions them, which is the point Smith was making.",
+   "motifTags": [
+    "disorder",
+    "people",
+    "place"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "d4100a8629761c24a242b656806d2dc8743f7a3a74acc012d879f819c50704e0"
+  },
+  {
+   "index": 41,
+   "id": "cups-six",
+   "structureRef": "rws-78.v1:cups:6",
+   "canonicalName": "Six of Cups",
+   "groupId": "cups",
+   "ordinal": 5,
+   "meaning": {
+    "upright": "Something from further back comes up kindly. Not everything old is a weight, and being given something by your own past is allowed.",
+    "inverted": "The visit to back then has become somewhere you live. A kind memory is a good place to go and a poor place to stay, and the difference is hard to feel from inside it.",
+    "keywords": [
+     "memory",
+     "kindness",
+     "childhood",
+     "return"
+    ]
+   },
+   "visual": {
+    "description": "A small figure hands a cup of white flowers to a smaller one in a courtyard, four more flowered cups standing on the ground and one on a plinth. A figure with a staff walks away up the path behind them. The buildings are low and yellow.",
+    "dominantMotifs": [
+     "people",
+     "place",
+     "object"
+    ],
+    "altText": "A small figure handing a flowered cup to a smaller one in a courtyard set with more flowered cups.",
+    "image": {
+     "file": "cups-six.jpg",
+     "widthPx": 500,
+     "heightPx": 861,
+     "sha256": "642f3168dc988282ac4b4bb3a22cb2c75cffa6f7689c84ed5562377f1ee265b9"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "cups-six.usdz",
+       "bytes": 401348,
+       "sha256": "2f937872d848dea1c05e19321fb135411d761ef093cffd1a5511dd0d64966a7c"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "people",
+    "place",
+    "object"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "e799ea401c4a3371897dcc25c7138adae56571b761d0c7caee142f3f3a4f891b"
+  },
+  {
+   "index": 42,
+   "id": "cups-seven",
+   "structureRef": "rws-78.v1:cups:7",
+   "canonicalName": "Seven of Cups",
+   "groupId": "cups",
+   "ordinal": 6,
+   "meaning": {
+    "upright": "Every option is on offer at once and most of them are made of cloud. The choosing is the work and none of it has been done yet.",
+    "inverted": "You have been picking for a while now. A choice not made is a choice that all of them go, and it gets made on your behalf by the passing of time rather than by you.",
+    "keywords": [
+     "options",
+     "imagination",
+     "choosing",
+     "unreality"
+    ]
+   },
+   "visual": {
+    "description": "A dark silhouetted figure faces seven cups floating on cloud, each holding something different: a head, a veiled shape, a snake, a castle, jewels, a wreath, and a dragon. His arms are half raised. Nothing in the picture stands on the ground.",
+    "dominantMotifs": [
+     "media",
+     "disorder",
+     "object"
+    ],
+    "altText": "A silhouetted figure before seven cups on cloud, each holding a different vision.",
+    "image": {
+     "file": "cups-seven.jpg",
+     "widthPx": 500,
+     "heightPx": 866,
+     "sha256": "cf38c73de026edad28bc0ef7a1d357c8847c577ab4048c047042fdf941690093"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "cups-seven.usdz",
+       "bytes": 368030,
+       "sha256": "3e71a8260c476655615893b7792d10b9e59965ac5db522bdcad938df6253417d"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "media",
+    "disorder",
+    "object"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "74b85955d580f759592d01a5a2851131895c9c3846f15bd31ff42ff361da9459"
+  },
+  {
+   "index": 43,
+   "id": "cups-eight",
+   "structureRef": "rws-78.v1:cups:8",
+   "canonicalName": "Eight of Cups",
+   "groupId": "cups",
+   "ordinal": 7,
+   "meaning": {
+    "upright": "You leave something that is not finished because staying would finish you instead. Walking away is a decision, not a failure of one.",
+    "inverted": "You are leaving again. Some departures are not decisions about the thing being left; they are just how this person ends things, and the next one will look the same from the outside.",
+    "keywords": [
+     "leaving",
+     "enough",
+     "night",
+     "choice"
+    ]
+   },
+   "visual": {
+    "description": "A figure in a red cloak walks away with his back to us, leaning on a staff, climbing toward high ground. Eight cups stand behind him in two rows with a gap where one has been taken. A moon with a face looks down on still water.",
+    "dominantMotifs": [
+     "movement",
+     "place",
+     "light"
+    ],
+    "altText": "A red-cloaked figure walking away uphill from eight standing cups, a gap where one is missing.",
+    "image": {
+     "file": "cups-eight.jpg",
+     "widthPx": 500,
+     "heightPx": 861,
+     "sha256": "b6743b507a38aa978c0ffb82b25e217c35a75d08ebd34da2e2a2ea2fde9a3158"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "cups-eight.usdz",
+       "bytes": 363358,
+       "sha256": "f66a75392fba33507386b09eb16f62e19987c87f194fb8f1f13eba32600606c2"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "movement",
+    "place",
+    "light"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "1c3eec3eb037b2a9da3a0c0c04f3f5293f132a25fa37463a2a891816151b49eb"
+  },
+  {
+   "index": 44,
+   "id": "cups-nine",
+   "structureRef": "rws-78.v1:cups:9",
+   "canonicalName": "Nine of Cups",
+   "groupId": "cups",
+   "ordinal": 8,
+   "meaning": {
+    "upright": "You got what you asked for and you are pleased with yourself about it. That is allowed and it is not the same as being finished.",
+    "inverted": "The arms are folded and the cups are behind you where you cannot see them. Satisfaction that has stopped looking at what it is satisfied with turns into a pose surprisingly quickly.",
+    "keywords": [
+     "satisfaction",
+     "having",
+     "pleasure",
+     "arrival"
+    ]
+   },
+   "visual": {
+    "description": "A stout figure in a red cap sits on a low wooden bench with arms folded, smiling straight out of the card. Nine cups stand in an arc on a blue-draped counter behind him, above his head. The ground is bare yellow.",
+    "dominantMotifs": [
+     "people",
+     "object"
+    ],
+    "altText": "A figure with folded arms on a bench, nine cups arranged on a draped counter behind him.",
+    "image": {
+     "file": "cups-nine.jpg",
+     "widthPx": 500,
+     "heightPx": 861,
+     "sha256": "7644c66db4213d3f70a10e9fbff6b274d890c836e075c6ddaaf107617f41fb9b"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "cups-nine.usdz",
+       "bytes": 372256,
+       "sha256": "0619036284131df44b04215945302d430056abbc777c57f75893cf0ccad6da52"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "people",
+    "object"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "c80fd4ee9b07613246b7fd44273122fb99a91b1c6fad68725d0c5c5956b7770b"
+  },
+  {
+   "index": 45,
+   "id": "cups-ten",
+   "structureRef": "rws-78.v1:cups:10",
+   "canonicalName": "Ten of Cups",
+   "groupId": "cups",
+   "ordinal": 9,
+   "meaning": {
+    "upright": "The ordinary version of the good thing, in the actual place where you live. A rainbow over a field that is not even a remarkable field.",
+    "inverted": "You are checking the picture against the one you had in mind, and it keeps coming up short by small amounts. The comparison is doing all the damage, and the field is exactly as it was.",
+    "keywords": [
+     "contentment",
+     "family",
+     "ordinary",
+     "home"
+    ]
+   },
+   "visual": {
+    "description": "A man and a woman stand with arms round each other, their free arms raised toward an arc of ten cups in a rainbow. Two children hold hands and dance beside them. A river and a small house sit among trees behind.",
+    "dominantMotifs": [
+     "people",
+     "place",
+     "light"
+    ],
+    "altText": "A couple with raised arms beneath a rainbow of ten cups, two children dancing beside them.",
+    "image": {
+     "file": "cups-ten.jpg",
+     "widthPx": 500,
+     "heightPx": 866,
+     "sha256": "1525f6a2273b12c4fb6619003419ce6d856f6520652a44626aa0381cf5a7e168"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "cups-ten.usdz",
+       "bytes": 387679,
+       "sha256": "25fc3d6b2ee5218ac71dc7c8c6c8df0a7447f489d048df89fa2e7df4032dd76f"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "people",
+    "place",
+    "light"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "5a61a4e2367db480da91604642960f63b0e49131f6a43b45a58164cb90487a52"
+  },
+  {
+   "index": 46,
+   "id": "cups-page",
+   "structureRef": "rws-78.v1:cups:11",
+   "canonicalName": "Page of Cups",
+   "groupId": "cups",
+   "ordinal": 10,
+   "meaning": {
+    "upright": "Somebody feels something before they can explain it, and says it anyway. Awkward and genuine beats polished and late, and the fish in the cup is not embarrassing anybody here.",
+    "inverted": "The feeling is being drafted rather than said. By the time it is good enough to deliver it will be about something that has already finished happening.",
+    "keywords": [
+     "candour",
+     "feeling",
+     "beginning",
+     "surprise"
+    ]
+   },
+   "visual": {
+    "description": "A young figure in a blue tunic patterned with pink flowers holds a cup out at arm's length, and a fish is looking up out of it. He tilts his head toward the fish with an expression of mild enquiry. A flat sea moves in low waves behind him, and his hat is enormous.",
+    "dominantMotifs": [
+     "people",
+     "object"
+    ],
+    "altText": "A young figure in a flowered tunic holding out a cup with a fish looking out of it.",
+    "image": {
+     "file": "cups-page.jpg",
+     "widthPx": 500,
+     "heightPx": 861,
+     "sha256": "9988e664efc0898a15a70160af62ec48df83022778cd5b0ef774b18b14d77c8b"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "cups-page.usdz",
+       "bytes": 385780,
+       "sha256": "7b7deaccf4cc2b3f4caa864b0223319702ac59663a04489463cab976f6112d20"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "people",
+    "object"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "21c4c17eb2dd917e2923357734f157c0d48a6b78507e496759a5ac8f49201906"
+  },
+  {
+   "index": 47,
+   "id": "cups-knight",
+   "structureRef": "rws-78.v1:cups:12",
+   "canonicalName": "Knight of Cups",
+   "groupId": "cups",
+   "ordinal": 11,
+   "meaning": {
+    "upright": "Somebody comes toward you with the thing in their hands, slowly, meaning it. The pace is the sincerity here, and hurrying it would have changed what was being carried.",
+    "inverted": "The gesture has been rehearsed. A cup carried this carefully may be about the carrying, and the person watching cannot tell yet which of the two this is.",
+    "keywords": [
+     "approach",
+     "sincerity",
+     "offering",
+     "pace"
+    ]
+   },
+   "visual": {
+    "description": "An armoured rider on a walking grey horse holds a cup level in front of him, winged helmet and heels, his cloak patterned with fish. The horse has all but one hoof on the ground. A river crosses low hills behind.",
+    "dominantMotifs": [
+     "movement",
+     "people",
+     "object"
+    ],
+    "altText": "An armoured rider on a walking grey horse holding a cup level before him.",
+    "image": {
+     "file": "cups-knight.jpg",
+     "widthPx": 500,
+     "heightPx": 866,
+     "sha256": "6a578aa6e7669abc0562204c5dfc39f33223955600126c9f156b2fecbbb10dde"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "cups-knight.usdz",
+       "bytes": 384254,
+       "sha256": "a4a5633dbae675d1e07d493cbea818aa3dd68a8647d38b58236855caa7db07b3"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "movement",
+    "people",
+    "object"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "ff26db4447d6b77de7da6c0a9744a3321177c1e4a50a1608a63d0c1bae294215"
+  },
+  {
+   "index": 48,
+   "id": "cups-queen",
+   "structureRef": "rws-78.v1:cups:13",
+   "canonicalName": "Queen of Cups",
+   "groupId": "cups",
+   "ordinal": 12,
+   "meaning": {
+    "upright": "Somebody sees what is going on with you without being told, and without making a performance of having seen it. The not mentioning it is part of the seeing.",
+    "inverted": "The seeing has become a way of not being seen back. Knowing everybody's weather is a fine place to stand if you never want anybody asking about yours.",
+    "keywords": [
+     "attention",
+     "care",
+     "depth",
+     "knowing"
+    ]
+   },
+   "visual": {
+    "description": "A crowned figure sits on a stone throne carved with shells and sea-children at the very edge of the water, holding an ornate lidded cup with both hands and looking at it. Coloured stones lie at her feet. The sea is calm behind her.",
+    "dominantMotifs": [
+     "people",
+     "place",
+     "object"
+    ],
+    "altText": "A crowned figure on a shell-carved throne at the water's edge, holding an ornate lidded cup.",
+    "image": {
+     "file": "cups-queen.jpg",
+     "widthPx": 500,
+     "heightPx": 861,
+     "sha256": "23d440ec91efb916c663bdce9a19e98b7bde8280ed7bdafa11b63a5ca7efe002"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "cups-queen.usdz",
+       "bytes": 381357,
+       "sha256": "5483a24e0090f0bda861e57ee58b7671aa12a279500deeb4fcb3bf73f2c6927c"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "people",
+    "place",
+    "object"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "a9066762a1e1f6372460be8daf9ee67fafcda870439c5708e6bc3f552af8b7d9"
+  },
+  {
+   "index": 49,
+   "id": "cups-king",
+   "structureRef": "rws-78.v1:cups:14",
+   "canonicalName": "King of Cups",
+   "groupId": "cups",
+   "ordinal": 13,
+   "meaning": {
+    "upright": "Somebody feels all of it and still runs the room. Steadiness that is not achieved by feeling less, which is the only kind that holds when the thing it is holding gets heavy.",
+    "inverted": "The calm is being maintained at some cost and everybody can tell except him. A throne on rough water still moves; the only question is who is allowed to mention it.",
+    "keywords": [
+     "steadiness",
+     "composure",
+     "feeling",
+     "holding"
+    ]
+   },
+   "visual": {
+    "description": "A crowned figure sits on a stone throne that floats on rough water, holding a cup in one hand and a short sceptre in the other. A fish leaps clear of the sea on one side and a ship rides the swell on the other. His feet do not touch the water.",
+    "dominantMotifs": [
+     "people",
+     "place",
+     "movement"
+    ],
+    "altText": "A crowned figure on a throne floating on rough sea, holding a cup and a sceptre.",
+    "image": {
+     "file": "cups-king.jpg",
+     "widthPx": 500,
+     "heightPx": 856,
+     "sha256": "91f356efe4d9728ab579bab7651ff80b6646bffd4f655533f30416c9aa746588"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "cups-king.usdz",
+       "bytes": 383345,
+       "sha256": "893fdb773c4cf21090b6396c9ff405f66ba5e9ae974aa9d94bee0c4a0b8dd309"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "people",
+    "place",
+    "movement"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "99fbbf1316451dde8f241017a886b616c5a5fc4f0ab10ec7932a01e995fdeb10"
+  },
+  {
+   "index": 50,
+   "id": "swords-ace",
+   "structureRef": "rws-78.v1:swords:1",
+   "canonicalName": "Ace of Swords",
+   "groupId": "swords",
+   "ordinal": 0,
+   "meaning": {
+    "upright": "The thing gets said plainly and the room changes. Clarity is a cut; that is what makes it useful and what makes it cost something.",
+    "inverted": "The clear thing is being said to win rather than to be understood. Accuracy aimed that way still cuts, and afterwards nobody can tell you it was not true.",
+    "keywords": [
+     "clarity",
+     "truth",
+     "cut",
+     "naming"
+    ]
+   },
+   "visual": {
+    "description": "A hand comes out of a cloud gripping an upright sword, a crown hanging on its point with an olive branch and a palm frond tied to it. Six small marks fall through the air around the blade. Grey peaks stand below.",
+    "dominantMotifs": [
+     "object",
+     "principle"
+    ],
+    "altText": "A hand from a cloud holding an upright sword with a crown, olive branch and palm on its point.",
+    "image": {
+     "file": "swords-ace.jpg",
+     "widthPx": 500,
+     "heightPx": 866,
+     "sha256": "b4ebe5a34f84022b31c11cc3afedc5b2d2c5197d6d3ad7c9e371da6bbc70859a"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "swords-ace.usdz",
+       "bytes": 373133,
+       "sha256": "a83f61fca15f238faead8354ba77bda04bd59798bd892829766af84d7264f1e3"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "object",
+    "principle"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "93ea919c51142327e92a0d8f88d4b13ffbf161eb7198652447e708ee5883f7a3"
+  },
+  {
+   "index": 51,
+   "id": "swords-two",
+   "structureRef": "rws-78.v1:swords:2",
+   "canonicalName": "Two of Swords",
+   "groupId": "swords",
+   "ordinal": 1,
+   "meaning": {
+    "upright": "You are holding two positions and refusing to look at either. The refusal is doing real work and it cannot do it forever.",
+    "inverted": "The blindfold has come off and you are still sitting there. What was a refusal to look has become a refusal to move, and only one of those had an argument behind it.",
+    "keywords": [
+     "stalemate",
+     "refusal",
+     "balance",
+     "not looking"
+    ]
+   },
+   "visual": {
+    "description": "A blindfolded figure in grey sits on a stone bench with arms crossed, a sword held upright in each hand. Behind her a rocky bay is scattered with small islands under a crescent moon. The water is quite still.",
+    "dominantMotifs": [
+     "people",
+     "place",
+     "principle"
+    ],
+    "altText": "A blindfolded figure with arms crossed holding two upright swords, a rocky bay behind.",
+    "image": {
+     "file": "swords-two.jpg",
+     "widthPx": 500,
+     "heightPx": 856,
+     "sha256": "22c57877d34c961cc00f704a3cebdf90a3bb6a53c4565f370fcee7e8e5f6a833"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "swords-two.usdz",
+       "bytes": 356577,
+       "sha256": "a8267be9819d49696ec0f94e717df90c9750a0da08f9dce2a0a55517b58666f4"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "people",
+    "place",
+    "principle"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "466eef0ef068a0af07f907c8c543485b5b60a52b297dba2f04c4b119d7c0648f"
+  },
+  {
+   "index": 52,
+   "id": "swords-three",
+   "structureRef": "rws-78.v1:swords:3",
+   "canonicalName": "Three of Swords",
+   "groupId": "swords",
+   "ordinal": 2,
+   "meaning": {
+    "upright": "It hurts and the reason is not mysterious. A plain injury, in the open, with nothing dressed up about it and nothing to be worked out before it is allowed to count.",
+    "inverted": "You are keeping the weather going, because a clear sky would mean this was over. The rain has become the last thing still connecting you to it.",
+    "keywords": [
+     "hurt",
+     "plainness",
+     "grief",
+     "exposure"
+    ]
+   },
+   "visual": {
+    "description": "Three straight swords pierce a red heart floating in front of grey cloud, evenly spaced and all the way through. Rain falls in fine straight lines across the entire card, behind and in front of the heart alike. There is nobody in the picture and no ground beneath it.",
+    "dominantMotifs": [
+     "disorder",
+     "object"
+    ],
+    "altText": "Three swords through a red heart in front of grey cloud, with rain falling straight down.",
+    "image": {
+     "file": "swords-three.jpg",
+     "widthPx": 500,
+     "heightPx": 870,
+     "sha256": "689ed7e604c1df0c327c46569b04da8f20c89d9ceec5d8ffb8129aea0284794e"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "swords-three.usdz",
+       "bytes": 345186,
+       "sha256": "b0a4e68a1368b7403f982807fc4ec6bd758c5f6a085fb947e06be98361a070d4"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "disorder",
+    "object"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "bd3ea44c6fd9a0855f42b514fc6ecc1def3b79b07fdb84c6643dde3cfceb6d27"
+  },
+  {
+   "index": 53,
+   "id": "swords-four",
+   "structureRef": "rws-78.v1:swords:4",
+   "canonicalName": "Four of Swords",
+   "groupId": "swords",
+   "ordinal": 3,
+   "meaning": {
+    "upright": "You stop. Not because it is solved, but because going on without stopping is how people break, and the stopping is doing work that no amount of continuing would have done.",
+    "inverted": "The rest has quietly become the position. Lying still is not the same as recovering, and the tomb is a great deal more comfortable than the field was.",
+    "keywords": [
+     "rest",
+     "pause",
+     "recovery",
+     "stillness"
+    ]
+   },
+   "visual": {
+    "description": "A stone effigy of a knight lies on a tomb with hands together, one sword carved along the side of the tomb beneath him. Three more swords hang point-down on the wall above. A stained-glass window shows a figure and a kneeling supplicant.",
+    "dominantMotifs": [
+     "place",
+     "object",
+     "ritual"
+    ],
+    "altText": "A carved knight lying on a tomb with one sword beneath and three hanging point-down above.",
+    "image": {
+     "file": "swords-four.jpg",
+     "widthPx": 500,
+     "heightPx": 859,
+     "sha256": "dd46c2e25580d999994e57d850f3c7c4e8678f3cc4d6447d533b99b661cc7dc5"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "swords-four.usdz",
+       "bytes": 371903,
+       "sha256": "1f2fb664eb3aa2a9b27e7d5d4e1ed27e84819477e1840fef607ed67552668f5b"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "place",
+    "object",
+    "ritual"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "fb34512a7772f1198953c651913d6fcb6aeeacfe6c9e3ee1d4cf0d17e798e28b"
+  },
+  {
+   "index": 54,
+   "id": "swords-five",
+   "structureRef": "rws-78.v1:swords:5",
+   "canonicalName": "Five of Swords",
+   "groupId": "swords",
+   "ordinal": 4,
+   "meaning": {
+    "upright": "You won and the winning cost the room. Being right is a separate ledger from being worth agreeing with, and only one of those two is settled today.",
+    "inverted": "You are collecting the arguments afterwards, to have them ready. Nobody is coming back to hear them, and the readiness is now the only part still happening.",
+    "keywords": [
+     "winning",
+     "cost",
+     "conflict",
+     "aftermath"
+    ]
+   },
+   "visual": {
+    "description": "A figure with a smirk gathers three swords against his shoulder while two more lie on the bare ground at his feet. Two other figures walk away with their heads down toward grey water. A ragged sky moves over low hills, and nobody in the picture is looking at anybody else.",
+    "dominantMotifs": [
+     "people",
+     "disorder",
+     "movement"
+    ],
+    "altText": "A smirking figure gathering swords while two other figures walk away with heads down.",
+    "image": {
+     "file": "swords-five.jpg",
+     "widthPx": 500,
+     "heightPx": 866,
+     "sha256": "66ddc3dc2e724dc0f3ea076181126e408c88a95f527d118a5b8d4720124544a8"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "swords-five.usdz",
+       "bytes": 379265,
+       "sha256": "441ccb1283aa5c041e29e17413ca8ebd94def878cc86a2925b5cc6b8680f71b1"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "people",
+    "disorder",
+    "movement"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "f0cfe6771c0c81e5d8274b1614a656f87f24c36ee85cf1f5e38dafa4613fad09"
+  },
+  {
+   "index": 55,
+   "id": "swords-six",
+   "structureRef": "rws-78.v1:swords:6",
+   "canonicalName": "Six of Swords",
+   "groupId": "swords",
+   "ordinal": 5,
+   "meaning": {
+    "upright": "Somebody is taking you somewhere better and you are not doing the steering. Being carried is not a defeat, and refusing the crossing to keep hold of the pole would be.",
+    "inverted": "The crossing keeps getting postponed for one more thing. The water behind you does not get calmer while you wait, and the ferryman has other work.",
+    "keywords": [
+     "passage",
+     "leaving",
+     "help",
+     "calmer water"
+    ]
+   },
+   "visual": {
+    "description": "A ferryman stands in the stern poling a flat boat across water, carrying a cloaked figure and a child who sit facing forward and away from us. Six swords stand upright in the bow. The water ahead is smooth and the water behind the boat is choppy, and the far bank is close.",
+    "dominantMotifs": [
+     "movement",
+     "people",
+     "place"
+    ],
+    "altText": "A ferryman poling a boat with a cloaked figure, a child, and six upright swords in the bow.",
+    "image": {
+     "file": "swords-six.jpg",
+     "widthPx": 500,
+     "heightPx": 864,
+     "sha256": "45ad60a91eb8a865220445516ace3965a42f60f17f8295c6e7981e9f1dbd6fe0"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "swords-six.usdz",
+       "bytes": 382167,
+       "sha256": "5394c2da141bf32ccade54e242eb600afe04fa5bd27d1b7dc363dfb1a395367f"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "lore": "The water on the near side is drawn choppy and the water ahead is drawn flat. It is the smallest possible way to say what the card is about, and Smith did it with about twelve lines.",
+   "motifTags": [
+    "movement",
+    "people",
+    "place"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "c810422ee75cb73411197af45988d28b2cb369398509907eca07c9e97e376aed"
+  },
+  {
+   "index": 56,
+   "id": "swords-seven",
+   "structureRef": "rws-78.v1:swords:7",
+   "canonicalName": "Seven of Swords",
+   "groupId": "swords",
+   "ordinal": 6,
+   "meaning": {
+    "upright": "You take what you can carry and leave the rest, quietly, without announcing the plan. Sometimes that is the only version that works.",
+    "inverted": "You have been quiet about it so long that the quiet is now the thing you are protecting. What began as tact has become a second thing to keep from people.",
+    "keywords": [
+     "stealth",
+     "partial",
+     "leaving",
+     "unsaid"
+    ]
+   },
+   "visual": {
+    "description": "A figure walks away on tiptoe carrying five swords by their blades, looking back over his shoulder. Two more swords stand upright in the ground behind him. A camp of tents stands in the distance with small figures near it.",
+    "dominantMotifs": [
+     "movement",
+     "people",
+     "object"
+    ],
+    "altText": "A figure tiptoeing away with five swords held by the blades, looking back at two left standing.",
+    "image": {
+     "file": "swords-seven.jpg",
+     "widthPx": 500,
+     "heightPx": 861,
+     "sha256": "0e1a459b3c03c852cd967238d1c03ffd8d01245ed6841cfd5672e0533dcfb01b"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "swords-seven.usdz",
+       "bytes": 353770,
+       "sha256": "106e710da653dc75224cf1593d78ec943ece13d1a684831e2d83e65656a29f7b"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "movement",
+    "people",
+    "object"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "1e037ad0cfb58989111e9a7fbc224d7d205f266190f777a0b76652ef4415102d"
+  },
+  {
+   "index": 57,
+   "id": "swords-eight",
+   "structureRef": "rws-78.v1:swords:8",
+   "canonicalName": "Eight of Swords",
+   "groupId": "swords",
+   "ordinal": 7,
+   "meaning": {
+    "upright": "It feels closed in and the ground under you is not actually held. Constraint that is mostly believed is still constraint until it is tested.",
+    "inverted": "You have been counting the swords instead of looking at the gap between them. The count is accurate and it is not the useful number, and nobody else can take the blindfold off for you.",
+    "keywords": [
+     "constraint",
+     "belief",
+     "stuck",
+     "narrowness"
+    ]
+   },
+   "visual": {
+    "description": "A bound and blindfolded figure stands in shallow water and mud, eight swords planted upright in a loose arc around her, none of them touching. Her feet are unbound. A grey castle stands on the crag above.",
+    "dominantMotifs": [
+     "place",
+     "disorder",
+     "people"
+    ],
+    "altText": "A bound, blindfolded figure among eight upright swords set in a loose arc that does not close.",
+    "image": {
+     "file": "swords-eight.jpg",
+     "widthPx": 500,
+     "heightPx": 861,
+     "sha256": "bc5cb3d7c691b232d43e4d5dd0b90191d50ac1259fd122d4899a65e7d3d12036"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "swords-eight.usdz",
+       "bytes": 379659,
+       "sha256": "1ccf36b793f1a08ca361aa4d0eccd2d196745fbb74d124544133d05b85d9e8ed"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "lore": "The arc has a gap in it and the figure's feet are free. Smith drew both of those on purpose, and the card is much less closed than it is usually read.",
+   "motifTags": [
+    "place",
+    "disorder",
+    "people"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "3145d7b29f870cc862a6f03e0a9149791af1785dad9ef424d37aa1404bf9eaef"
+  },
+  {
+   "index": 58,
+   "id": "swords-nine",
+   "structureRef": "rws-78.v1:swords:9",
+   "canonicalName": "Nine of Swords",
+   "groupId": "swords",
+   "ordinal": 8,
+   "meaning": {
+    "upright": "Three in the morning and all of it is the worst version. What happens at this hour is real and is not a reliable account.",
+    "inverted": "You have started arranging the night so that it arrives on time. Dread kept to a schedule stops being a warning about anything and becomes a thing you do before sleeping.",
+    "keywords": [
+     "night",
+     "worry",
+     "worst version",
+     "waking"
+    ]
+   },
+   "visual": {
+    "description": "A figure sits up in bed with the face covered by both hands, a dark quilt of roses and zodiac squares across the legs. Nine swords hang in rows on the black wall behind, one above the other. A carved panel on the bedside shows one figure defeated by another.",
+    "dominantMotifs": [
+     "habit",
+     "place",
+     "disorder"
+    ],
+    "altText": "A figure sitting up in bed with face in hands, nine swords hanging in rows on the black wall behind.",
+    "image": {
+     "file": "swords-nine.jpg",
+     "widthPx": 500,
+     "heightPx": 861,
+     "sha256": "2c9c2bf0fb24bfc1c88f3394e2903c5d10ce1e844b55501d22f6482da21e6921"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "swords-nine.usdz",
+       "bytes": 360145,
+       "sha256": "11543d16cbf974962fb4ffe653062ea9550348efe88796a61649e9b2a82e601b"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "habit",
+    "place",
+    "disorder"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "cbe4683880adff113c823c26ab31b1f3713c7a9c02282b09529e5ec9fa79f922"
+  },
+  {
+   "index": 59,
+   "id": "swords-ten",
+   "structureRef": "rws-78.v1:swords:10",
+   "canonicalName": "Ten of Swords",
+   "groupId": "swords",
+   "ordinal": 9,
+   "meaning": {
+    "upright": "It is as bad as it is going to get, which is a real thing to know. Nothing further is coming and the sky has already started.",
+    "inverted": "You are checking whether there is more. There is not, and the looking is what is keeping you down there past the point where the sky had already started.",
+    "keywords": [
+     "bottom",
+     "ending",
+     "finality",
+     "first light"
+    ]
+   },
+   "visual": {
+    "description": "A figure lies face down under a red cloak with ten swords driven into his back in a row, on a shore of perfectly still black water. The far sky is bright yellow beneath a heavy band of black. One hand is raised in a blessing, and the water does not have a single ripple in it.",
+    "dominantMotifs": [
+     "disorder",
+     "place",
+     "light"
+    ],
+    "altText": "A figure lying face down under a red cloak with ten swords in the back, yellow light on the horizon.",
+    "image": {
+     "file": "swords-ten.jpg",
+     "widthPx": 500,
+     "heightPx": 867,
+     "sha256": "7cb00ad1dabffdab4dc820089c86248fdf1715b69511adfd020224c8546c65cb"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "swords-ten.usdz",
+       "bytes": 349366,
+       "sha256": "6e888b65dc51043d6972a2741be43017b6e3197c8f3c55fc2717bbd95bb54aa7"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "disorder",
+    "place",
+    "light"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "0b83c632260533e09662f9b930e1d5e7b08fefcac9a6778072731e995e4f5fdd"
+  },
+  {
+   "index": 60,
+   "id": "swords-page",
+   "structureRef": "rws-78.v1:swords:11",
+   "canonicalName": "Page of Swords",
+   "groupId": "swords",
+   "ordinal": 10,
+   "meaning": {
+    "upright": "Somebody is watching everything closely and has not decided what to do with it yet. Vigilance with no target attached, which is the most useful shape it ever has.",
+    "inverted": "The watching has turned into a habit of suspecting. Once everything is evidence, nothing is, and the attention that was an asset is now just weather.",
+    "keywords": [
+     "watchfulness",
+     "curiosity",
+     "guard",
+     "noticing"
+    ]
+   },
+   "visual": {
+    "description": "A young figure stands on rising ground holding a sword up in both hands, body turned one way and head turned sharply the other. Clouds run and trees bend in a wind coming from behind him. Birds are up in a scattered sky, and his footing is light rather than braced.",
+    "dominantMotifs": [
+     "people",
+     "movement",
+     "place"
+    ],
+    "altText": "A young figure on high ground holding a sword up in both hands, looking back over one shoulder.",
+    "image": {
+     "file": "swords-page.jpg",
+     "widthPx": 500,
+     "heightPx": 866,
+     "sha256": "5c95d7e6aec9bf213dda56300261faed202f973700f982fe7c684c1f728cd28a"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "swords-page.usdz",
+       "bytes": 377871,
+       "sha256": "c0139d49c4f4ae8388eb11543dfc8008dfe44a23f982525669419712da6ff879"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "people",
+    "movement",
+    "place"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "b0af05081f330ce95b074e80944879277ccb09dfb22eb8816f55628d7da6e0cb"
+  },
+  {
+   "index": 61,
+   "id": "swords-knight",
+   "structureRef": "rws-78.v1:swords:12",
+   "canonicalName": "Knight of Swords",
+   "groupId": "swords",
+   "ordinal": 11,
+   "meaning": {
+    "upright": "Straight at it, at full speed, saying exactly what is meant. It will work or it will be a mess and either way it will be quick.",
+    "inverted": "The charge has stopped being aimed and is still going at the same speed. Momentum is the only part still working, and it will keep working right up until it arrives somewhere.",
+    "keywords": [
+     "directness",
+     "haste",
+     "force",
+     "bluntness"
+    ]
+   },
+   "visual": {
+    "description": "An armoured rider leans forward on a galloping white horse with a sword raised above his head. Cloaks, plumes and the horse's mane all stream backward. Trees bend flat and birds fly in the same direction.",
+    "dominantMotifs": [
+     "movement",
+     "people"
+    ],
+    "altText": "An armoured rider on a galloping horse, sword raised, everything streaming backward in the wind.",
+    "image": {
+     "file": "swords-knight.jpg",
+     "widthPx": 500,
+     "heightPx": 863,
+     "sha256": "977126f6e307e9acf29cd8ea5a824fd4df904fa737e131c01133c29cafefbc8b"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "swords-knight.usdz",
+       "bytes": 380842,
+       "sha256": "c09e965fcf818fc986338664476e48de48d4418846e299cd4ec517302588dec9"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "movement",
+    "people"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "19d480f0354c098fdd2ce0daf5b727c6f09a7ae2814f24ca9503675d57f8dd1e"
+  },
+  {
+   "index": 62,
+   "id": "swords-queen",
+   "structureRef": "rws-78.v1:swords:13",
+   "canonicalName": "Queen of Swords",
+   "groupId": "swords",
+   "ordinal": 12,
+   "meaning": {
+    "upright": "Somebody who has been through it and will not soften the account for you. Kindness arrives here as accuracy, which is not what most people are hoping for and is often what they needed.",
+    "inverted": "The clear sight has stopped being offered and started being used. The same accuracy is being aimed now rather than simply held, and the person on the end of it cannot argue with any individual sentence.",
+    "keywords": [
+     "clear sight",
+     "experience",
+     "candour",
+     "reserve"
+    ]
+   },
+   "visual": {
+    "description": "A crowned figure sits in profile on a stone throne carved with a butterfly and a winged head, an upright sword in one hand and the other open toward us. A single cloud sits below the seat. One bird flies in the pale sky.",
+    "dominantMotifs": [
+     "people",
+     "principle",
+     "object"
+    ],
+    "altText": "A crowned figure in profile on a carved throne, one hand open and an upright sword in the other.",
+    "image": {
+     "file": "swords-queen.jpg",
+     "widthPx": 500,
+     "heightPx": 870,
+     "sha256": "8f49de4f5bcc484ca3f9e794698ee34eebcb78264259effc3aaeff6117f4cd24"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "swords-queen.usdz",
+       "bytes": 367181,
+       "sha256": "991ca6fffff73606f6e3c59e3d3d552879658f2848c53b1db45a46c13e5f359d"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "people",
+    "principle",
+    "object"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "46281a6a6defe117333dafa6af4c95c039de03559ac950fab91a53ad6ab0f497"
+  },
+  {
+   "index": 63,
+   "id": "swords-king",
+   "structureRef": "rws-78.v1:swords:14",
+   "canonicalName": "King of Swords",
+   "groupId": "swords",
+   "ordinal": 13,
+   "meaning": {
+    "upright": "Somebody decides, says the reason out loud, and lets it be argued with. Judgement is public here or it is not judgement, and the reason is given before it is asked for.",
+    "inverted": "The reason arrives after the decision, and only when somebody asks. That order is the whole difference between being answerable and being obeyed.",
+    "keywords": [
+     "judgement",
+     "decision",
+     "reason",
+     "authority"
+    ]
+   },
+   "visual": {
+    "description": "A crowned figure sits facing forward on a stone throne carved with butterflies and crescents, holding a sword upright and slightly tilted. Two birds fly in the sky behind and trees stand still. His robe is blue under a red cloak.",
+    "dominantMotifs": [
+     "people",
+     "principle",
+     "order"
+    ],
+    "altText": "A crowned figure facing forward on a carved throne holding an upright sword slightly tilted.",
+    "image": {
+     "file": "swords-king.jpg",
+     "widthPx": 500,
+     "heightPx": 859,
+     "sha256": "187dcba1ff8949cb4e1e0bdcee0ee13620ef8ac440cb2b8737d04e86eb2b74d9"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "swords-king.usdz",
+       "bytes": 387527,
+       "sha256": "06f219d5eb7dab8ac85a6603194c6c94cee4e2afd82cc014bd92808a85f68235"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "people",
+    "principle",
+    "order"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "aa743fe56c5060a7c3f6f0ebd2f715099190c68bb19c7e24d2f4d114d7016d49"
+  },
+  {
+   "index": 64,
+   "id": "pentacles-ace",
+   "structureRef": "rws-78.v1:pentacles:1",
+   "canonicalName": "Ace of Pentacles",
+   "groupId": "pentacles",
+   "ordinal": 0,
+   "meaning": {
+    "upright": "Something real and small is put into your hand: an amount, a tool, an actual start. Not a promise about one, and not a sign that one is coming, but the object itself.",
+    "inverted": "You are waiting for a bigger one before you will begin. The hand does not stay out of the cloud indefinitely, and what it is holding was always meant to be a first thing rather than a sufficient one.",
+    "keywords": [
+     "start",
+     "material",
+     "gift",
+     "substance"
+    ]
+   },
+   "visual": {
+    "description": "A hand comes out of a cloud holding a large gold disc marked with a pentagram, level and flat. Below, a hedged garden full of white lilies leads to an arch of greenery. Mountains show through the arch.",
+    "dominantMotifs": [
+     "object",
+     "place"
+    ],
+    "altText": "A hand from a cloud holding a level gold disc, above a lily garden with a green arch.",
+    "image": {
+     "file": "pentacles-ace.jpg",
+     "widthPx": 500,
+     "heightPx": 866,
+     "sha256": "04336630ebc8a2db8a3013039e15fd8859b6aa0dde2d5a511110fda9b8735d1c"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "pentacles-ace.usdz",
+       "bytes": 376607,
+       "sha256": "f126591551ac942e3861fad67b0198ecf4a51f28ae5d714822fe1296ba26cb33"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "object",
+    "place"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "530a78cb53c61561546ae3c98c6f729b4db1979bb8c8b3a3654bb13c95c77af1"
+  },
+  {
+   "index": 65,
+   "id": "pentacles-two",
+   "structureRef": "rws-78.v1:pentacles:2",
+   "canonicalName": "Two of Pentacles",
+   "groupId": "pentacles",
+   "ordinal": 1,
+   "meaning": {
+    "upright": "You are keeping two things going and it is working, as long as you keep moving. Juggling is a skill and it is not sustainable; both are true.",
+    "inverted": "One of them is being kept up out of habit and you have not named which. The ribbon does not care what is worth juggling; it only shows that both are still in the air.",
+    "keywords": [
+     "juggling",
+     "balance",
+     "motion",
+     "two things"
+    ]
+   },
+   "visual": {
+    "description": "A figure in a tall red hat dances on the spot holding two discs joined by a green ribbon looped into a figure of eight around them. Behind him, two small ships ride two very large waves. Both his feet are off the ground in different directions, and nothing in the picture is still.",
+    "dominantMotifs": [
+     "movement",
+     "object"
+    ],
+    "altText": "A dancing figure holding two discs joined by a ribbon in a figure of eight, ships on high waves behind.",
+    "image": {
+     "file": "pentacles-two.jpg",
+     "widthPx": 500,
+     "heightPx": 863,
+     "sha256": "7be83c45173682184db4c42c2ca9b87f4fa932bf9e6242be584b5f474c315223"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "pentacles-two.usdz",
+       "bytes": 376259,
+       "sha256": "ccca42e987cc7e1f713f3f97474dc8dcf31b2ac2e0180cea264549b1e58bdd8b"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "movement",
+    "object"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "afffcf9cd62cda7986a9da350631424afb253138e0ad1c446abe7319a009dff8"
+  },
+  {
+   "index": 66,
+   "id": "pentacles-three",
+   "structureRef": "rws-78.v1:pentacles:3",
+   "canonicalName": "Three of Pentacles",
+   "groupId": "pentacles",
+   "ordinal": 2,
+   "meaning": {
+    "upright": "You are good at the part you are good at, and other people are standing there with the plan. The work is joint and the credit is not confusing anybody yet.",
+    "inverted": "The consultation keeps happening and nobody has cut anything yet. A plan agreed by everybody present is not the same as a stone with a shape in it.",
+    "keywords": [
+     "craft",
+     "collaboration",
+     "skill",
+     "work"
+    ]
+   },
+   "visual": {
+    "description": "A stonemason stands on a low wooden bench working at the arch of a church with a mallet in his hand. A hooded figure and a robed one stand below holding up a drawing and looking up at him. Three discs are set into the stonework above them, and the three faces are all turned to the same problem.",
+    "dominantMotifs": [
+     "people",
+     "habit",
+     "place"
+    ],
+    "altText": "A stonemason on a bench working an arch while two figures hold up a plan below.",
+    "image": {
+     "file": "pentacles-three.jpg",
+     "widthPx": 500,
+     "heightPx": 859,
+     "sha256": "8b572ac8d5d59e0c234131cfb2b6713fac9deaeee84e697913756402de321f64"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "pentacles-three.usdz",
+       "bytes": 386027,
+       "sha256": "72f8b14199f1e6207287e91dee7b56e6d8368d86da7818d67d04af1909d73e3c"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "people",
+    "habit",
+    "place"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "f22999744f8d469c42970fd522b6794309f4d13b4e1d51bd70d9f756f9fa9c69"
+  },
+  {
+   "index": 67,
+   "id": "pentacles-four",
+   "structureRef": "rws-78.v1:pentacles:4",
+   "canonicalName": "Four of Pentacles",
+   "groupId": "pentacles",
+   "ordinal": 3,
+   "meaning": {
+    "upright": "You have it and you are keeping it, and keeping it is a reasonable thing to be doing. Holding on is not automatically a flaw.",
+    "inverted": "Nothing is going out and nothing is coming in, and the grip has started counting as a plan. Four discs held this tightly need both arms, both feet and the top of your head, which leaves nothing.",
+    "keywords": [
+     "holding",
+     "security",
+     "keeping",
+     "grip"
+    ]
+   },
+   "visual": {
+    "description": "A crowned figure sits on a stone block clutching one disc to his chest with both arms, one balanced upright on his crown and one under each foot. His elbows are in and his knees are together. A grey walled town stands on the horizon behind him, and he is not looking at it.",
+    "dominantMotifs": [
+     "object",
+     "people",
+     "order"
+    ],
+    "altText": "A crowned figure clutching one disc, another on the crown and one under each foot.",
+    "image": {
+     "file": "pentacles-four.jpg",
+     "widthPx": 500,
+     "heightPx": 865,
+     "sha256": "1bed80a58b7781a18e0ccbdb56715f0d11a6f51ef71019a2b02496be50121ed4"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "pentacles-four.usdz",
+       "bytes": 359659,
+       "sha256": "9a120cf9c1699faa5a15d10ea58e761fecd877ba890a0c28b05892e7c512d5a9"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "object",
+    "people",
+    "order"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "93dda7a5a89b852d96aa724c257a57d7a8f0829cded1c99ab42ecddf8ad89e51"
+  },
+  {
+   "index": 68,
+   "id": "pentacles-five",
+   "structureRef": "rws-78.v1:pentacles:5",
+   "canonicalName": "Five of Pentacles",
+   "groupId": "pentacles",
+   "ordinal": 4,
+   "meaning": {
+    "upright": "You are outside in bad weather and there is light on the other side of the wall. Being in it is not the same as there being nothing.",
+    "inverted": "You have walked past the lit window several times without stopping. At some point being outside stopped being something happening to you and started being the route you take.",
+    "keywords": [
+     "hardship",
+     "cold",
+     "exclusion",
+     "nearby warmth"
+    ]
+   },
+   "visual": {
+    "description": "Two ragged figures pass through snow outside a stained-glass window lit from within, one on crutches and one barefoot with a shawl. Five discs are set in the glass among leaves. The snow is falling steadily.",
+    "dominantMotifs": [
+     "place",
+     "people",
+     "light"
+    ],
+    "altText": "Two ragged figures passing through snow beneath a lit stained-glass window set with five discs.",
+    "image": {
+     "file": "pentacles-five.jpg",
+     "widthPx": 500,
+     "heightPx": 863,
+     "sha256": "cf87e40e801207119edd6838f23c6db117a4ed14a3932c3aa0e4dd3f0b6dbe2c"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "pentacles-five.usdz",
+       "bytes": 397794,
+       "sha256": "a18b83df16079ec784144fb79d6a3a5b9420b93935afcf2fb9979cbb6e2c45c8"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "place",
+    "people",
+    "light"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "2a4ad7c738f8fb84d8ecef97e28028e18af07a420fcef7d0feafc92450079173"
+  },
+  {
+   "index": 69,
+   "id": "pentacles-six",
+   "structureRef": "rws-78.v1:pentacles:6",
+   "canonicalName": "Six of Pentacles",
+   "groupId": "pentacles",
+   "ordinal": 5,
+   "meaning": {
+    "upright": "Something is given and the terms are visible. A gift that is also a measurement is still a gift; pretending it is not would be worse.",
+    "inverted": "The scales stay in the picture. What is being given now is the fact of giving it, and everybody kneeling can see the weighing as clearly as they can see the coins.",
+    "keywords": [
+     "giving",
+     "measure",
+     "terms",
+     "help"
+    ]
+   },
+   "visual": {
+    "description": "A merchant in a red robe drops coins into the hand of one kneeling beggar while another kneels waiting, holding a pair of scales level in his other hand. Six discs float in the air around them. The town wall stands behind.",
+    "dominantMotifs": [
+     "people",
+     "object",
+     "principle"
+    ],
+    "altText": "A robed merchant dropping coins into a beggar's hand while holding level scales, another beggar waiting.",
+    "image": {
+     "file": "pentacles-six.jpg",
+     "widthPx": 500,
+     "heightPx": 866,
+     "sha256": "50aa20b6b3e6eb0f2bdc95e35d647d51976a002724c0742fd506373c15c516a3"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "pentacles-six.usdz",
+       "bytes": 373199,
+       "sha256": "a0b6d5e63ed8341bba09fa69d1e6f95a3a788ac793f2de232a1588eecb1a9c30"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "people",
+    "object",
+    "principle"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "c1a294567047e8e3f13cf03df8061ca51658000d0700f95a6300b252de2089e9"
+  },
+  {
+   "index": 70,
+   "id": "pentacles-seven",
+   "structureRef": "rws-78.v1:pentacles:7",
+   "canonicalName": "Seven of Pentacles",
+   "groupId": "pentacles",
+   "ordinal": 6,
+   "meaning": {
+    "upright": "You have done the work and it is not ready, and there is nothing further to do today. Waiting on something growing is work of a kind.",
+    "inverted": "You keep checking. A crop examined daily is not a crop being tended, and the looking costs the plant nothing and costs you the whole season.",
+    "keywords": [
+     "waiting",
+     "growth",
+     "patience",
+     "assessment"
+    ]
+   },
+   "visual": {
+    "description": "A young farmer leans both hands and most of his weight on the handle of a hoe, looking down at a leafy bush bearing seven discs. One more disc lies on the ground at his feet. His posture is entirely at rest, and the bush is doing all the work in the picture.",
+    "dominantMotifs": [
+     "habit",
+     "place",
+     "movement"
+    ],
+    "altText": "A young farmer leaning on a hoe, looking down at a bush bearing seven discs.",
+    "image": {
+     "file": "pentacles-seven.jpg",
+     "widthPx": 500,
+     "heightPx": 861,
+     "sha256": "bcdb53f2768663074dc3360006f3af78fa4dc73f21b12eb198e116f352593741"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "pentacles-seven.usdz",
+       "bytes": 388996,
+       "sha256": "b751793e9275b502381fc4061d85bcdcaf4012beac156e3c5b655f8dc982aa45"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "habit",
+    "place",
+    "movement"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "8c140566a9b348582c41fde356c987a142cd6550d3de9b6cddd18608b8fa859f"
+  },
+  {
+   "index": 71,
+   "id": "pentacles-eight",
+   "structureRef": "rws-78.v1:pentacles:8",
+   "canonicalName": "Eight of Pentacles",
+   "groupId": "pentacles",
+   "ordinal": 7,
+   "meaning": {
+    "upright": "Same motion, again, and the stack is getting taller. Repetition is how a skill is actually acquired and it looks like nothing from outside.",
+    "inverted": "The eighth is being made because the seventh was, and nobody has asked lately what they are for. Practice with the question removed is just the same hour, repeated, getting shorter each time.",
+    "keywords": [
+     "repetition",
+     "practice",
+     "craft",
+     "patience"
+    ]
+   },
+   "visual": {
+    "description": "A craftsman sits on a bench striking a disc with a hammer, one finished piece beside him and six more nailed in a column on a post. A grey town stands at the end of a path behind him. His head is down over the work.",
+    "dominantMotifs": [
+     "habit",
+     "object",
+     "people"
+    ],
+    "altText": "A craftsman hammering a disc at a bench, six finished discs nailed in a column on a post.",
+    "image": {
+     "file": "pentacles-eight.jpg",
+     "widthPx": 500,
+     "heightPx": 859,
+     "sha256": "c515ddc4d57da7a27c3090218a98215aeb33c8b85c1fad3e3c7aae031f14fd9b"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "pentacles-eight.usdz",
+       "bytes": 375200,
+       "sha256": "6cdc2323ef9f2aa5f7a145a938a1e8ca9934f7a4e0af946c17b1d6023c830ee7"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "habit",
+    "object",
+    "people"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "1f2fdc331f6e6648aff94d90e1c4abe853928c0240f98c106e445b1a23a4d5c9"
+  },
+  {
+   "index": 72,
+   "id": "pentacles-nine",
+   "structureRef": "rws-78.v1:pentacles:9",
+   "canonicalName": "Nine of Pentacles",
+   "groupId": "pentacles",
+   "ordinal": 8,
+   "meaning": {
+    "upright": "You have built something and you can stand in it on your own. Self-sufficiency that is comfortable rather than defensive.",
+    "inverted": "You have arranged things so that nobody needs to be let in. The wall was built to make a garden and it turns out to work just as well the other way round.",
+    "keywords": [
+     "self-sufficiency",
+     "comfort",
+     "enclosure",
+     "having"
+    ]
+   },
+   "visual": {
+    "description": "A robed figure stands in a walled vineyard with a hooded falcon on her gloved hand, heavy grapes and six discs among the vines. A manor house shows above the wall. A small snail crosses the ground in front of her.",
+    "dominantMotifs": [
+     "place",
+     "people",
+     "food"
+    ],
+    "altText": "A robed figure with a hooded falcon on her glove in a walled vineyard hung with grapes and discs.",
+    "image": {
+     "file": "pentacles-nine.jpg",
+     "widthPx": 500,
+     "heightPx": 866,
+     "sha256": "fdc5dd3504f939c625215d7c78f6ce24fc3be50fb6035c5ad802c358880ccc95"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "pentacles-nine.usdz",
+       "bytes": 378101,
+       "sha256": "daaf02c6b77cf1ee74345658db5119eb91ff2f2a8dc054168e17488f7eb9d6d7"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "place",
+    "people",
+    "food"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "aa846b5dbee9dd48b32ee8ac6a51837bd6ff26a590840d41b0e1cb6c58491de8"
+  },
+  {
+   "index": 73,
+   "id": "pentacles-ten",
+   "structureRef": "rws-78.v1:pentacles:10",
+   "canonicalName": "Ten of Pentacles",
+   "groupId": "pentacles",
+   "ordinal": 9,
+   "meaning": {
+    "upright": "It is not only yours, and it has been going longer than you. Something held in common across time, with the people and the dogs in it.",
+    "inverted": "The inheritance is being administered. Everything is accounted for, the dogs are fed, and nobody is actually living in the house.",
+    "keywords": [
+     "inheritance",
+     "family",
+     "continuity",
+     "belonging"
+    ]
+   },
+   "visual": {
+    "description": "An old man in a patterned robe sits at an archway stroking two hounds while a couple talk beside him and a child reaches for one of the dogs. Ten discs are arranged over the scene in the shape of a tree. A market town shows through the arch.",
+    "dominantMotifs": [
+     "people",
+     "place",
+     "order"
+    ],
+    "altText": "An old man with two hounds at an archway beside a couple and a child, ten discs arranged like a tree.",
+    "image": {
+     "file": "pentacles-ten.jpg",
+     "widthPx": 500,
+     "heightPx": 861,
+     "sha256": "858e16eba50d81dc09b1219474f508183bf4a8a66bc9112524b6bd28ca28e02e"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "pentacles-ten.usdz",
+       "bytes": 402311,
+       "sha256": "b32f4d7bffe4b290a2916b96aed91b16ccebd0703e00309e6ce3b698dfe494e0"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "people",
+    "place",
+    "order"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "a1cdcaa2b185e411e9ee997b9f2d4d1bc65f26ee9b68c51abf7c240fc78ac1e2"
+  },
+  {
+   "index": 74,
+   "id": "pentacles-page",
+   "structureRef": "rws-78.v1:pentacles:11",
+   "canonicalName": "Page of Pentacles",
+   "groupId": "pentacles",
+   "ordinal": 10,
+   "meaning": {
+    "upright": "Somebody is learning it properly and has not got bored yet. The attention is on the thing rather than on being seen doing it.",
+    "inverted": "The study has become a way of not yet starting. Learning it properly is a real thing to be doing and it can also be somewhere to stand for a very long time.",
+    "keywords": [
+     "study",
+     "attention",
+     "beginning",
+     "application"
+    ]
+   },
+   "visual": {
+    "description": "A young figure stands in a green field holding up a single disc in both hands and looking straight at it, close to his face. A ploughed brown field and a line of trees stand behind him. His hat is soft and his stance is planted, and he does not appear to be in any hurry.",
+    "dominantMotifs": [
+     "people",
+     "object"
+    ],
+    "altText": "A young figure in a green field holding up a disc in both hands and looking straight at it.",
+    "image": {
+     "file": "pentacles-page.jpg",
+     "widthPx": 500,
+     "heightPx": 863,
+     "sha256": "d6bcc92d1cee2d172c395297540131dee0ddde20460fd41cfd17620739a693d3"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "pentacles-page.usdz",
+       "bytes": 349628,
+       "sha256": "f5985dd7f165c9bb6a416fe21525f9c36da3af21370e33636fff79ef9e1d8183"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "people",
+    "object"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "4962eabbd0db94e306e807191a5b9e035d9f6457552831520c1e8d5f1a21c673"
+  },
+  {
+   "index": 75,
+   "id": "pentacles-knight",
+   "structureRef": "rws-78.v1:pentacles:12",
+   "canonicalName": "Knight of Pentacles",
+   "groupId": "pentacles",
+   "ordinal": 11,
+   "meaning": {
+    "upright": "Slow, reliable, and going to get there. Not much to watch and nothing to worry about, which are the two hardest qualities to notice and the two you miss most when they are gone.",
+    "inverted": "It has been the same pace for so long that nobody has asked whether it is still the right field. Reliability does not check its own direction, and it will plough whatever it is pointed at.",
+    "keywords": [
+     "steadiness",
+     "reliability",
+     "slowness",
+     "duty"
+    ]
+   },
+   "visual": {
+    "description": "An armoured rider sits still on a heavy black horse that is standing with all four feet down, holding a disc out level in one hand. A ploughed field stretches behind them to a line of trees. The horse's head is low.",
+    "dominantMotifs": [
+     "people",
+     "place",
+     "object"
+    ],
+    "altText": "An armoured rider on a stationary black horse holding out a disc, a ploughed field behind.",
+    "image": {
+     "file": "pentacles-knight.jpg",
+     "widthPx": 500,
+     "heightPx": 864,
+     "sha256": "ad814b58f586faa414b41bd836db6bb7c74c77040fe81cc2ae1e3ba6928280ed"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "pentacles-knight.usdz",
+       "bytes": 342813,
+       "sha256": "98ea381fe7b1674db392c8deb4c6bcd41d6d8543481b2834aeafe698cf5bfa77"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "people",
+    "place",
+    "object"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "cad68fd138830c712e5dc92125dc97d5379a380cce66acb6770e91fd01aa62b0"
+  },
+  {
+   "index": 76,
+   "id": "pentacles-queen",
+   "structureRef": "rws-78.v1:pentacles:13",
+   "canonicalName": "Queen of Pentacles",
+   "groupId": "pentacles",
+   "ordinal": 12,
+   "meaning": {
+    "upright": "Somebody looks after what is in front of them, materially, without making a virtue of it. The care is in the doing rather than in being seen to, and it holds a lot of weight quietly.",
+    "inverted": "The care has become management. Everything is looked after and nothing is being enjoyed, including by the person doing the looking after.",
+    "keywords": [
+     "care",
+     "provision",
+     "attention",
+     "comfort"
+    ]
+   },
+   "visual": {
+    "description": "A crowned figure sits on a throne carved with goats, angels and fruit, in a flowering hollow, holding a disc in her lap with both hands and looking down at it. A rabbit is entering the picture at the lower corner. Roses arch overhead.",
+    "dominantMotifs": [
+     "people",
+     "place",
+     "object"
+    ],
+    "altText": "A crowned figure on a carved throne in a flowering hollow, holding a disc in her lap and looking at it.",
+    "image": {
+     "file": "pentacles-queen.jpg",
+     "widthPx": 500,
+     "heightPx": 866,
+     "sha256": "fbde0a886150ad4d105f0d694bef0470564bdcda0deea192a13f2a8a854c2eac"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "pentacles-queen.usdz",
+       "bytes": 405537,
+       "sha256": "25147cfad8e340d17ae2b9f0b388e129eec79ba44e9d4156e6273fc3e3775ba2"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "people",
+    "place",
+    "object"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "f623ba1b5656fa121e1904fca32dff29ab7e4a35c99d2cac23ab041ab13c2f25"
+  },
+  {
+   "index": 77,
+   "id": "pentacles-king",
+   "structureRef": "rws-78.v1:pentacles:14",
+   "canonicalName": "King of Pentacles",
+   "groupId": "pentacles",
+   "ordinal": 13,
+   "meaning": {
+    "upright": "Somebody has built something that holds other people up. Having enough, and using it as a floor for everybody standing on it rather than as a wall around what is theirs.",
+    "inverted": "The walls have gone up around the thing that was supposed to be a floor. Same wealth, same vines, and the gate is now the most considered part of it.",
+    "keywords": [
+     "provision",
+     "stability",
+     "having built",
+     "shelter"
+    ]
+   },
+   "visual": {
+    "description": "A crowned figure sits on a throne carved with bull heads, in a robe patterned with grapes and vines, one hand on a disc in his lap and a sceptre in the other. Vines and grapes crowd in around him. A castle stands on the hill behind.",
+    "dominantMotifs": [
+     "people",
+     "food",
+     "place"
+    ],
+    "altText": "A crowned figure in a vine-patterned robe on a bull-carved throne, one hand resting on a disc.",
+    "image": {
+     "file": "pentacles-king.jpg",
+     "widthPx": 500,
+     "heightPx": 867,
+     "sha256": "580d700e00c990c7ccc016051d8a547c14be97867d6418e6ebc34db01d171231"
+    },
+    "model": {
+     "files": [
+      {
+       "file": "pentacles-king.usdz",
+       "bytes": 380679,
+       "sha256": "1d796ce1a454592f545331c032c95287c6cb66cd88382bf97eef99a4a28a69d4"
+      }
+     ],
+     "animated": false
+    }
+   },
+   "motifTags": [
+    "people",
+    "food",
+    "place"
+   ],
+   "eligibility": {
+    "weight": 1,
+    "spreadPositionClasses": [
+     "any"
+    ]
+   },
+   "contentHash": "b0eed1ab68c5157aa78f36c4e18987e9a469c7b66a369066a6ef16fc1cfa56c8"
+  }
+ ]
+}

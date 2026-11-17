@@ -1,0 +1,341 @@
+{
+ "schema": 2,
+ "note": "Every Minecraft version, by era: the Java it runs on, the loaders a mod or plugin can target (eras/loaders.json names each loader's packages and where its declared compatibility lives), how its code is named (names.dev: what the source is written in; names.runtime: what the running game is called, per loader, '*' for the rest), the Java a loader's scanner reads (outerJava), and the walls a port crosses. Read by the Gradle plugin (mycelium { minecraft = ... }): a target's era sets its Java, its era gate and its evidence; an artifact's declared range is held to the walls (docs/decisions/0009). Ordered newest first; from and to are inclusive, and each is a version as Mojang's launcher manifest names it (eras/versions.json) or a whole line, '<line>.x' (every version of that line, those still to come included). A loader listed in an era exists on every version of it unless 'since' gives the first version it exists on. A wall is the first version of its far side: 'at' is a real version, 'for' names the loaders or families ('mod', 'plugin') it splits (absent: every artifact), and a range holding a wall needs a proof version on each side (docs/decisions/0009). 'notes' are facts that are not walls. The repository check proves every real version falls in exactly one era and every named version, loader and name is real. 'realizations' holds one more table per divide over the same versions, each ordered newest first, that no era row can hold because its ranges cross the eras: what a version realizes the divide as (item.presentation: how an item's state is drawn, item-definition, model-overrides or none, read by the item.presentation compiler; item.carrier: where a stack keeps its state, custom-data, root-tag or none, read by the item-carrier bridge), 'none' meaning the game cannot do it there (decision 0016); every real version falls in exactly one range of every table. 'packFormat' is a third table over the same versions, newest first, of the resource-pack and data-pack format each range of versions has (the game's own version.json pack_version; a minor from 1.21.9 is written major.minor): the Gradle plugin writes a target's pack.mcmeta from it (docs/decisions/0017). Each row's 'source' says where it was read: a real game jar ('jar <version>', its version.json) or minecraft.wiki's Pack format table ('wiki'); resource packs begin at 1.6.1, data packs at 1.13. Each row's facts are re-verified against the loaders' own mavens when a consumer first ports to it (docs/eras.md).",
+ "eras": [
+  {
+   "id": "unobfuscated",
+   "from": "26.1",
+   "to": "26.x",
+   "java": 25,
+   "loaders": [
+    "fabric",
+    "quilt",
+    "neoforge",
+    "forge",
+    "bukkit",
+    "spigot",
+    "paper",
+    "purpur",
+    "folia"
+   ],
+   "since": {"paper": "26.1.1", "purpur": "26.1.2", "folia": "26.1.2"},
+   "names": {"dev": "unobfuscated", "runtime": {"*": "unobfuscated", "bukkit": "api", "spigot": "unobfuscated"}},
+   "walls": [
+    {"at": "26.1", "for": ["mod"], "what": "the game ships unobfuscated; mappings are gone"}
+   ],
+   "notes": [
+    "Forge runs on EventBus 7 (it began at 1.21.6)"
+   ]
+  },
+  {
+   "id": "components",
+   "from": "1.20.5",
+   "to": "1.21.x",
+   "java": 21,
+   "loaders": [
+    "fabric",
+    "quilt",
+    "neoforge",
+    "forge",
+    "bukkit",
+    "spigot",
+    "paper",
+    "purpur",
+    "folia"
+   ],
+   "names": {"dev": "mojang", "runtime": {"*": "mojang", "fabric": "intermediary", "quilt": "intermediary", "bukkit": "api", "spigot": "spigot"}},
+   "walls": [
+    {"at": "1.20.5", "for": ["mod"], "what": "data components replace item NBT"},
+    {"at": "1.21", "for": ["plugin"], "what": "the Bukkit API's registries become API: Enchantment, PotionEffectType and kin are registry-backed"},
+    {"at": "1.21.2", "for": ["mod"], "what": "item and registry holder reworks"},
+    {"at": "1.21.4", "for": ["mod"], "what": "item model definitions"},
+    {"at": "1.21.5", "for": ["mod"], "what": "text component click and hover events change shape (click_event, hover_event)"},
+    {"at": "1.21.6", "for": ["mod"], "what": "Forge moves to EventBus 7"},
+    {"at": "1.21.9", "for": ["mod"], "what": "entity and block-entity saving moves to ValueInput and ValueOutput"},
+    {"at": "1.21.11", "for": ["mod"], "what": "ResourceLocation is renamed Identifier"}
+   ],
+   "notes": [
+    "1.21.1: PalettedContainer.copy() is shallow (its palettes keep the source's resize handler); 26.3 copies deeply",
+    "Paper's runtime is Mojang-named from 1.20.5; Spigot's stays its own"
+   ]
+  },
+  {
+   "id": "configuration",
+   "from": "1.20.2",
+   "to": "1.20.4",
+   "java": 17,
+   "loaders": [
+    "fabric",
+    "quilt",
+    "neoforge",
+    "forge",
+    "bukkit",
+    "spigot",
+    "paper",
+    "purpur",
+    "folia"
+   ],
+   "names": {"dev": "mojang", "runtime": {"*": "mojang", "fabric": "intermediary", "quilt": "intermediary", "forge": "srg", "bukkit": "api", "spigot": "spigot", "paper": "spigot", "purpur": "spigot", "folia": "spigot"}},
+   "walls": [
+    {"at": "1.20.2", "for": ["mod"], "what": "the configuration network phase; NeoForge splits from Forge"},
+    {"at": "1.20.3", "for": ["mod"], "what": "text components travel as NBT on the wire (protocol 765)"}
+   ],
+   "notes": [
+    "NeoForge runs Mojang names from 1.20.2; Forge's installer still builds an SRG server for 1.20.2 to 1.20.4 (Forge 48 and 49), and Forge runs Mojang names from 1.20.6 (50); 1.20.1 and before run SRG on both"
+   ]
+  },
+  {
+   "id": "caves",
+   "from": "1.18",
+   "to": "1.20.1",
+   "java": 17,
+   "loaders": [
+    "fabric",
+    "forge",
+    "quilt",
+    "neoforge",
+    "bukkit",
+    "spigot",
+    "paper",
+    "purpur",
+    "folia"
+   ],
+   "since": {"neoforge": "1.20.1", "folia": "1.19.4"},
+   "names": {"dev": "mojang", "runtime": {"*": "spigot", "fabric": "intermediary", "quilt": "intermediary", "forge": "srg", "neoforge": "srg", "bukkit": "api"}},
+   "walls": [
+    {"at": "1.18", "for": ["mod"], "what": "the world spans -64..320"},
+    {"at": "1.18.2", "for": ["mod"], "what": "registry and tag data in the join packet change from 1.18.1 (protocol 758)"},
+    {"at": "1.19", "for": ["mod"], "what": "chat signing, the Deep Dark"},
+    {"at": "1.19.1", "for": ["mod"], "what": "secure chat: messages are signed and carry chat types (protocol 760)"},
+    {"at": "1.19.3", "for": ["mod"], "what": "chat and command signing become a chain, player info updates split, registries become BuiltInRegistries (protocol 761)"},
+    {"at": "1.19.4", "for": ["mod"], "what": "damage types become registry data (protocol 762)"}
+   ],
+   "notes": [
+    "1.20.1: NeoForge's first fork (loader 'neoforge' on 1.20.1 is Forge-shaped: net.minecraftforge packages, mods.toml, SRG at runtime)"
+   ]
+  },
+  {
+   "id": "java16",
+   "from": "1.17",
+   "to": "1.17.1",
+   "java": 16,
+   "loaders": [
+    "fabric",
+    "forge",
+    "quilt",
+    "bukkit",
+    "spigot",
+    "paper",
+    "purpur"
+   ],
+   "names": {"dev": "mojang", "runtime": {"*": "spigot", "fabric": "intermediary", "quilt": "intermediary", "forge": "srg", "bukkit": "api"}},
+   "walls": [
+    {"at": "1.17", "for": ["mod"], "what": "Java 16; world-height groundwork"}
+   ]
+  },
+  {
+   "id": "fabric",
+   "from": "1.14",
+   "to": "1.16.5",
+   "java": 8,
+   "loaders": [
+    "fabric",
+    "forge",
+    "quilt",
+    "bukkit",
+    "spigot",
+    "paper",
+    "purpur"
+   ],
+   "since": {"forge": "1.14.2", "quilt": "1.14.4", "purpur": "1.14.1"},
+   "names": {"dev": "mojang-from-1.14.4", "runtime": {"*": "spigot", "fabric": "intermediary", "quilt": "intermediary", "forge": "srg", "bukkit": "api"}},
+   "walls": [
+    {"at": "1.14", "for": ["mod"], "what": "Fabric exists"},
+    {"at": "1.14.4", "for": ["mod"], "what": "official Mojang mappings"},
+    {"at": "1.16", "for": ["mod"], "what": "data-driven dimensions"},
+    {"at": "1.16.2", "for": ["mod"], "what": "biome and dimension data travel in the join packet (protocol 751)"}
+   ]
+  },
+  {
+   "id": "flattening",
+   "from": "1.13",
+   "to": "1.13.2",
+   "java": 8,
+   "loaders": [
+    "forge",
+    "legacy-fabric",
+    "ornithe",
+    "bukkit",
+    "spigot",
+    "paper"
+   ],
+   "since": {"forge": "1.13.2"},
+   "names": {"dev": "mcp", "runtime": {"*": "spigot", "forge": "srg", "legacy-fabric": "intermediary", "ornithe": "calamus", "bukkit": "api"}},
+   "walls": [
+    {"at": "1.13", "what": "the Flattening: numeric ids and metadata become named blocks and states; data packs begin"}
+   ]
+  },
+  {
+   "id": "modpacks",
+   "from": "1.8",
+   "to": "1.12.2",
+   "java": 8,
+   "loaders": [
+    "forge",
+    "legacy-fabric",
+    "ornithe",
+    "bukkit",
+    "spigot",
+    "paper"
+   ],
+   "since": {"paper": "1.8.8"},
+   "names": {"dev": "mcp", "runtime": {"*": "spigot", "forge": "srg", "legacy-fabric": "intermediary", "ornithe": "calamus", "bukkit": "api"}},
+   "walls": [
+    {"at": "1.9", "for": ["mod"], "what": "the combat update: hands in item and interaction APIs, protocol 107"},
+    {"at": "1.11", "for": ["mod"], "what": "entity ids become namespaced strings, protocol 315"},
+    {"at": "1.12", "for": ["mod"], "what": "advancements replace achievements, the recipe book arrives (protocol 335)"}
+   ],
+   "notes": [
+    "block states and JSON models (1.8)",
+    "no data packs: content comes from code"
+   ]
+  },
+  {
+   "id": "release",
+   "from": "1.0",
+   "to": "1.7.10",
+   "java": 8,
+   "loaders": [
+    "forge",
+    "legacy-fabric",
+    "ornithe",
+    "bukkit",
+    "paper"
+   ],
+   "since": {"paper": "1.7.10"},
+   "names": {"dev": "mcp", "runtime": {"*": "craftbukkit", "forge": [{"from": "1.0", "names": "obfuscated"}, {"from": "1.5.1", "names": "srg"}], "legacy-fabric": "intermediary", "ornithe": "calamus", "bukkit": "api"}},
+   "outerJava": {"forge": [{"from": "1.0", "java": 6}, {"from": "1.6.1", "java": 7}, {"from": "1.7.10", "java": 8}]},
+   "walls": [
+    {"at": "1.3.1", "for": ["mod"], "what": "the integrated server: every game runs a server (protocol 39)"},
+    {"at": "1.6.1", "for": ["mod"], "what": "protocol 73; FML scans every class with ASM 4, which refuses a class file above Java 7"},
+    {"at": "1.7.2", "for": ["mod"], "what": "protocol 4: UUIDs and the new authentication"}
+   ],
+   "notes": [
+    "numeric block ids and metadata",
+    "the mycelium block has existed since Beta 1.9 / 1.0",
+    "Forge's scanner reads Java 6 class files until 1.6.1, Java 7 until 1.7.10 and Java 8 from it; the first fact is what Recon's 1.2.5, 1.4.7 and 1.5.2 capsules hold to, the second what its 1.6.4 capsule holds to",
+    "Forge deobfuscates the game at runtime (SRG names) from 1.5.1; before it, mods are reobfuscated to the game's own obfuscated names"
+   ]
+  },
+  {
+   "id": "beta",
+   "from": "b1.0",
+   "to": "b1.x",
+   "java": 8,
+   "loaders": [
+    "babric",
+    "ornithe",
+    "bukkit"
+   ],
+   "names": {"dev": "feather", "runtime": {"*": "intermediary", "ornithe": "calamus", "bukkit": "craftbukkit"}},
+   "walls": [
+    {"at": "b1.7.3", "for": ["babric"], "what": "Babric and StationAPI"}
+   ],
+   "notes": [
+    "no registries, no events: everything is hand-rolled"
+   ]
+  },
+  {
+   "id": "alpha",
+   "from": "a1.x",
+   "to": "a1.2.6",
+   "java": 8,
+   "loaders": [
+    "ornithe",
+    "javaagent"
+   ],
+   "names": {"dev": "feather", "runtime": {"*": "obfuscated", "ornithe": "calamus"}},
+   "notes": [
+    "no registries, no events",
+    "a1.2.6 javaagent profile is limited to the paired Alpha 0.2.8 server artifact"
+   ]
+  },
+  {
+   "id": "classic",
+   "from": "c0.0.11a",
+   "to": "c0.30_01c",
+   "java": 8,
+   "loaders": [
+    "ornithe"
+   ],
+   "names": {"dev": "feather", "runtime": {"*": "calamus"}},
+   "notes": [
+    "a block-building toy: no survival mechanics a dream mod leans on"
+   ]
+  }
+ ],
+ "realizations": {
+  "item.presentation": [
+    {"from": "1.21.4", "to": "26.x", "realization": "item-definition", "what": "an item definition (items/<id>.json) selects a model, here on the custom_model_data strings"},
+    {"from": "1.14", "to": "1.21.3", "realization": "model-overrides", "what": "one item model with overrides on the custom_model_data predicate, a float that must be written in ascending order"},
+    {"from": "c0.0.11a", "to": "1.13.2", "realization": "none", "what": "no custom model data: nothing draws an item by its state"}
+  ],
+  "item.carrier": [
+    {"from": "1.20.5", "to": "26.x", "realization": "custom-data", "what": "the stack's state is the minecraft:custom_data component (CustomData); an empty one is no component at all"},
+    {"from": "1.14", "to": "1.20.4", "realization": "root-tag", "what": "the stack's state is its root tag (ItemStack.getTag / setTag); an empty one is a null tag, since a null and an empty tag do not stack"},
+    {"from": "c0.0.11a", "to": "1.13.2", "realization": "none", "what": "the bridge is written in Mojang's names, which the game's own mappings give from 1.14.4 (a variant in the older names could cover these)"}
+  ],
+  "world.clock": [
+    {"from": "26.1", "to": "26.x", "realization": "native-clock", "what": "the game has world clocks: ServerClockManager holds each clock's state, timelines (data) lay periods and markers over a clock, and the game syncs clocks to clients itself"},
+    {"from": "1.14", "to": "1.21.11", "realization": "emulated-clock", "what": "the game has one clock, dayTime: the overworld clock is that, and a mod's own clocks are held in saved data, advanced on the server tick and synced by the mod's payload"},
+    {"from": "c0.0.11a", "to": "1.13.2", "realization": "none", "what": "the bridge is written in Mojang's names, which the game's own mappings give from 1.14.4 (a variant in the older names could cover these)"}
+  ],
+  "block.catalog": [
+    {"from": "26.3", "to": "26.3", "realization": "native-registry", "what": "the initialized BuiltInRegistries block registry exposes all namespaces, Property domains and native defaults"},
+    {"from": "c0.0.11a", "to": "26.2", "realization": "none", "what": "no block-catalog bridge realization has been written for these versions"}
+  ],
+  "command.authorization": [
+    {"from": "26.3", "to": "26.3", "realization": "permission-api", "what": "Minecraft 26.3 command sources are adapted through Fabric Permissions API or NeoForge's player permission nodes"},
+    {"from": "c0.0.11a", "to": "26.2", "realization": "none", "what": "no command-authorization bridge realization has been written for these versions"}
+  ],
+  "block.presentation": [
+    {"from": "1.14", "to": "26.x", "realization": "dynamic-model", "what": "the baked model of a block can be replaced by one that composes models, fed per block from its block entity (Fabric's renderer API from 1.14, Forge's and NeoForge's model data after it)"},
+    {"from": "c0.0.11a", "to": "1.13.2", "realization": "none", "what": "no channel from a block entity's data to its baked model: a block is drawn from its block state alone"}
+  ],
+  "state.lifecycle": [
+    {"from": "26.3", "to": "26.x", "realization": "loader-events", "what": "a player and the server cross by the loader's events (login, logout, the copy to a respawned player, death, a dimension change, a save, the server's start and stop); durable values live in the overworld's saved data, a SavedDataType with a codec"},
+    {"from": "1.21.2", "to": "26.2", "realization": "none", "what": "the bridge's loader halves are written against the events of 1.21 to 1.21.1 and of 26.3 on (Fabric API, NeoForge and Forge as they are there), and the versions between are not read: a mod that targets one writes this half itself, or the half is added here when it has been read and built on that version"},
+    {"from": "1.21", "to": "1.21.1", "realization": "loader-events", "what": "a player and the server cross by the loader's events (login, logout, the copy to a respawned player, death, a dimension change, a save, the server's start and stop); durable values live in the overworld's saved data, a Factory with a registry provider"},
+    {"from": "c0.0.11a", "to": "1.20.6", "realization": "none", "what": "the bridge is written in Mojang's names (from 1.14.4) and its loader halves are read from 1.21 on; before that the half is the mod's"}
+  ]
+ },
+ "packFormat": [
+  {"from": "26.3", "to": "26.3", "resource": "97.1", "data": "121.0", "source": "jar 26.3"},
+  {"from": "26.2", "to": "26.2", "resource": "88.0", "data": "107.1", "source": "wiki"},
+  {"from": "26.1", "to": "26.1.2", "resource": "84.0", "data": "101.1", "source": "wiki"},
+  {"from": "1.21.11", "to": "1.21.11", "resource": "75.0", "data": "94.1", "source": "jar 1.21.11"},
+  {"from": "1.21.9", "to": "1.21.10", "resource": "69.0", "data": "88.0", "source": "jar 1.21.10"},
+  {"from": "1.21.7", "to": "1.21.8", "resource": 64, "data": 81, "source": "jar 1.21.8"},
+  {"from": "1.21.6", "to": "1.21.6", "resource": 63, "data": 80, "source": "wiki"},
+  {"from": "1.21.5", "to": "1.21.5", "resource": 55, "data": 71, "source": "jar 1.21.5"},
+  {"from": "1.21.4", "to": "1.21.4", "resource": 46, "data": 61, "source": "jar 1.21.4"},
+  {"from": "1.21.2", "to": "1.21.3", "resource": 42, "data": 57, "source": "jar 1.21.3"},
+  {"from": "1.21", "to": "1.21.1", "resource": 34, "data": 48, "source": "jar 1.21, 1.21.1"},
+  {"from": "1.20.5", "to": "1.20.6", "resource": 32, "data": 41, "source": "jar 1.20.6"},
+  {"from": "1.20.3", "to": "1.20.4", "resource": 22, "data": 26, "source": "jar 1.20.4"},
+  {"from": "1.20.2", "to": "1.20.2", "resource": 18, "data": 18, "source": "jar 1.20.2"},
+  {"from": "1.20", "to": "1.20.1", "resource": 15, "data": 15, "source": "jar 1.20.1"},
+  {"from": "1.19.4", "to": "1.19.4", "resource": 13, "data": 12, "source": "jar 1.19.4"},
+  {"from": "1.19.3", "to": "1.19.3", "resource": 12, "data": 10, "source": "jar 1.19.3"},
+  {"from": "1.19", "to": "1.19.2", "resource": 9, "data": 10, "source": "jar 1.19.2"},
+  {"from": "1.18.2", "to": "1.18.2", "resource": 8, "data": 9, "source": "jar 1.18.2"},
+  {"from": "1.18", "to": "1.18.1", "resource": 8, "data": 8, "source": "wiki"},
+  {"from": "1.17", "to": "1.17.1", "resource": 7, "data": 7, "source": "jar 1.17.1"},
+  {"from": "1.16.2", "to": "1.16.5", "resource": 6, "data": 6, "source": "jar 1.16.5"},
+  {"from": "1.15", "to": "1.16.1", "resource": 5, "data": 5, "source": "jar 1.15.2"},
+  {"from": "1.13", "to": "1.14.4", "resource": 4, "data": 4, "source": "jar 1.14.4"},
+  {"from": "1.11", "to": "1.12.2", "resource": 3, "source": "wiki"},
+  {"from": "1.9", "to": "1.10.2", "resource": 2, "source": "wiki"},
+  {"from": "1.6.1", "to": "1.8.9", "resource": 1, "source": "wiki"}
+ ]
+}

@@ -1,0 +1,193 @@
+{
+  "1.20.6": {
+    "data": 41,
+    "resource": 32,
+    "manifest_url": "https://piston-meta.mojang.com/v1/packages/4dd84bf5b646a75cba5c0c5f7723eb478a2b78af/1.20.6.json",
+    "manifest_sha1": "4dd84bf5b646a75cba5c0c5f7723eb478a2b78af",
+    "server_sha1": "145ff0858209bcfc164859ba735d4199aafa1eea",
+    "java": 21,
+    "text_objects": false,
+    "legacy_models": true,
+    "plural_paths": true,
+    "object_ingredients": true,
+    "command_rule": "maxCommandChainLength",
+    "protocol": 766,
+    "offhand_components": "Inventory[{Slot:-106b}].components"
+  },
+  "1.21.1": {
+    "data": 48,
+    "resource": 34,
+    "manifest_url": "https://piston-meta.mojang.com/v1/packages/82ba6501da174a665c1787775f946487422f2432/1.21.1.json",
+    "manifest_sha1": "82ba6501da174a665c1787775f946487422f2432",
+    "server_sha1": "59353fb40c36d304f2035d51e7d6e6baa98dc05c",
+    "java": 21,
+    "text_objects": false,
+    "legacy_models": true,
+    "plural_paths": false,
+    "object_ingredients": true,
+    "command_rule": "maxCommandChainLength",
+    "protocol": 767,
+    "offhand_components": "Inventory[{Slot:-106b}].components"
+  },
+  "1.21.3": {
+    "data": 57,
+    "resource": 42,
+    "manifest_url": "https://piston-meta.mojang.com/v1/packages/5fa4228474e3d59b829637553262b6c06c0a38cf/1.21.3.json",
+    "manifest_sha1": "5fa4228474e3d59b829637553262b6c06c0a38cf",
+    "server_sha1": "45810d238246d90e811d896f87b14695b7fb6839",
+    "java": 21,
+    "text_objects": false,
+    "legacy_models": true,
+    "plural_paths": false,
+    "object_ingredients": false,
+    "command_rule": "maxCommandChainLength",
+    "protocol": 768,
+    "offhand_components": "Inventory[{Slot:-106b}].components"
+  },
+  "1.21.4": {
+    "data": 61,
+    "resource": 46,
+    "manifest_url": "https://piston-meta.mojang.com/v1/packages/2e024c9834568a872f8c009a97b29d8d7381d00a/1.21.4.json",
+    "manifest_sha1": "2e024c9834568a872f8c009a97b29d8d7381d00a",
+    "server_sha1": "4707d00eb834b446575d89a61a11b5d548d8c001",
+    "java": 21,
+    "text_objects": false,
+    "legacy_models": false,
+    "plural_paths": false,
+    "object_ingredients": false,
+    "command_rule": "maxCommandChainLength",
+    "protocol": 769,
+    "offhand_components": "Inventory[{Slot:-106b}].components"
+  },
+  "1.21.5": {
+    "data": 71,
+    "resource": 55,
+    "manifest_url": "https://piston-meta.mojang.com/v1/packages/5ca2012338100e4dbfef0d2114a5fa66959ab1e5/1.21.5.json",
+    "manifest_sha1": "5ca2012338100e4dbfef0d2114a5fa66959ab1e5",
+    "server_sha1": "e6ec2f64e6080b9b5d9b471b291c33cc7f509733",
+    "java": 21,
+    "text_objects": true,
+    "legacy_models": false,
+    "plural_paths": false,
+    "object_ingredients": false,
+    "command_rule": "maxCommandChainLength",
+    "protocol": 770,
+    "offhand_components": "equipment.offhand.components"
+  },
+  "1.21.6": {
+    "data": 80,
+    "resource": 63,
+    "manifest_url": "https://piston-meta.mojang.com/v1/packages/4eb09bebca2356f7505e45544087d3109e8ce0e3/1.21.6.json",
+    "manifest_sha1": "4eb09bebca2356f7505e45544087d3109e8ce0e3",
+    "server_sha1": "6e64dcabba3c01a7271b4fa6bd898483b794c59b",
+    "java": 21,
+    "text_objects": true,
+    "legacy_models": false,
+    "plural_paths": false,
+    "object_ingredients": false,
+    "command_rule": "maxCommandChainLength",
+    "protocol": 771,
+    "offhand_components": "equipment.offhand.components"
+  },
+  "1.21.8": {
+    "data": 81,
+    "resource": 64,
+    "manifest_url": "https://piston-meta.mojang.com/v1/packages/17db9704e95a73d53452f07a9b472e428288defa/1.21.8.json",
+    "manifest_sha1": "17db9704e95a73d53452f07a9b472e428288defa",
+    "server_sha1": "6bce4ef400e4efaa63a13d5e6f6b500be969ef81",
+    "java": 21,
+    "text_objects": true,
+    "legacy_models": false,
+    "plural_paths": false,
+    "object_ingredients": false,
+    "command_rule": "maxCommandChainLength",
+    "protocol": 772,
+    "offhand_components": "equipment.offhand.components"
+  },
+  "1.21.10": {
+    "data": [
+      88,
+      0
+    ],
+    "resource": [
+      69,
+      0
+    ],
+    "manifest_url": "https://piston-meta.mojang.com/v1/packages/b0dc919ace9cee9a91d5a6dcaa594d41a26fcb1b/1.21.10.json",
+    "manifest_sha1": "b0dc919ace9cee9a91d5a6dcaa594d41a26fcb1b",
+    "server_sha1": "95495a7f485eedd84ce928cef5e223b757d2f764",
+    "java": 21,
+    "text_objects": true,
+    "legacy_models": false,
+    "plural_paths": false,
+    "object_ingredients": false,
+    "command_rule": "maxCommandChainLength",
+    "protocol": 773,
+    "offhand_components": "equipment.offhand.components"
+  },
+  "1.21.11": {
+    "data": [
+      94,
+      1
+    ],
+    "resource": [
+      75,
+      0
+    ],
+    "manifest_url": "https://piston-meta.mojang.com/v1/packages/35f8a9bc4874e2c95e51b3ad21e043a33776f7c2/1.21.11.json",
+    "manifest_sha1": "35f8a9bc4874e2c95e51b3ad21e043a33776f7c2",
+    "server_sha1": "64bb6d763bed0a9f1d632ec347938594144943ed",
+    "java": 21,
+    "text_objects": true,
+    "legacy_models": false,
+    "plural_paths": false,
+    "object_ingredients": false,
+    "command_rule": "minecraft:max_command_sequence_length",
+    "protocol": 774,
+    "offhand_components": "equipment.offhand.components"
+  },
+  "26.1.2": {
+    "implicit_nested_count": true,
+    "data": [
+      101,
+      1
+    ],
+    "resource": [
+      84,
+      0
+    ],
+    "manifest_url": "https://piston-meta.mojang.com/v1/packages/4e49d699db7dba839226d0ed1fcf36c465c2edbe/26.1.2.json",
+    "manifest_sha1": "4e49d699db7dba839226d0ed1fcf36c465c2edbe",
+    "server_sha1": "97ccd4c0ed3f81bbb7bfacddd1090b0c56f9bc51",
+    "java": 25,
+    "text_objects": true,
+    "legacy_models": false,
+    "plural_paths": false,
+    "object_ingredients": false,
+    "command_rule": "minecraft:max_command_sequence_length",
+    "protocol": 775,
+    "offhand_components": "equipment.offhand.components"
+  },
+  "26.3": {
+    "implicit_nested_count": true,
+    "data": [
+      121,
+      0
+    ],
+    "resource": [
+      97,
+      1
+    ],
+    "manifest_url": "https://piston-meta.mojang.com/v1/packages/80608ff6753705b6a82e2cb86a5937d4d233abd4/26.3.json",
+    "manifest_sha1": "80608ff6753705b6a82e2cb86a5937d4d233abd4",
+    "server_sha1": "33680f5f2ac32864d6d7cf5e56a705fdb3e05f4c",
+    "java": 25,
+    "text_objects": true,
+    "legacy_models": false,
+    "plural_paths": false,
+    "object_ingredients": false,
+    "command_rule": "minecraft:max_command_sequence_length",
+    "protocol": 777,
+    "offhand_components": "equipment.offhand.components"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "source": "https://github.com/worflor/mycelium",
+  "commit": "2a9cbddc70c7728475b736857077ff76b682f85f",
+  "compiler_sources_sha256": {
+    "src/dev/woflo/mycelium/gradle/Eras.java": "9cc92be739b5208a1667f1d1464ea0abf6067d0d2999761bfb92e256dbf855cc",
+    "src/dev/woflo/mycelium/gradle/PackOverlayPlan.java": "95e12a947f51003459b29f454d806bd2356a73f4d4093321a48908e35c14866e",
+    "eras/minecraft.json": "98080228c61498319f4de98dc9ae42b22bcaedd75f35415019d8be211a5a01f3",
+    "LICENSE": "3f3d9e0024b1921b067d6f7f88deb4a60cbe7a78e76c64e3f1d7fc3b779b9d04"
+  },
+  "gson": "2.11.0",
+  "gson_sha256": "57928d6e5a6edeb2abd3770a8f95ba44dce45f3b23b7a9dc2b309c581552a78b",
+  "files": {
+    "eras/minecraft.json": "98080228c61498319f4de98dc9ae42b22bcaedd75f35415019d8be211a5a01f3",
+    "LICENSE-Gson.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "LICENSE-Mycelium.txt": "3f3d9e0024b1921b067d6f7f88deb4a60cbe7a78e76c64e3f1d7fc3b779b9d04",
+    "planner-sources.zip": "a0566f553ae519cfb63a3f8ac1268a0ba0259924f959a8d4ab75831fe787c90f",
+    "planner.jar": "754179ceda73e6fe02620ba8fdc4ae151e03e1d05a32d424de46c837f13ca253"
+  }
+}

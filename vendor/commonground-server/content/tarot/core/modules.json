@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "modules": {
+    "rider": {
+      "default": true,
+      "ingredient": "minecraft:ink_sac",
+      "icon": "major-19"
+    },
+    "numbers": {
+      "default": true,
+      "ingredient": "minecraft:lapis_lazuli",
+      "icon": "number-1"
+    }
+  }
+}
